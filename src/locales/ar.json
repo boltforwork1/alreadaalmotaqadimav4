@@ -213,6 +213,11 @@
         "uaeExpertiseDesc": "دراية شاملة بالسوق",
         "endToEndService": "خدمات متكاملة",
         "endToEndServiceDesc": "من التأسيس حتى النمو"
+      },
+      "buttons": {
+        "touristServices": "خدمات السياحة",
+        "socialMedia": "التسويق الرقمي",
+        "corporateServices": "خدمات الشركات"
       }
     },
     "jurisdictions": {
