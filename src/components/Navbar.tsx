@@ -324,7 +324,7 @@ export default function Navbar() {
 
                 <div className="mt-2 flex items-center gap-3 border-t border-[#c6d9da] pt-3">
                   <a
-                    href="https://wa.me/971504229389"
+                    href="https://wa.me/971553735999"
                     target="_blank"
                     rel="noreferrer"
                     className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#9bbfc2] text-[#075667] transition-colors hover:border-[#dca84c] hover:text-[#a96f1f]"

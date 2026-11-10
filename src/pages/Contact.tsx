@@ -11,7 +11,7 @@ function WhatsAppIcon({ className }: { className?: string }) {
   );
 }
 
-const WHATSAPP_NUMBER = '971504229389';
+const WHATSAPP_NUMBER = '971553735999';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -27,13 +27,13 @@ export default function Contact() {
       icon: Phone,
       label: t('Contact.info.callLabel'),
       value: t('Contact.info.callValue'),
-      href: 'tel:+971502507774',
+      href: 'tel:+971565646949',
     },
     {
       icon: Phone,
       label: t('Contact.info.whatsappLabel'),
       value: t('Contact.info.whatsappValue'),
-      href: 'https://wa.me/971504229389',
+      href: 'https://wa.me/971553735999',
     },
     {
       icon: Mail,

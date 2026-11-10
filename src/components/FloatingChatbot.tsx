@@ -66,7 +66,7 @@ type QuickOption = {
   reply: Reply;
 };
 
-const WHATSAPP_URL = 'https://wa.me/971504229389';
+const WHATSAPP_URL = 'https://wa.me/971553735999';
 
 /* ------------------------------------------------------------------ */
 /* Knowledge base (keys only — text resolved at render time)          */

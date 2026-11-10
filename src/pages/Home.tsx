@@ -168,7 +168,7 @@ export default function Home() {
                 {t('Home.hero.getStartedToday')}
               </Link>
               <a
-                href="https://wa.me/971504229389"
+                href="https://wa.me/971553735999"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-slate-300/70 bg-navy-950/20 px-7 py-3.5 text-base font-medium text-white transition-colors duration-200 hover:border-teal-300 hover:text-teal-200"
