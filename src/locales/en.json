@@ -604,36 +604,74 @@
     "touristServices": {
       "title": "UAE Tourist Services",
       "bookNow": "Enquire Now",
+      "handleTitle": "What We Handle",
+      "processingTimeTitle": "Typical Processing Time",
       "items": {
         "burjKhalifa": {
           "name": "Burj Khalifa Tours",
           "description": "Experience breathtaking views from the world's tallest building. Access observation decks and enjoy a stunning panorama of the Dubai skyline.",
-          "imageAlt": "Dubai skyline seen from inside a skyscraper observation area"
+          "imageAlt": "Dubai skyline seen from inside a skyscraper observation area",
+          "handle": [
+            { "title": "Fast-Track Entry Tickets", "description": "Skip the general queues with priority access booking." },
+            { "title": "Level 124, 125 & 148 Access", "description": "Guaranteed reservations for your preferred observation decks." },
+            { "title": "Timed Visit Coordination", "description": "Strategic booking for sunset or off-peak hours to maximize your experience." }
+          ],
+          "processingTime": "Tickets and confirmations are issued instantly upon final booking request."
         },
         "cityTours": {
           "name": "City Tours",
           "description": "Discover the rich culture and modern marvels of the UAE. Enjoy guided tours covering top landmarks, historical sites, and modern architectural wonders.",
-          "imageAlt": "Open-top tour bus on a sunny Dubai street"
+          "imageAlt": "Open-top tour bus on a sunny Dubai street",
+          "handle": [
+            { "title": "Itinerary Planning", "description": "Customized half-day or full-day routes covering old and new Dubai." },
+            { "title": "Licensed Tour Guides", "description": "Providing professional, multi-lingual guides for a rich cultural experience." },
+            { "title": "VIP Transport Coordination", "description": "Arranging comfortable, air-conditioned private or shared vehicle pickups." }
+          ],
+          "processingTime": "Tour schedules are confirmed within 2-4 hours of inquiry."
         },
         "desertSafari": {
           "name": "Desert Safari",
           "description": "An exhilarating adventure in the Arabian dunes. Includes thrilling dune bashing, camel riding, traditional entertainment, and a BBQ dinner under the stars.",
-          "imageAlt": "Camel ride across the desert dunes at sunset"
+          "imageAlt": "Camel ride across the desert dunes at sunset",
+          "handle": [
+            { "title": "Premium Camp Booking", "description": "Securing spots at high-end desert camps with live shows." },
+            { "title": "Adventure Activities Setup", "description": "Organizing 4x4 dune bashing, sandboarding, and camel rides." },
+            { "title": "Hotel Transfers", "description": "Managing seamless door-to-door pickup and drop-off logistics." }
+          ],
+          "processingTime": "Safari bookings are confirmed within 1 hour; 24-hour advance notice is recommended."
         },
         "dhowCruise": {
           "name": "Dhow Dinner Cruise Dubai",
           "description": "Sail along the Dubai waters on a traditional wooden dhow. Enjoy a gourmet buffet dinner, live entertainment, and spectacular illuminated skyline views.",
-          "imageAlt": "Traditional dhow boat on the water at night"
+          "imageAlt": "Traditional dhow boat on the water at night",
+          "handle": [
+            { "title": "Marina & Creek Options", "description": "Booking premium vessels in your preferred Dubai water location." },
+            { "title": "VIP Seating & Dining", "description": "Securing upper-deck or priority seating with 5-star catering." },
+            { "title": "Event Coordination", "description": "Handling special requests for corporate events or private romantic setups." }
+          ],
+          "processingTime": "Cruise reservations are finalized within 2 hours of request."
         },
         "dubaiParks": {
           "name": "Dubai Parks and Resorts",
           "description": "A thrilling day out for the whole family. Access multiple world-class theme parks featuring roller coasters, live shows, and interactive attractions.",
-          "imageAlt": "Roller coaster ride against a clear blue sky"
+          "imageAlt": "Roller coaster ride against a clear blue sky",
+          "handle": [
+            { "title": "Multi-Park Passes", "description": "Issuing tickets for Motiongate, Legoland, and Real Madrid World." },
+            { "title": "Fast-Pass Integration", "description": "Adding priority queue access to your park tickets." },
+            { "title": "Group & Family Packages", "description": "Structuring the best access combinations for your group size." }
+          ],
+          "processingTime": "E-tickets are generated and sent immediately upon booking confirmation."
         },
         "ferrariWorld": {
           "name": "Ferrari World Tours",
           "description": "Experience the ultimate adrenaline rush at the world's first Ferrari-branded theme park in Abu Dhabi, home to the fastest roller coaster on the planet.",
-          "imageAlt": "Red Ferrari race car on a track"
+          "imageAlt": "Red Ferrari race car on a track",
+          "handle": [
+            { "title": "Abu Dhabi Transfer Coordination", "description": "Arranging inter-emirate transport from Dubai to Yas Island." },
+            { "title": "Premium Park Entry", "description": "Managing ticket issuance including access to Formula Rossa and Flying Aces." },
+            { "title": "Yas Island Combo Passes", "description": "Upgrading tickets to include nearby attractions like Warner Bros or Yas Waterworld." }
+          ],
+          "processingTime": "Park passes and transfer schedules are confirmed within 4 hours."
         }
       }
     },
