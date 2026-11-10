@@ -33,18 +33,18 @@ export default function About() {
   return (
     <div>
       {/* ===== Hero ===== */}
-      <section className="relative isolate min-h-[30rem] overflow-hidden bg-navy-950 sm:min-h-[34rem]">
+      <section className="relative isolate min-h-[30rem] overflow-hidden bg-[#053944] sm:min-h-[34rem]">
         <img
           src="/images/pages/aboutbc.jpg"
           alt={t('About.hero.imageAlt')}
           className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
         />
-        <div className="absolute inset-0 -z-10 bg-navy-950/70" />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-navy-950/80 via-navy-950/45 to-navy-950/85" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-8 -z-10 h-px bg-gradient-to-r from-transparent via-teal-400 to-transparent opacity-80" />
+        <div className="absolute inset-0 -z-10 bg-[#053944]/70" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-[#053944]/80 via-[#053944]/45 to-[#053944]/85" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-8 -z-10 h-px bg-gradient-to-r from-transparent via-[#f1c56b] to-transparent opacity-80" />
         <div className="relative mx-auto flex min-h-[30rem] max-w-5xl flex-col items-center justify-center px-6 py-16 text-center sm:min-h-[34rem] sm:px-8 lg:px-12">
           <motion.img
-            src="/logo.png"
+            src="/images/photo_2026-11-10_12-39-02-removebg-preview copy.png"
             alt={t('About.hero.logoAlt')}
             initial={{ opacity: 0, scale: 0.92, y: 12 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -55,7 +55,7 @@ export default function About() {
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="mt-6 font-display text-2xl font-bold tracking-tight text-teal-400 sm:text-4xl lg:text-5xl"
+            className="mt-6 font-display text-2xl font-bold tracking-tight text-[#f1c56b] sm:text-4xl lg:text-5xl"
           >
             {t('About.hero.title')}
           </motion.h1>
@@ -80,7 +80,7 @@ export default function About() {
               viewport={{ once: true, margin: '-80px' }}
               transition={{ duration: 0.5 }}
             >
-              <span className="text-sm font-bold uppercase tracking-wider text-teal-500">
+              <span className="text-sm font-bold uppercase tracking-wider text-[#dca84c]">
                 {t('About.who.eyebrow')}
               </span>
               <h2 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-slate-900">
@@ -124,10 +124,10 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: '-80px' }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
-                  className="rounded-2xl border border-navy-100 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-navy-900/5"
+                  className="rounded-2xl border border-[#d7e7e8] bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-[#053944]/5"
                 >
-                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-teal-50">
-                    <feature.icon className="h-8 w-8 text-teal-500" strokeWidth={1.75} />
+                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-[#fdf6e3]">
+                    <feature.icon className="h-8 w-8 text-[#dca84c]" strokeWidth={1.75} />
                   </div>
                   <h3 className="mt-5 font-display text-xl font-bold text-slate-900">
                     {t(feature.titleKey)}
@@ -135,7 +135,7 @@ export default function About() {
                   <ul className="mt-5 space-y-3">
                     {points.map((point) => (
                       <li key={point} className="flex items-start gap-3">
-                        <CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-teal-500" strokeWidth={2} />
+                        <CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-[#dca84c]" strokeWidth={2} />
                         <span className="text-sm leading-relaxed text-slate-600">{point}</span>
                       </li>
                     ))}
@@ -151,7 +151,7 @@ export default function About() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-3xl text-center">
-            <span className="text-sm font-bold uppercase tracking-wider text-teal-500">
+            <span className="text-sm font-bold uppercase tracking-wider text-[#dca84c]">
               {t('About.approach.eyebrow')}
             </span>
             <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
@@ -168,8 +168,8 @@ export default function About() {
                 transition={{ duration: 0.45, delay: (i % 3) * 0.08 }}
                 className="group rounded-2xl border border-slate-100 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-900/5"
               >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-teal-50 transition-colors duration-300 group-hover:bg-teal-100">
-                  <pillar.icon className="h-6 w-6 text-teal-500" strokeWidth={1.75} />
+                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#fdf6e3] transition-colors duration-300 group-hover:bg-[#f7e9c8]">
+                  <pillar.icon className="h-6 w-6 text-[#dca84c]" strokeWidth={1.75} />
                 </div>
                 <h3 className="mt-5 font-display text-lg font-bold text-slate-900">
                   {t(`About.approach.pillars.${pillar.key}.title`)}
@@ -184,14 +184,14 @@ export default function About() {
       </section>
 
       {/* ===== Cost Calculator CTA ===== */}
-      <section className="bg-teal-500 py-16">
+      <section className="bg-[#dca84c] py-16">
         <div className="mx-auto max-w-4xl px-6 text-center sm:px-8 lg:px-12">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.5 }}
-            className="font-display text-2xl font-bold leading-tight tracking-tight text-navy-900 sm:text-3xl"
+            className="font-display text-2xl font-bold leading-tight tracking-tight text-[#053944] sm:text-3xl"
           >
             {t('About.cta.title')}
           </motion.h2>
@@ -201,7 +201,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="group mt-8 inline-flex items-center gap-2 rounded-lg bg-navy-900 px-7 py-3.5 text-base font-semibold text-white shadow-xl shadow-navy-900/25 transition-all duration-200 hover:bg-navy-800 hover:shadow-2xl hover:shadow-navy-900/40"
+            className="group mt-8 inline-flex items-center gap-2 rounded-lg bg-[#053944] px-7 py-3.5 text-base font-semibold text-white shadow-xl shadow-[#053944]/25 transition-all duration-200 hover:bg-[#075667] hover:shadow-2xl hover:shadow-[#053944]/40"
           >
             {t('About.cta.button')}
             <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
