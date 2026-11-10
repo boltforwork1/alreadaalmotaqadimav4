@@ -134,7 +134,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 shrink-0 text-[#dca84c]" />
-                <a href="mailto:info@alreyada-almotaqdima.ae" className="transition-colors hover:text-[#f1c56b]">
+                <a href="mailto:info@trendgroupuae.com" className="transition-colors hover:text-[#f1c56b]">
                   {t('Footer.email')}
                 </a>
               </li>

@@ -17,7 +17,7 @@
 ## Visual design & UX direction
 
 - Consultation form pattern: labeled fields + "Request Callback" button on each tourist service page; intentionally visual-only (no submit behavior).
-- No UI changes during translation/rebranding work — only locale data files modified.
+- No UI changes during translation/rebranding work — only locale data files and targeted link updates modified.
 
 ## Decisions, constraints & rationale
 
@@ -25,12 +25,12 @@
 - Removed unused Supabase client file and associated translation strings; project builds cleanly.
 - `tourist_callback_requests` table left in database; user has not requested deletion.
 - Rebranding applied to Urdu translation file (`ur.json`) only — name replaced in all occurrences (logo alt, footer tagline, descriptions, free-zone notes); four descriptions (hero, formation, about, contact) updated to mention tourism.
+- Contact email updated globally from `info@alreyada-almotaqdima.ae` → `info@trendgroupuae.com` in all 4 locale files (2 occurrences each), plus `mailto:` links in `Footer.tsx` and `Contact.tsx`. No UI/text changes beyond the address itself.
 - Latin "Al Reyada Al Motaqadima" did not appear in the Urdu file.
 - Stack: Vite 8 + React (JSX) + Tailwind CSS v4 (CSS-based `@theme` config) + Lucide React icons; `@/` alias maps to `src/`.
 
 ## Open questions & assumptions
 
 - Should `tourist_callback_requests` database table be dropped? (Awaiting confirmation.)
-- Should rebranding be applied to other locale files (en, ar, ru, etc.)? Only Urdu was requested so far.
-- Old email address `info@alreyada-almotaqdima.ae` left unchanged — no new address provided yet.
+- Should rebranding be applied to other locale files (en, ar, ru, etc.) beyond the email change? Only Urdu full rebrand was requested so far; en/ar/ru received only the email update.
 - Assumption: form may be re-wired to a backend later; current state is a deliberate design-only milestone.

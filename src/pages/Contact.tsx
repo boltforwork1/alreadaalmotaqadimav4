@@ -39,7 +39,7 @@ export default function Contact() {
       icon: Mail,
       label: t('Contact.info.emailLabel'),
       value: t('Contact.info.emailValue'),
-      href: 'mailto:info@alreyada-almotaqdima.ae',
+      href: 'mailto:info@trendgroupuae.com',
     },
   ];
 
