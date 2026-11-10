@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, CircleCheck as CheckCircle, Navigation } from 'lucide-react';
+import { MapPin, Phone, Mail, CircleCheck as CheckCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 function WhatsAppIcon({ className }: { className?: string }) {
@@ -147,28 +147,6 @@ export default function Contact() {
                 ))}
               </ul>
 
-              {/* Map Embed */}
-              <div className="mt-8 overflow-hidden rounded-xl shadow-lg ring-1 ring-slate-200">
-                <iframe
-                  title={t('Contact.info.mapTitle')}
-                  src="https://www.google.com/maps?q=Elegant+Star+Business+Center,+Deira,+Dubai,+UAE&output=embed"
-                  className="h-80 w-full border-0"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  allowFullScreen
-                />
-              </div>
-
-              {/* Open in Maps Button */}
-              <a
-                href="https://maps.app.goo.gl/ZhXExybRQ7HZ5qFp7?g_st=iw"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group mt-4 inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-teal-500/25 transition-all duration-200 hover:bg-teal-600 hover:shadow-xl hover:shadow-teal-500/40"
-              >
-                <Navigation className="h-4 w-4" />
-                {t('Contact.info.openInMaps')}
-              </a>
             </motion.div>
 
             {/* Right Column: Contact Form */}
