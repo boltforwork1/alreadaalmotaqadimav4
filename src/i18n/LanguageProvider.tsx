@@ -2,12 +2,13 @@ import { useEffect, type ReactNode } from 'react';
 import { I18nextProvider, useTranslation } from 'react-i18next';
 import i18n, { supportedLanguages, type SupportedLanguage } from './index';
 
-const rtlLanguages: SupportedLanguage[] = ['ar'];
+const rtlLanguages: SupportedLanguage[] = ['ar', 'ur'];
 
 const fontMap: Record<SupportedLanguage, string> = {
   en: "'Montserrat', 'Inter', system-ui, sans-serif",
   ar: "'Alexandria', system-ui, sans-serif",
   ru: "'Montserrat', 'Inter', system-ui, sans-serif",
+  ur: "'Alexandria', system-ui, sans-serif",
 };
 
 function LanguageSync() {
