@@ -98,7 +98,7 @@ export default function Navbar() {
             <img
               src="/images/photo_2026-11-10_12-39-02-removebg-preview.png"
               alt={t('Navbar.logoAlt')}
-              className="h-16 w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
+              className="h-[4.5rem] w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
             />
           </Link>
 
