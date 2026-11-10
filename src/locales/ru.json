@@ -213,6 +213,11 @@
         "uaeExpertiseDesc": "Местное знание",
         "endToEndService": "Полный цикл услуг",
         "endToEndServiceDesc": "От регистрации до роста"
+      },
+      "buttons": {
+        "touristServices": "Туристические услуги",
+        "socialMedia": "Социальные сети",
+        "corporateServices": "Корпоративные услуги"
       }
     },
     "jurisdictions": {

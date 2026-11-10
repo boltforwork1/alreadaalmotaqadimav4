@@ -213,6 +213,11 @@
         "uaeExpertiseDesc": "مقامی علم",
         "endToEndService": "شروع سے آخر تک سروس",
         "endToEndServiceDesc": "سیٹ اپ سے ترقی تک"
+      },
+      "buttons": {
+        "touristServices": "سیاحتی خدمات",
+        "socialMedia": "سوشل میڈیا",
+        "corporateServices": "کارپوریٹ خدمات"
       }
     },
     "jurisdictions": {
