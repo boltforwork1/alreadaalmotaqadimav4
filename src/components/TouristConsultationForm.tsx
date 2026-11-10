@@ -54,6 +54,3 @@ export default function TouristConsultationForm() {
     </div>
   );
 }
-
-
-export default TouristConsultationForm
