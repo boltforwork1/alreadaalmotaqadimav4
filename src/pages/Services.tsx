@@ -194,6 +194,33 @@ export default function Services() {
         </div>
       </section>
 
+      {/* UAE Tourist Services */}
+      <section className="bg-[#f7f8fa] py-20">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <motion.h2
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.4 }}
+            className="text-center font-display text-3xl font-bold text-navy-900"
+          >
+            {t('Services.touristServices.title')}
+          </motion.h2>
+
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-80px' }}
+            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+          >
+            {touristServices.map((service) => (
+              <TouristServiceCard key={service.key} service={service} />
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
       {/* Corporate Services */}
       <section className="bg-white py-20">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
@@ -280,33 +307,6 @@ export default function Services() {
                 </ServiceCard>
               );
             })}
-          </motion.div>
-        </div>
-      </section>
-
-      {/* UAE Tourist Services */}
-      <section className="bg-[#f7f8fa] py-20">
-        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
-          <motion.h2
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.4 }}
-            className="text-center font-display text-3xl font-bold text-navy-900"
-          >
-            {t('Services.touristServices.title')}
-          </motion.h2>
-
-          <motion.div
-            variants={container}
-            initial="hidden"
-            whileInView="show"
-            viewport={{ once: true, margin: '-80px' }}
-            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
-          >
-            {touristServices.map((service) => (
-              <TouristServiceCard key={service.key} service={service} />
-            ))}
           </motion.div>
         </div>
       </section>
