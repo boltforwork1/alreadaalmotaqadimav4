@@ -10,7 +10,7 @@ export default function Layout() {
   return (
     <div className="flex min-h-screen flex-col bg-white">
       <Navbar />
-      <main className="flex-1 pt-24">
+      <main className="flex-1 pt-28">
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}

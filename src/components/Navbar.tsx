@@ -92,13 +92,13 @@ export default function Navbar() {
         transition={{ duration: 0.3, ease: 'easeOut' }}
         className="border-b border-solid backdrop-blur-xl"
       >
-        <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-12">
+        <div className="mx-auto flex h-28 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-12">
           {/* Logo */}
           <Link to="/" className="group flex items-center rounded-xl p-1 transition-transform duration-200 hover:scale-[1.02]">
             <img
               src="/images/photo_2026-11-10_12-39-02-removebg-preview.png"
               alt={t('Navbar.logoAlt')}
-              className="h-[5.5rem] w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
+              className="h-[7rem] w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
             />
           </Link>
 
@@ -243,7 +243,7 @@ export default function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 top-24 z-40 bg-[#032730]/55 backdrop-blur-sm lg:hidden"
+            className="fixed inset-0 top-28 z-40 bg-[#032730]/55 backdrop-blur-sm lg:hidden"
             onClick={() => setMobileOpen(false)}
           >
             <motion.div
@@ -251,7 +251,7 @@ export default function Navbar() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -16, opacity: 0 }}
               transition={{ duration: 0.25, ease: 'easeOut' }}
-              className="mx-4 mt-2 max-h-[calc(100dvh-7rem)] overflow-y-auto overscroll-contain rounded-2xl border border-[#dca84c]/35 bg-[#f8fbfa] shadow-2xl"
+              className="mx-4 mt-2 max-h-[calc(100dvh-8rem)] overflow-y-auto overscroll-contain rounded-2xl border border-[#dca84c]/35 bg-[#f8fbfa] shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex flex-col p-3">

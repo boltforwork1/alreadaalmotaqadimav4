@@ -11,7 +11,7 @@ type ServiceLayoutProps = {
 
 export default function ServiceLayout({ eyebrow, title, subtitle, children }: ServiceLayoutProps) {
   return (
-    <main className="pt-24">
+    <main className="pt-28">
       {/* Hero */}
       <section className="relative overflow-hidden bg-navy-950 py-16 lg:py-20">
         {/* Geometric gradient pattern */}
@@ -61,7 +61,7 @@ export default function ServiceLayout({ eyebrow, title, subtitle, children }: Se
 
             {/* Right: sticky sidebar */}
             <aside className="lg:col-span-1">
-              <div className="lg:sticky lg:top-24">
+              <div className="lg:sticky lg:top-32">
                 <ConsultationForm />
               </div>
             </aside>
