@@ -613,10 +613,7 @@
         "fullName": "Full Name",
         "phone": "Phone",
         "email": "Email",
-        "submit": "Request Callback",
-        "submitting": "Sending request...",
-        "success": "Thank you. Our team will call you back shortly.",
-        "error": "We could not send your request. Please try again."
+        "submit": "Request Callback"
       },
       "items": {
         "burjKhalifa": {

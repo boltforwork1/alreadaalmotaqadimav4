@@ -106,7 +106,7 @@ export default function TouristServiceDetail() {
 
             <aside className="lg:col-span-1">
               <div className="lg:sticky lg:top-28">
-                <TouristConsultationForm serviceKey={service.key} />
+                <TouristConsultationForm />
               </div>
             </aside>
           </div>
