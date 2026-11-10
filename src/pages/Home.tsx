@@ -150,31 +150,31 @@ export default function Home() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4"
+              className="mt-7 grid grid-cols-1 gap-3 md:grid-cols-3"
             >
               <Link
                 to="/services#tourist-services"
-                className="group inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 py-3.5 text-base font-semibold text-navy-900 shadow-xl shadow-teal-500/25 transition-all duration-200 hover:shadow-2xl hover:shadow-teal-500/40 hover:brightness-105"
+                className="group inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-white/40 bg-transparent px-4 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:border-[#C8933C] hover:bg-[#C8933C] hover:text-navy-950"
               >
-                <Plane className="h-5 w-5" />
+                <Plane className="h-4 w-4 shrink-0" />
                 {t('Home.hero.buttons.touristServices')}
-                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5 rtl:rotate-180" />
+                <ArrowRight className="h-4 w-4 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 rtl:rotate-180" />
               </Link>
               <Link
                 to="/services#social-media-services"
-                className="group inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[#dca84c] to-[#f1c56b] px-7 py-3.5 text-base font-semibold text-navy-900 shadow-xl shadow-[#dca84c]/25 transition-all duration-200 hover:shadow-2xl hover:shadow-[#dca84c]/40 hover:brightness-105"
+                className="group inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-white/40 bg-transparent px-4 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:border-[#C8933C] hover:bg-[#C8933C] hover:text-navy-950"
               >
-                <Compass className="h-5 w-5" />
+                <Compass className="h-4 w-4 shrink-0" />
                 {t('Home.hero.buttons.socialMedia')}
-                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5 rtl:rotate-180" />
+                <ArrowRight className="h-4 w-4 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 rtl:rotate-180" />
               </Link>
               <Link
                 to="/services#corporate-services"
-                className="group inline-flex items-center justify-center gap-2 rounded-lg border border-white/40 bg-white/10 px-7 py-3.5 text-base font-semibold text-white backdrop-blur-sm transition-all duration-200 hover:border-teal-300 hover:bg-white/20"
+                className="group inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-lg border border-white/40 bg-transparent px-4 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:border-[#C8933C] hover:bg-[#C8933C] hover:text-navy-950"
               >
-                <Briefcase className="h-5 w-5 text-teal-300" />
+                <Briefcase className="h-4 w-4 shrink-0" />
                 {t('Home.hero.buttons.corporateServices')}
-                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5 rtl:rotate-180" />
+                <ArrowRight className="h-4 w-4 shrink-0 transition-transform duration-300 group-hover:translate-x-0.5 rtl:rotate-180" />
               </Link>
             </motion.div>
 
