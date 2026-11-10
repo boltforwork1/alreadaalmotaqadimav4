@@ -83,7 +83,7 @@
 
   "FloatingChatbot": {
     "header": {
-      "title": "Умный помощник Central Hub",
+      "title": "Умный помощник Trend Group",
       "online": "Сейчас онлайн"
     },
     "aria": {
@@ -94,7 +94,7 @@
       "closeAssistant": "Закрыть помощника",
       "sendMessage": "Отправить сообщение"
     },
-    "welcome": "Добро пожаловать в Central Hub. Чем я могу помочь с регистрацией бизнеса в ОАЭ сегодня?",
+    "welcome": "Добро пожаловать в Trend Group. Чем я могу помочь с регистрацией бизнеса в ОАЭ сегодня?",
     "placeholder": "Введите вопрос...",
     "suggestions": "Подсказки",
     "quickOptions": {

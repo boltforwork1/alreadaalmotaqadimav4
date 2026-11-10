@@ -83,7 +83,7 @@
 
   "FloatingChatbot": {
     "header": {
-      "title": "Central Hub Smart Assistant",
+      "title": "Trend Group Smart Assistant",
       "online": "Online now"
     },
     "aria": {
@@ -94,7 +94,7 @@
       "closeAssistant": "Close assistant",
       "sendMessage": "Send message"
     },
-    "welcome": "Welcome to Central Hub. How can I assist with your UAE business setup today?",
+    "welcome": "Welcome to Trend Group. How can I assist with your UAE business setup today?",
     "placeholder": "Type a question...",
     "suggestions": "Suggestions",
     "quickOptions": {
