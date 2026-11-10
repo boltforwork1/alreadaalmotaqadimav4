@@ -18,7 +18,7 @@ type ServiceCardProps = {
   children?: ReactNode;
 };
 
-const cardVariants = {
+export const serviceCardVariants = {
   hidden: { opacity: 0, y: 24 },
   show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' as const } },
 };
@@ -27,7 +27,7 @@ export default function ServiceCard({ item, namespace, learnMoreLabel, children 
   const { t } = useTranslation();
   return (
     <motion.div
-      variants={cardVariants}
+      variants={serviceCardVariants}
       whileHover={{ y: -8 }}
       transition={{ type: 'spring', stiffness: 300, damping: 20 }}
       className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-xl"

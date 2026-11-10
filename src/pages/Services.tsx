@@ -17,15 +17,10 @@ import {
   Stamp,
   Car,
   ShieldCheck,
-  Building2,
-  Landmark,
-  Tent,
-  Ship,
-  FerrisWheel,
-  Gauge,
 } from 'lucide-react';
 import ServiceCard, { type ServiceCardItem } from '@/components/ServiceCard';
-import TouristServiceDetails from '@/components/TouristServiceDetails';
+import TouristServiceCard from '@/components/TouristServiceCard';
+import { touristServices } from '@/data/touristServices';
 
 const services: ServiceCardItem[] = [
   {
@@ -99,45 +94,6 @@ const services: ServiceCardItem[] = [
     path: '/services/liquidation',
     icon: XCircle,
     image: 'https://images.pexels.com/photos/9169925/pexels-photo-9169925.jpeg?auto=compress&cs=tinysrgb&w=1000',
-  },
-];
-
-const touristServices: ServiceCardItem[] = [
-  {
-    key: 'burjKhalifa',
-    path: '/contact',
-    icon: Building2,
-    image: 'https://images.pexels.com/photos/10619945/pexels-photo-10619945.jpeg?auto=compress&cs=tinysrgb&w=1000',
-  },
-  {
-    key: 'cityTours',
-    path: '/contact',
-    icon: Landmark,
-    image: 'https://images.pexels.com/photos/36151739/pexels-photo-36151739.jpeg?auto=compress&cs=tinysrgb&w=1000',
-  },
-  {
-    key: 'desertSafari',
-    path: '/contact',
-    icon: Tent,
-    image: 'https://images.pexels.com/photos/7817185/pexels-photo-7817185.jpeg?auto=compress&cs=tinysrgb&w=1000',
-  },
-  {
-    key: 'dhowCruise',
-    path: '/contact',
-    icon: Ship,
-    image: 'https://images.pexels.com/photos/33516491/pexels-photo-33516491.jpeg?auto=compress&cs=tinysrgb&w=1000',
-  },
-  {
-    key: 'dubaiParks',
-    path: '/contact',
-    icon: FerrisWheel,
-    image: 'https://images.pexels.com/photos/749061/pexels-photo-749061.jpeg?auto=compress&cs=tinysrgb&w=1000',
-  },
-  {
-    key: 'ferrariWorld',
-    path: '/contact',
-    icon: Gauge,
-    image: 'https://images.pexels.com/photos/36329344/pexels-photo-36329344.jpeg?auto=compress&cs=tinysrgb&w=1000',
   },
 ];
 
@@ -348,15 +304,8 @@ export default function Services() {
             viewport={{ once: true, margin: '-80px' }}
             className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
           >
-            {touristServices.map((item) => (
-              <ServiceCard
-                key={item.key}
-                item={item}
-                namespace="Services.touristServices"
-                learnMoreLabel={t('Services.touristServices.bookNow')}
-              >
-                <TouristServiceDetails itemKey={item.key} />
-              </ServiceCard>
+            {touristServices.map((service) => (
+              <TouristServiceCard key={service.key} service={service} />
             ))}
           </motion.div>
         </div>
