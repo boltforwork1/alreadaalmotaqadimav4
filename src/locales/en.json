@@ -213,6 +213,11 @@
         "uaeExpertiseDesc": "Local Knowledge",
         "endToEndService": "End-to-End Service",
         "endToEndServiceDesc": "From Setup to Growth"
+      },
+      "buttons": {
+        "touristServices": "Tourist Services",
+        "socialMedia": "Social Media",
+        "corporateServices": "Corporate Services"
       }
     },
     "jurisdictions": {

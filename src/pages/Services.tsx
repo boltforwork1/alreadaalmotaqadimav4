@@ -195,7 +195,7 @@ export default function Services() {
       </section>
 
       {/* UAE Tourist Services */}
-      <section className="bg-[#f7f8fa] py-20">
+      <section id="tourist-services" className="scroll-mt-28 bg-[#f7f8fa] py-20">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <motion.h2
             initial={{ opacity: 0, y: 16 }}
@@ -222,7 +222,7 @@ export default function Services() {
       </section>
 
       {/* Social Media Marketing */}
-      <section className="bg-[#f7f8fa] py-20">
+      <section id="social-media-services" className="scroll-mt-28 bg-[#f7f8fa] py-20">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -252,7 +252,7 @@ export default function Services() {
       </section>
 
       {/* Corporate Services */}
-      <section className="bg-white py-20">
+      <section id="corporate-services" className="scroll-mt-28 bg-white py-20">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <motion.h2
             initial={{ opacity: 0, y: 16 }}

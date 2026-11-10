@@ -2,16 +2,8 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Briefcase, ShieldCheck, Check, CircleCheck as CheckCircle, Building2, Globe as Globe2, Archive, Award, Stamp, UserCheck, Landmark, Plane, ShoppingCart, ChevronDown, Phone, Compass } from 'lucide-react';
+import { ArrowRight, Briefcase, ShieldCheck, Check, CircleCheck as CheckCircle, Building2, Globe as Globe2, Archive, Award, Stamp, UserCheck, Landmark, Plane, ShoppingCart, ChevronDown, Compass } from 'lucide-react';
 import AnimatedCounter from '@/components/AnimatedCounter';
-
-function WhatsAppIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-    </svg>
-  );
-}
 
 type JurisdictionKey = 'mainland' | 'freeZone' | 'freelanceAbuDhabi' | 'eTrader';
 
@@ -158,24 +150,32 @@ export default function Home() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-7 flex flex-wrap items-center gap-4"
+              className="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4"
             >
               <Link
-                to="/contact"
-                className="group inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 py-3.5 text-base font-semibold text-navy-900 shadow-xl shadow-teal-500/25 transition-all duration-200 hover:shadow-2xl hover:shadow-teal-500/40 hover:brightness-105"
+                to="/services#tourist-services"
+                className="group inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 py-3.5 text-base font-semibold text-navy-900 shadow-xl shadow-teal-500/25 transition-all duration-200 hover:shadow-2xl hover:shadow-teal-500/40 hover:brightness-105"
               >
-                <Phone className="h-5 w-5" />
-                {t('Home.hero.getStartedToday')}
+                <Plane className="h-5 w-5" />
+                {t('Home.hero.buttons.touristServices')}
+                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5 rtl:rotate-180" />
               </Link>
-              <a
-                href="https://wa.me/971553735999"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-slate-300/70 bg-navy-950/20 px-7 py-3.5 text-base font-medium text-white transition-colors duration-200 hover:border-teal-300 hover:text-teal-200"
+              <Link
+                to="/services#social-media-services"
+                className="group inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-[#dca84c] to-[#f1c56b] px-7 py-3.5 text-base font-semibold text-navy-900 shadow-xl shadow-[#dca84c]/25 transition-all duration-200 hover:shadow-2xl hover:shadow-[#dca84c]/40 hover:brightness-105"
               >
-                <WhatsAppIcon className="h-5 w-5" />
-                <bdi>{t('Home.hero.whatsappNumber')}</bdi>
-              </a>
+                <Compass className="h-5 w-5" />
+                {t('Home.hero.buttons.socialMedia')}
+                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5 rtl:rotate-180" />
+              </Link>
+              <Link
+                to="/services#corporate-services"
+                className="group inline-flex items-center justify-center gap-2 rounded-lg border border-white/40 bg-white/10 px-7 py-3.5 text-base font-semibold text-white backdrop-blur-sm transition-all duration-200 hover:border-teal-300 hover:bg-white/20"
+              >
+                <Briefcase className="h-5 w-5 text-teal-300" />
+                {t('Home.hero.buttons.corporateServices')}
+                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5 rtl:rotate-180" />
+              </Link>
             </motion.div>
 
             <motion.div
