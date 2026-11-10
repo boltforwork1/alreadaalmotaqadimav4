@@ -1,564 +1,372 @@
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { ArrowRight, Briefcase, ShieldCheck, Check, CircleCheck as CheckCircle, Building2, Globe as Globe2, Archive, Award, Stamp, UserCheck, Landmark, Plane, ShoppingCart, ChevronDown, MapPin } from 'lucide-react';
+import {
+  ArrowRight,
+  BadgeCheck,
+  Building2,
+  Check,
+  ChevronRight,
+  FileCheck2,
+  Globe2,
+  Landmark,
+  Mail,
+  MapPin,
+  MessageCircle,
+  Plane,
+  ShieldCheck,
+  Sparkles,
+  Stamp,
+  Users,
+  WalletCards,
+  type LucideIcon,
+} from 'lucide-react';
 import AnimatedCounter from '@/components/AnimatedCounter';
 
-function WhatsAppIcon({ className }: { className?: string }) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-    </svg>
-  );
-}
+const heroImage =
+  'https://images.pexels.com/photos/36765718/pexels-photo-36765718.jpeg?auto=compress&cs=tinysrgb&w=1800';
 
-type JurisdictionKey = 'mainland' | 'freeZone' | 'freelanceAbuDhabi' | 'eTrader';
-
-type JurisdictionItem = {
-  key: JurisdictionKey;
-  path: string;
-  icon: typeof Building2;
-  image: string;
-};
-
-const jurisdictionItems: JurisdictionItem[] = [
+const services: { icon: LucideIcon; title: string; description: string; href: string }[] = [
   {
-    key: 'mainland',
-    path: '/mainland',
     icon: Building2,
-    image: 'https://images.pexels.com/photos/25309271/pexels-photo-25309271.jpeg?auto=compress&cs=tinysrgb&w=1000',
+    title: 'Company Formation',
+    description: 'Build the right UAE business structure with clear guidance from first decision to final licence.',
+    href: '/business-setup',
   },
   {
-    key: 'freeZone',
-    path: '/free-zone',
-    icon: Globe2,
-    image: '/images/pages/freezone.jpg',
+    icon: Stamp,
+    title: 'PRO Services',
+    description: 'Keep government applications, renewals, approvals, and document processing moving smoothly.',
+    href: '/pro-services',
   },
   {
-    key: 'freelanceAbuDhabi',
-    path: '/freelance-license-abu-dhabi',
-    icon: Briefcase,
-    image: '/images/pages/freelance.jpg',
+    icon: Plane,
+    title: 'Visa & Immigration',
+    description: 'Simplify investor, employee, family, residency, and Emirates ID requirements in one place.',
+    href: '/services/immigration',
   },
   {
-    key: 'eTrader',
-    path: '/e-trader-license',
-    icon: ShoppingCart,
-    image: '/images/pages/e-trader.jpg',
+    icon: Landmark,
+    title: 'Trade Licences',
+    description: 'Get the right licence, manage changes, and stay ready for every stage of business growth.',
+    href: '/services/trade-license',
+  },
+  {
+    icon: WalletCards,
+    title: 'Corporate Banking',
+    description: 'Prepare your company profile and documents for a more confident corporate account journey.',
+    href: '/services/bank-account',
+  },
+  {
+    icon: FileCheck2,
+    title: 'Government Approvals',
+    description: 'Coordinate the specialist approvals your activity needs across the UAE government landscape.',
+    href: '/services',
   },
 ];
 
-const jurisdictionContainer = {
-  hidden: {},
-  show: { transition: { staggerChildren: 0.1 } },
-};
-
-const jurisdictionCardVariants = {
-  hidden: { opacity: 0, y: 24 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' as const } },
-};
-
-type ServiceKey = 'companyFormation' | 'companyLiquidation' | 'businessLicense' | 'proVisaServices' | 'corporateSponsor' | 'bankLiaison' | 'governmentServices' | 'immigrationLabour';
-
-type ServiceItem = {
-  key: ServiceKey;
-  icon: typeof Building2;
-};
-
-const serviceItems: ServiceItem[] = [
-  { key: 'companyFormation', icon: Building2 },
-  { key: 'companyLiquidation', icon: Archive },
-  { key: 'businessLicense', icon: Award },
-  { key: 'proVisaServices', icon: Stamp },
-  { key: 'corporateSponsor', icon: UserCheck },
-  { key: 'bankLiaison', icon: Landmark },
-  { key: 'governmentServices', icon: ShieldCheck },
-  { key: 'immigrationLabour', icon: Plane },
+const stats = [
+  { value: 2500, suffix: '+', label: 'Businesses supported' },
+  { value: 12, suffix: '+', label: 'Years of local expertise' },
+  { value: 50, suffix: '+', label: 'Business setup pathways' },
+  { value: 98, suffix: '%', label: 'Client satisfaction' },
 ];
 
-type StatKey = 'clientsHelped' | 'yearsExperience' | 'expertConsultants' | 'clientSatisfaction';
-
-const statItems: { endValue: number; suffix: string; labelKey: StatKey }[] = [
-  { endValue: 2500, suffix: '+', labelKey: 'clientsHelped' },
-  { endValue: 12, suffix: '+', labelKey: 'yearsExperience' },
-  { endValue: 25, suffix: '+', labelKey: 'expertConsultants' },
-  { endValue: 97, suffix: '%', labelKey: 'clientSatisfaction' },
+const processSteps = [
+  { number: '01', title: 'Tell us your goal', text: 'Share what you want to build, where you want to operate, and what support you need.' },
+  { number: '02', title: 'Get a clear plan', text: 'Our specialists compare the practical options and outline the documents, costs, and next steps.' },
+  { number: '03', title: 'We handle the details', text: 'From applications to government follow-up, we keep the process organised and transparent.' },
 ];
 
-const heroHighlights = [
-  { icon: Award, titleKey: 'Home.hero.highlights.trusted', descKey: 'Home.hero.highlights.trustedDesc' },
-  { icon: Building2, titleKey: 'Home.hero.highlights.uaeExpertise', descKey: 'Home.hero.highlights.uaeExpertiseDesc' },
-  { icon: UserCheck, titleKey: 'Home.hero.highlights.endToEndService', descKey: 'Home.hero.highlights.endToEndServiceDesc' },
+const values = [
+  { icon: ShieldCheck, title: 'Built on trust', text: 'Straightforward advice, transparent communication, and no unnecessary complexity.' },
+  { icon: Globe2, title: 'UAE expertise', text: 'Local knowledge that helps international founders make confident decisions.' },
+  { icon: Users, title: 'Human support', text: 'A responsive team that stays close to your business beyond the first application.' },
 ];
 
 export default function Home() {
-  const { t } = useTranslation();
-  const [form, setForm] = useState({ name: '', contact: '' });
   const [submitted, setSubmitted] = useState(false);
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [form, setForm] = useState({ name: '', contact: '' });
 
-  const faqs = t('Home.faq.items', { returnObjects: true }) as { q: string; a: string }[];
-  const formationBenefits = t('Home.formation.benefits', { returnObjects: true }) as string[];
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
     if (!form.name.trim() || !form.contact.trim()) return;
     setSubmitted(true);
     setForm({ name: '', contact: '' });
-    setTimeout(() => setSubmitted(false), 4000);
   };
 
   return (
-    <div>
-      {/* ===== Hero Section ===== */}
-      <section className="relative flex min-h-[72vh] flex-col justify-center overflow-hidden">
+    <div className="overflow-hidden bg-[#f7faf9] text-[#103f49]">
+      <section className="relative isolate min-h-[680px] overflow-hidden bg-[#053944] lg:min-h-[760px]">
         <img
-          src="/images/bc copy.jpg"
-          alt={t('Home.hero.heroImageAlt')}
-          className="absolute inset-0 h-full w-full object-cover object-center"
+          src={heroImage}
+          alt="Business professionals discussing strategy in a modern office"
+          className="absolute inset-0 -z-20 h-full w-full object-cover object-center"
         />
-        <div className="absolute inset-0 ltr:bg-gradient-to-r rtl:bg-gradient-to-l from-navy-950/95 via-navy-950/75 to-navy-950/10" />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-transparent to-navy-950/20" />
+        <div className="absolute inset-0 -z-10 bg-[#032b35]/80" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#032b35] via-[#053944]/90 to-[#053944]/30" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-[#032b35] via-transparent to-[#053944]/20" />
+        <div className="pointer-events-none absolute -end-28 top-24 h-80 w-80 rounded-full border border-[#dca84c]/25 sm:h-[28rem] sm:w-[28rem]" />
+        <div className="pointer-events-none absolute -end-12 top-40 h-56 w-56 rounded-full border border-[#dca84c]/15" />
 
-        <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-10 sm:px-8 lg:px-12 lg:py-12">
-          <div className="max-w-2xl text-start">
+        <div className="relative mx-auto flex min-h-[680px] max-w-7xl items-center px-5 py-20 sm:px-8 lg:min-h-[760px] lg:px-12">
+          <div className="max-w-3xl">
             <motion.div
-              initial={{ opacity: 0, y: 16 }}
+              initial={{ opacity: 0, y: 18 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              className="inline-flex items-center gap-2 rounded-full border border-teal-400/40 bg-navy-950/40 px-4 py-1.5 text-sm font-medium text-teal-200 backdrop-blur-sm"
+              transition={{ duration: 0.55 }}
+              className="inline-flex items-center gap-2 rounded-full border border-[#dca84c]/45 bg-[#053944]/65 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-[#f1c56b] backdrop-blur-sm"
             >
-              <span className="flex h-2 w-2 rounded-full bg-teal-400" />
-              {t('Home.hero.badge')}
+              <Sparkles className="h-4 w-4" />
+              Your UAE business starts with clarity
             </motion.div>
 
             <motion.h1
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="mt-5 font-display text-4xl font-bold leading-[1.5] tracking-tight text-white sm:text-5xl lg:text-5xl"
+              transition={{ duration: 0.65, delay: 0.08 }}
+              className="mt-7 max-w-3xl font-display text-5xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-8xl"
             >
-              {t('Home.hero.title')}{' '}
-              <span className="bg-gradient-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent">
-                {t('Home.hero.titleHighlight')}
-              </span>
+              Make your next move <span className="text-[#e3b45c]">count.</span>
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="mt-5 max-w-xl text-base leading-relaxed text-slate-200 sm:text-lg"
+              transition={{ duration: 0.65, delay: 0.16 }}
+              className="mt-7 max-w-2xl text-lg leading-relaxed text-[#d7e7e8] sm:text-xl"
             >
-              {t('Home.hero.description')}
+              Trend Group helps founders, investors, and growing companies establish, manage, and expand their businesses across the UAE.
             </motion.p>
 
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-7 flex flex-wrap items-center gap-4"
+              transition={{ duration: 0.65, delay: 0.24 }}
+              className="mt-9 flex flex-wrap gap-3"
             >
               <Link
                 to="/contact"
-                className="group inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 py-3.5 text-base font-semibold text-navy-900 shadow-xl shadow-teal-500/25 transition-all duration-200 hover:shadow-2xl hover:shadow-teal-500/40 hover:brightness-105"
+                className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#dca84c] to-[#f1c56b] px-6 py-3.5 text-sm font-bold text-[#053944] shadow-xl shadow-[#dca84c]/20 transition-all duration-200 hover:-translate-y-0.5 hover:from-[#edbd5c] hover:to-[#f7d88c]"
               >
-                <MapPin className="h-5 w-5" />
-                {t('Home.hero.getStartedToday')}
+                Start a conversation
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Link>
-              <a
-                href="https://wa.me/971504229389"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-lg border border-slate-300/70 bg-navy-950/20 px-7 py-3.5 text-base font-medium text-white transition-colors duration-200 hover:border-teal-300 hover:text-teal-200"
+              <Link
+                to="/business-setup"
+                className="inline-flex items-center gap-2 rounded-full border border-white/35 bg-white/5 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition-all duration-200 hover:border-[#f1c56b] hover:bg-white/10 hover:text-[#f1c56b]"
               >
-                <WhatsAppIcon className="h-5 w-5" />
-                <bdi>{t('Home.hero.whatsappNumber')}</bdi>
-              </a>
+                Explore our services
+              </Link>
             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              className="mt-7 grid grid-cols-1 gap-5 border-t border-white/20 pt-5 sm:grid-cols-3"
+              transition={{ duration: 0.65, delay: 0.34 }}
+              className="mt-14 grid max-w-2xl grid-cols-1 gap-5 border-t border-white/20 pt-6 sm:grid-cols-3"
             >
-              {heroHighlights.map((item) => (
-                <div key={item.titleKey} className="flex items-center gap-3">
-                  <item.icon className="h-9 w-9 shrink-0 text-teal-300" strokeWidth={1.5} />
-                  <div>
-                    <p className="font-display text-sm font-bold text-white">{t(item.titleKey)}</p>
-                    <p className="mt-0.5 text-xs text-slate-300">{t(item.descKey)}</p>
-                  </div>
+              {[
+                { icon: BadgeCheck, label: 'Trusted guidance' },
+                { icon: MapPin, label: 'UAE-wide support' },
+                { icon: MessageCircle, label: 'Clear communication' },
+              ].map((item) => (
+                <div key={item.label} className="flex items-center gap-3 text-sm font-medium text-white">
+                  <item.icon className="h-5 w-5 shrink-0 text-[#f1c56b]" />
+                  {item.label}
                 </div>
               ))}
             </motion.div>
           </div>
         </div>
+
+        <div className="absolute bottom-0 start-1/2 hidden -translate-x-1/2 items-center gap-3 text-[10px] font-bold uppercase tracking-[0.28em] text-[#b9d0d3] lg:flex">
+          <span className="h-px w-14 bg-[#dca84c]" />
+          UAE business made simpler
+          <span className="h-px w-14 bg-[#dca84c]" />
+        </div>
       </section>
 
-      {/* ===== Choose Your Business Jurisdiction ===== */}
-      <section className="bg-white pt-24 pb-20 sm:pt-28 sm:pb-24 lg:pt-32">
-        <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
+      <section className="relative bg-white py-20 sm:py-24 lg:py-28">
+        <div className="mx-auto grid max-w-7xl gap-14 px-5 sm:px-8 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:gap-24 lg:px-12">
           <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -24 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.4 }}
-            className="text-center"
+            transition={{ duration: 0.55 }}
           >
-            <span className="text-sm font-bold uppercase tracking-wider text-teal-500">
-              {t('Home.jurisdictions.eyebrow')}
-            </span>
-            <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-              {t('Home.jurisdictions.title')}
+            <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#a96f1f]">About Trend Group</span>
+            <h2 className="mt-4 max-w-xl font-display text-4xl font-bold leading-tight tracking-tight text-[#063d49] sm:text-5xl">
+              The steady hand behind your UAE business journey.
             </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-slate-500">
-              {t('Home.jurisdictions.subtitle')}
+            <p className="mt-6 text-base leading-relaxed text-[#53727a]">
+              Setting up a company should feel like the beginning of an opportunity, not a maze of paperwork. Trend Group brings company formation, government services, and ongoing business support together under one experienced team.
             </p>
+            <p className="mt-4 text-base leading-relaxed text-[#53727a]">
+              We make complex processes easier to understand, easier to manage, and easier to move forward with.
+            </p>
+            <Link to="/about" className="group mt-8 inline-flex items-center gap-2 text-sm font-bold text-[#a96f1f] transition-colors hover:text-[#075667]">
+              Learn more about Trend Group
+              <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
           </motion.div>
 
           <motion.div
-            variants={jurisdictionContainer}
-            initial="hidden"
-            whileInView="show"
+            initial={{ opacity: 0, x: 24 }}
+            whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: '-80px' }}
-            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4"
+            transition={{ duration: 0.55, delay: 0.08 }}
+            className="relative"
           >
-            {jurisdictionItems.map((item) => {
-              const features = t(`Home.jurisdictions.items.${item.key}.features`, { returnObjects: true }) as string[];
-              return (
-                <motion.div
-                  key={item.path}
-                  variants={jurisdictionCardVariants}
-                  className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-teal-200 hover:shadow-xl hover:shadow-navy-900/10"
+            <div className="absolute -start-4 -top-4 h-24 w-24 rounded-tl-3xl border-l-2 border-t-2 border-[#dca84c]" />
+            <div className="relative grid gap-4 sm:grid-cols-2">
+              {values.map((value, index) => (
+                <div
+                  key={value.title}
+                  className={`rounded-2xl border border-[#dbe8e8] bg-[#f7faf9] p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#dca84c]/60 hover:shadow-xl ${index === 2 ? 'sm:col-span-2 sm:max-w-[calc(50%-0.5rem)]' : ''}`}
                 >
-                  <div className="relative h-44 overflow-hidden">
-                    <img
-                      src={item.image}
-                      alt={t(`Home.jurisdictions.items.${item.key}.imageAlt`)}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/55 via-transparent to-transparent" />
-                    <div className="absolute bottom-3 start-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy-950/85 text-teal-300 backdrop-blur-sm">
-                      <item.icon className="h-5 w-5" strokeWidth={1.75} />
-                    </div>
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#e8f1f0] text-[#075667]">
+                    <value.icon className="h-6 w-6" strokeWidth={1.7} />
                   </div>
-                  <div className="flex flex-1 flex-col p-5">
-                    <h3 className="font-display text-lg font-bold leading-tight text-navy-900">
-                      {t(`Home.jurisdictions.items.${item.key}.name`)}
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-navy-500">
-                      {t(`Home.jurisdictions.items.${item.key}.description`)}
-                    </p>
-                    <ul className="mt-5 flex-1 space-y-2.5">
-                      {features.map((feature) => (
-                        <li key={feature} className="flex items-start gap-2.5">
-                          <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-teal-100">
-                            <Check className="h-3 w-3 text-teal-600" strokeWidth={3} />
-                          </span>
-                          <span className="text-sm leading-relaxed text-navy-600">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    <Link
-                      to={item.path}
-                      className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-teal-500 px-4 py-2.5 text-sm font-semibold text-navy-950 transition-all duration-200 hover:bg-teal-400"
-                    >
-                      {t(`Home.jurisdictions.items.${item.key}.buttonText`)}
-                      <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />
-                    </Link>
-                  </div>
-                </motion.div>
-              );
-            })}
+                  <h3 className="mt-5 font-display text-lg font-bold text-[#063d49]">{value.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-[#53727a]">{value.text}</p>
+                </div>
+              ))}
+            </div>
           </motion.div>
         </div>
       </section>
 
-      {/* ===== Company Formation Intro ===== */}
-      <section className="bg-slate-50 py-24">
-        <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-16">
-            {/* Left: Text */}
-            <motion.div
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
-              transition={{ duration: 0.5 }}
-            >
-              <span className="text-sm font-bold uppercase tracking-wider text-teal-500">
-                {t('Home.formation.eyebrow')}
-              </span>
-              <h2 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-slate-900">
-                {t('Home.formation.title')}
-              </h2>
-              <p className="mt-6 text-base leading-relaxed text-slate-600">
-                {t('Home.formation.description')}
-              </p>
-            </motion.div>
-
-            {/* Right: Benefits List */}
-            <motion.ul
-              initial="hidden"
-              whileInView="show"
-              viewport={{ once: true, margin: '-80px' }}
-              className="flex flex-col gap-4"
-            >
-              {formationBenefits.map((benefit, i) => (
-                <motion.li
-                  key={`formation-benefit-${i}`}
-                  custom={i}
-                  variants={{
-                    hidden: { opacity: 0, x: 24 },
-                    show: (delay: number) => ({
-                      opacity: 1,
-                      x: 0,
-                      transition: { duration: 0.4, delay: delay * 0.08 },
-                    }),
-                  }}
-                  className="flex items-center gap-3"
-                >
-                  <CheckCircle className="h-6 w-6 shrink-0 text-teal-500" strokeWidth={2} />
-                  <span className="text-base font-medium text-slate-700">{benefit}</span>
-                </motion.li>
-              ))}
-            </motion.ul>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== Services Grid ===== */}
-      <section className="bg-white py-24">
-        <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
-          {/* Header */}
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="text-sm font-bold uppercase tracking-wider text-teal-500">
-              {t('Home.services.eyebrow')}
-            </span>
-            <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-              {t('Home.services.title')}
-            </h2>
-          </div>
-
-          {/* Grid */}
-          <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {serviceItems.map((service, i) => (
-              <motion.div
-                key={service.key}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.45, delay: (i % 4) * 0.08 }}
-                className="group rounded-2xl border border-slate-100 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-slate-900/5"
-              >
-                <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-teal-50 transition-colors duration-300 group-hover:bg-teal-100">
-                  <service.icon className="h-8 w-8 text-teal-500" strokeWidth={1.75} />
-                </div>
-                <h3 className="mt-5 font-display text-lg font-bold text-slate-900">
-                  {t(`Home.services.items.${service.key}.title`)}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-500">
-                  {t(`Home.services.items.${service.key}.description`)}
-                </p>
-              </motion.div>
-            ))}
-          </div>
-
-          {/* View All Services CTA */}
-          <div className="mt-12 text-center">
-            <Link
-              to="/services"
-              className="group inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 py-3.5 text-base font-semibold text-navy-900 shadow-lg shadow-teal-500/25 transition-all duration-200 hover:shadow-xl hover:shadow-teal-500/40 hover:brightness-105"
-            >
-              {t('Home.services.viewAllServices')}
-              <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5" />
+      <section className="bg-[#f2f7f6] py-20 sm:py-24 lg:py-28">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-end">
+            <div className="max-w-2xl">
+              <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#a96f1f]">What we do</span>
+              <h2 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-[#063d49] sm:text-5xl">One partner. Every important detail.</h2>
+              <p className="mt-4 max-w-xl text-base leading-relaxed text-[#53727a]">Practical business support for the decisions that shape your company, your people, and your next stage of growth.</p>
+            </div>
+            <Link to="/services" className="group inline-flex shrink-0 items-center gap-2 text-sm font-bold text-[#a96f1f] hover:text-[#075667]">
+              View all services
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
-        </div>
-      </section>
 
-      {/* ===== Stats / Social Proof Banner ===== */}
-      <section className="relative overflow-hidden bg-navy-950 py-24">
-        <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="absolute left-1/4 top-0 h-64 w-64 rounded-full bg-teal-500/5 blur-3xl" />
-          <div className="absolute right-1/4 bottom-0 h-64 w-64 rounded-full bg-teal-500/5 blur-3xl" />
-        </div>
-        <div className="relative mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
-          <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4">
-            {statItems.map((stat, i) => (
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((service, index) => (
               <motion.div
-                key={stat.labelKey}
-                initial={{ opacity: 0, y: 24 }}
+                key={service.title}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: '-60px' }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="text-center"
+                transition={{ duration: 0.45, delay: (index % 3) * 0.08 }}
+                className="group flex min-h-[245px] flex-col rounded-2xl border border-[#dbe8e8] bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#dca84c]/60 hover:shadow-xl hover:shadow-[#0a4c59]/10"
               >
-                <div className="font-display text-5xl font-bold text-teal-500">
-                  <AnimatedCounter endValue={stat.endValue} suffix={stat.suffix} />
+                <div className="flex items-center justify-between">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#e8f1f0] text-[#075667] transition-colors group-hover:bg-[#dca84c]/20 group-hover:text-[#a96f1f]">
+                    <service.icon className="h-6 w-6" strokeWidth={1.7} />
+                  </div>
+                  <span className="font-display text-sm font-bold text-[#c6d7d8]">0{index + 1}</span>
                 </div>
-                <div className="mt-3 text-lg text-slate-300">{t(`Home.stats.${stat.labelKey}`)}</div>
+                <h3 className="mt-7 font-display text-xl font-bold text-[#063d49]">{service.title}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-[#53727a]">{service.description}</p>
+                <Link to={service.href} className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-[#a96f1f] transition-colors hover:text-[#075667]">
+                  Explore service
+                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Link>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ===== FAQ / SEO Content ===== */}
-      <section className="bg-slate-50 py-24">
-        <div className="mx-auto max-w-3xl px-6 sm:px-8">
-          {/* Header */}
-          <div className="text-center">
-            <span className="text-sm font-bold uppercase tracking-wider text-teal-500">
-              {t('Home.faq.eyebrow')}
-            </span>
-            <h2 className="mt-4 font-display text-3xl font-bold leading-tight tracking-tight text-slate-900 sm:text-4xl">
-              {t('Home.faq.title')}
-            </h2>
-            <p className="mt-4 text-base leading-relaxed text-slate-600">
-              {t('Home.faq.subtitle')}
-            </p>
-          </div>
-
-          {/* Accordion */}
-          <div className="mt-12 flex flex-col gap-4">
-            {faqs.map((faq, i) => {
-              const isOpen = openFaq === i;
-              return (
-                <div
-                  key={i}
-                  className={`overflow-hidden rounded-xl border bg-white transition-colors duration-200 ${
-                    isOpen ? 'border-teal-300' : 'border-slate-200'
-                  }`}
-                >
-                  <button
-                    onClick={() => setOpenFaq(isOpen ? null : i)}
-                    className="flex w-full items-center justify-between gap-4 px-6 py-5 text-start"
-                  >
-                    <span
-                      className={`font-display text-base font-semibold sm:text-lg ${
-                        isOpen ? 'text-teal-600' : 'text-slate-900'
-                      }`}
-                    >
-                      {faq.q}
-                    </span>
-                    <ChevronDown
-                      className={`h-5 w-5 shrink-0 transition-transform duration-300 ${
-                        isOpen ? 'rotate-180 text-teal-500' : 'text-slate-400'
-                      }`}
-                    />
-                  </button>
-                  <motion.div
-                    initial={false}
-                    animate={{ height: isOpen ? 'auto' : 0, opacity: isOpen ? 1 : 0 }}
-                    transition={{ duration: 0.3, ease: 'easeInOut' }}
-                    className="overflow-hidden"
-                  >
-                    <p className="px-6 pb-5 text-sm leading-relaxed text-slate-600 sm:text-base">
-                      {faq.a}
-                    </p>
-                  </motion.div>
-                </div>
-              );
-            })}
-          </div>
-
-          {/* Bottom CTA */}
-          <div className="mt-12 text-center">
-            <p className="text-base text-slate-700">{t('Home.faq.stillHaveQuestions')}</p>
-            <a
-              href="/contact"
-              className="mt-4 inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 py-3.5 text-base font-semibold text-navy-900 shadow-lg shadow-teal-500/25 transition-all duration-200 hover:shadow-xl hover:shadow-teal-500/40 hover:brightness-105"
-            >
-              {t('Home.faq.ctaButton')}
-              <ArrowRight className="h-5 w-5" />
-            </a>
+      <section className="relative overflow-hidden bg-[#053944] py-20 sm:py-24">
+        <div className="pointer-events-none absolute -end-24 -top-24 h-80 w-80 rounded-full border border-[#dca84c]/20" />
+        <div className="pointer-events-none absolute -start-32 bottom-0 h-72 w-72 rounded-full bg-[#0f7888]/20 blur-3xl" />
+        <div className="relative mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+            {stats.map((stat, index) => (
+              <motion.div
+                key={stat.label}
+                initial={{ opacity: 0, y: 18 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: '-60px' }}
+                transition={{ duration: 0.45, delay: index * 0.08 }}
+                className="border-s border-[#dca84c]/50 ps-5 first:border-s-0 sm:first:border-s"
+              >
+                <p className="font-display text-5xl font-bold tracking-tight text-[#f1c56b]">
+                  <AnimatedCounter endValue={stat.value} suffix={stat.suffix} />
+                </p>
+                <p className="mt-2 text-sm font-medium text-[#b9d0d3]">{stat.label}</p>
+              </motion.div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* ===== Request a Free Quote ===== */}
-      <section className="relative overflow-hidden bg-navy-950 py-20">
-        <div className="pointer-events-none absolute inset-0 overflow-hidden">
-          <div className="absolute left-1/4 top-0 h-64 w-64 rounded-full bg-teal-500/5 blur-3xl" />
-          <div className="absolute right-1/4 bottom-0 h-64 w-64 rounded-full bg-teal-500/5 blur-3xl" />
+      <section className="bg-white py-20 sm:py-24 lg:py-28">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <div className="grid gap-14 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-24">
+            <div>
+              <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#a96f1f]">How it works</span>
+              <h2 className="mt-4 font-display text-4xl font-bold leading-tight tracking-tight text-[#063d49] sm:text-5xl">A clearer path to getting started.</h2>
+              <p className="mt-5 text-base leading-relaxed text-[#53727a]">From your first question to your next milestone, we keep the process focused, responsive, and easy to follow.</p>
+              <div className="mt-8 flex items-center gap-3 text-sm font-semibold text-[#075667]"><Check className="h-5 w-5 text-[#dca84c]" /> Transparent support at every stage</div>
+            </div>
+            <div className="divide-y divide-[#dbe8e8] border-y border-[#dbe8e8]">
+              {processSteps.map((step) => (
+                <div key={step.number} className="grid gap-4 py-7 sm:grid-cols-[72px_1fr] sm:items-start">
+                  <span className="font-display text-sm font-bold tracking-[0.16em] text-[#dca84c]">{step.number}</span>
+                  <div>
+                    <h3 className="font-display text-xl font-bold text-[#063d49]">{step.title}</h3>
+                    <p className="mt-2 max-w-xl text-sm leading-relaxed text-[#53727a]">{step.text}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
-        <div className="relative mx-auto max-w-2xl px-6 sm:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.5 }}
-            className="text-center"
-          >
-            <span className="text-sm font-bold uppercase tracking-wider text-teal-400">{t('Home.quote.eyebrow')}</span>
-            <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              {t('Home.quote.title')}
-            </h2>
-            <p className="mt-3 text-base leading-relaxed text-slate-300">
-              {t('Home.quote.subtitle')}
-            </p>
-          </motion.div>
+      </section>
 
-          <motion.div
-            initial={{ opacity: 0, y: 24 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-80px' }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="mt-10 rounded-2xl border border-white/15 bg-white/10 p-6 shadow-2xl backdrop-blur-xl sm:p-8"
-          >
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="text-sm font-medium text-navy-200">{t('Home.quote.fullNameLabel')}</label>
-                <input
-                  type="text"
-                  required
-                  value={form.name}
-                  onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  placeholder={t('Home.quote.fullNamePlaceholder')}
-                  className="mt-1.5 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-white placeholder:text-navy-400 transition-colors focus:border-teal-500/50 focus:bg-white/10 focus:outline-none"
-                />
-              </div>
-              <div>
-                <label className="text-sm font-medium text-navy-200">{t('Home.quote.contactLabel')}</label>
-                <input
-                  type="text"
-                  required
-                  value={form.contact}
-                  onChange={(e) => setForm({ ...form, contact: e.target.value })}
-                  placeholder={t('Home.quote.contactPlaceholder')}
-                  className="mt-1.5 w-full rounded-lg border border-white/15 bg-white/5 px-4 py-2.5 text-white placeholder:text-navy-400 transition-colors focus:border-teal-500/50 focus:bg-white/10 focus:outline-none"
-                />
-              </div>
-              <button
-                type="submit"
-                className="group inline-flex h-[46px] w-full items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-7 text-base font-semibold text-navy-900 shadow-lg shadow-teal-500/25 transition-all duration-200 hover:shadow-xl hover:shadow-teal-500/40 hover:brightness-105"
-              >
-                {submitted ? (
-                  <>
-                    <Check className="h-5 w-5" />
-                    {t('Home.quote.buttonSent')}
-                  </>
-                ) : (
-                  <>
-                    {t('Home.quote.button')}
-                    <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5" />
-                  </>
-                )}
+      <section className="relative overflow-hidden bg-[#eef5f3] py-20 sm:py-24">
+        <div className="pointer-events-none absolute inset-y-0 end-0 w-1/3 bg-gradient-to-l from-[#dca84c]/10 to-transparent" />
+        <div className="relative mx-auto grid max-w-7xl gap-10 px-5 sm:px-8 lg:grid-cols-[1fr_0.8fr] lg:items-center lg:px-12">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#a96f1f]">Let’s talk</span>
+            <h2 className="mt-4 max-w-2xl font-display text-4xl font-bold leading-tight tracking-tight text-[#063d49] sm:text-5xl">Your next chapter deserves a strong start.</h2>
+            <p className="mt-5 max-w-xl text-base leading-relaxed text-[#53727a]">Tell us a little about your plans and a Trend Group specialist will get back to you with a practical next step.</p>
+            <div className="mt-7 flex flex-wrap gap-5 text-sm font-semibold text-[#075667]">
+              <a href="mailto:info@alreyada-almotaqdima.ae" className="inline-flex items-center gap-2 hover:text-[#a96f1f]"><Mail className="h-4 w-4 text-[#dca84c]" /> Email our team</a>
+              <a href="https://wa.me/971504229389" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 hover:text-[#a96f1f]"><MessageCircle className="h-4 w-4 text-[#dca84c]" /> WhatsApp us</a>
+            </div>
+          </div>
+
+          <form onSubmit={handleSubmit} className="rounded-2xl border border-[#dbe8e8] bg-white p-6 shadow-xl shadow-[#0a4c59]/10 sm:p-8">
+            <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-[#e8f1f0] text-[#075667]"><MessageCircle className="h-6 w-6" /></div>
+            <h3 className="font-display text-2xl font-bold text-[#063d49]">Request a consultation</h3>
+            <p className="mt-2 text-sm leading-relaxed text-[#53727a]">A few details are enough for us to start.</p>
+            <div className="mt-6 space-y-4">
+              <input
+                type="text"
+                required
+                value={form.name}
+                onChange={(event) => setForm({ ...form, name: event.target.value })}
+                placeholder="Your full name"
+                className="w-full rounded-xl border border-[#cbdedf] bg-[#f8fbfa] px-4 py-3 text-sm text-[#063d49] outline-none transition-colors placeholder:text-[#78969b] focus:border-[#dca84c] focus:ring-2 focus:ring-[#dca84c]/20"
+              />
+              <input
+                type="text"
+                required
+                value={form.contact}
+                onChange={(event) => setForm({ ...form, contact: event.target.value })}
+                placeholder="Email or phone number"
+                className="w-full rounded-xl border border-[#cbdedf] bg-[#f8fbfa] px-4 py-3 text-sm text-[#063d49] outline-none transition-colors placeholder:text-[#78969b] focus:border-[#dca84c] focus:ring-2 focus:ring-[#dca84c]/20"
+              />
+              <button type="submit" className="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#dca84c] to-[#f1c56b] px-5 py-3.5 text-sm font-bold text-[#053944] shadow-lg shadow-[#dca84c]/20 transition-all hover:from-[#edbd5c] hover:to-[#f7d88c]">
+                {submitted ? 'Thank you — we’ll be in touch' : 'Request my consultation'}
+                {!submitted && <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />}
               </button>
-            </form>
-            {submitted && (
-              <motion.p
-                initial={{ opacity: 0, y: -4 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="mt-3 text-center text-sm text-teal-300"
-              >
-                {t('Home.quote.successMessage')}
-              </motion.p>
-            )}
-          </motion.div>
+            </div>
+          </form>
         </div>
       </section>
     </div>
