@@ -11,7 +11,7 @@ type ServiceLayoutProps = {
 
 export default function ServiceLayout({ eyebrow, title, subtitle, children }: ServiceLayoutProps) {
   return (
-    <main className="pt-20">
+    <main className="pt-24">
       {/* Hero */}
       <section className="relative overflow-hidden bg-navy-950 py-16 lg:py-20">
         {/* Geometric gradient pattern */}

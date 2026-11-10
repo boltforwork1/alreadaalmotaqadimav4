@@ -21,7 +21,7 @@ export default function TouristServiceDetail() {
   const handle = t(`${base}.handle`, { returnObjects: true }) as HandleEntry[];
 
   return (
-    <main className="pt-20">
+    <main className="pt-24">
       <section className="relative overflow-hidden bg-navy-950 py-16 lg:py-20">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-teal-500/10 via-transparent to-transparent" />
         <div
