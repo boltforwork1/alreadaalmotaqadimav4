@@ -19,8 +19,8 @@ import {
   ShieldCheck,
 } from 'lucide-react';
 import ServiceCard, { type ServiceCardItem } from '@/components/ServiceCard';
-import TouristServiceCard from '@/components/TouristServiceCard';
-import { touristServices } from '@/data/touristServices';
+import ShowcaseServiceCard from '@/components/ShowcaseServiceCard';
+import { showcaseCategories } from '@/data/serviceShowcase';
 
 const services: ServiceCardItem[] = [
   {
@@ -214,8 +214,38 @@ export default function Services() {
             viewport={{ once: true, margin: '-80px' }}
             className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
           >
-            {touristServices.map((service) => (
-              <TouristServiceCard key={service.key} service={service} />
+            {showcaseCategories.touristServices.services.map((service) => (
+              <ShowcaseServiceCard key={service.key} category="touristServices" service={service} />
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Social Media Marketing */}
+      <section className="bg-[#f7f8fa] py-20">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.4 }}
+            className="text-center"
+          >
+            <h2 className="font-display text-3xl font-bold text-navy-900">{t('Services.socialMedia.title')}</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-base leading-relaxed text-navy-500">
+              {t('Services.socialMedia.subtitle')}
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-80px' }}
+            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+          >
+            {showcaseCategories.socialMedia.services.map((service) => (
+              <ShowcaseServiceCard key={service.key} category="socialMedia" service={service} />
             ))}
           </motion.div>
         </div>

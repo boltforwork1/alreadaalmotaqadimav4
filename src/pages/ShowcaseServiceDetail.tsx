@@ -1,24 +1,27 @@
 import { motion } from 'framer-motion';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, Clock, Route, Star, Ticket } from 'lucide-react';
-import TouristConsultationForm from '@/components/TouristConsultationForm';
-import { findTouristService } from '@/data/touristServices';
+import { ArrowLeft, Clock } from 'lucide-react';
+import ShowcaseConsultationForm from '@/components/ShowcaseConsultationForm';
+import { findShowcaseService, type ShowcaseCategory } from '@/data/serviceShowcase';
 import NotFound from '@/pages/NotFound';
-
-const handleIcons = [Ticket, Star, Route];
 
 type HandleEntry = { title: string; description: string };
 
-export default function TouristServiceDetail() {
-  const { t } = useTranslation();
+type ShowcaseServiceDetailProps = {
+  category: ShowcaseCategory;
+};
+
+export default function ShowcaseServiceDetail({ category }: ShowcaseServiceDetailProps) {
+  const { t, i18n } = useTranslation();
   const { serviceKey } = useParams();
-  const service = findTouristService(serviceKey);
+  const service = findShowcaseService(category, serviceKey);
 
   if (!service) return <NotFound />;
 
-  const base = `Services.touristServices.items.${service.key}`;
+  const base = `Services.${category}.items.${service.key}`;
   const handle = t(`${base}.handle`, { returnObjects: true }) as HandleEntry[];
+  const hasDescription = i18n.exists(`${base}.description`);
 
   return (
     <main className="pt-28">
@@ -45,10 +48,10 @@ export default function TouristServiceDetail() {
               className="group inline-flex items-center gap-2 text-sm font-medium text-slate-300 transition-colors duration-200 hover:text-teal-300"
             >
               <ArrowLeft className="h-4 w-4 transition-transform duration-200 group-hover:-translate-x-1 rtl:rotate-180" />
-              {t('Services.touristServices.backToServices')}
+              {t(`Services.${category}.backToServices`)}
             </Link>
             <span className="mt-6 block text-sm font-semibold uppercase tracking-wide text-teal-400">
-              {t('Services.touristServices.title')}
+              {t(`Services.${category}.title`)}
             </span>
             <h1 className="mt-3 font-display text-4xl font-bold leading-[1.15] text-white lg:text-5xl">
               {t(`${base}.name`)}
@@ -68,14 +71,16 @@ export default function TouristServiceDetail() {
               transition={{ duration: 0.5 }}
               className="lg:col-span-2"
             >
-              <p className="text-lg leading-relaxed text-navy-600">{t(`${base}.description`)}</p>
+              {hasDescription && (
+                <p className="text-lg leading-relaxed text-navy-600">{t(`${base}.description`)}</p>
+              )}
 
               <h2 className="mt-12 font-display text-2xl font-bold text-navy-900">
-                {t('Services.touristServices.handleTitle')}
+                {t(`Services.${category}.handleTitle`)}
               </h2>
               <div className="mt-6 grid gap-4 sm:grid-cols-3">
                 {handle.map((entry, i) => {
-                  const Icon = handleIcons[i] ?? Ticket;
+                  const Icon = service.handleIcons[i];
                   return (
                     <div
                       key={entry.title}
@@ -97,7 +102,7 @@ export default function TouristServiceDetail() {
                 </div>
                 <div>
                   <h3 className="font-display text-lg font-bold text-navy-950">
-                    {t('Services.touristServices.processingTimeTitle')}
+                    {t(`Services.${category}.processingTimeTitle`)}
                   </h3>
                   <p className="mt-1 text-sm leading-relaxed text-navy-900">{t(`${base}.processingTime`)}</p>
                 </div>
@@ -106,7 +111,7 @@ export default function TouristServiceDetail() {
 
             <aside className="lg:col-span-1">
               <div className="lg:sticky lg:top-28">
-                <TouristConsultationForm />
+                <ShowcaseConsultationForm category={category} />
               </div>
             </aside>
           </div>

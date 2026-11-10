@@ -3,15 +3,16 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowRight, Check } from 'lucide-react';
 import { serviceCardVariants } from '@/components/ServiceCard';
-import type { TouristService } from '@/data/touristServices';
+import { showcaseCategories, type ShowcaseCategory, type ShowcaseService } from '@/data/serviceShowcase';
 
-type TouristServiceCardProps = {
-  service: TouristService;
+type ShowcaseServiceCardProps = {
+  category: ShowcaseCategory;
+  service: ShowcaseService;
 };
 
-export default function TouristServiceCard({ service }: TouristServiceCardProps) {
+export default function ShowcaseServiceCard({ category, service }: ShowcaseServiceCardProps) {
   const { t } = useTranslation();
-  const base = `Services.touristServices.items.${service.key}`;
+  const base = `Services.${category}.items.${service.key}`;
   const bullets = t(`${base}.bullets`, { returnObjects: true }) as string[];
   const Icon = service.icon;
 
@@ -50,10 +51,10 @@ export default function TouristServiceCard({ service }: TouristServiceCardProps)
         </ul>
 
         <Link
-          to={`/tourist-services/${service.key}`}
+          to={`${showcaseCategories[category].detailPath}/${service.key}`}
           className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-teal-300 px-4 py-3 text-sm font-semibold text-navy-950 shadow-sm transition-all duration-200 hover:bg-teal-400 hover:shadow-md"
         >
-          {t('Services.touristServices.learnMore')}
+          {t(`Services.${category}.learnMore`)}
           <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
         </Link>
       </div>

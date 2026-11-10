@@ -28,7 +28,8 @@ import GdrfaServices from '@/pages/GdrfaServices';
 import RtaServices from '@/pages/RtaServices';
 import SiraServices from '@/pages/SiraServices';
 import NotaryServices from '@/pages/NotaryServices';
-import TouristServiceDetail from '@/pages/TouristServiceDetail';
+import ShowcaseServiceDetail from '@/pages/ShowcaseServiceDetail';
+import { showcaseCategories, type ShowcaseCategory } from '@/data/serviceShowcase';
 import NotFound from '@/pages/NotFound';
 
 export default function App() {
@@ -63,7 +64,13 @@ export default function App() {
           <Route path="/rta-services" element={<RtaServices />} />
           <Route path="/sira-services" element={<SiraServices />} />
           <Route path="/notary-services" element={<NotaryServices />} />
-          <Route path="/tourist-services/:serviceKey" element={<TouristServiceDetail />} />
+          {(Object.keys(showcaseCategories) as ShowcaseCategory[]).map((category) => (
+            <Route
+              key={category}
+              path={`${showcaseCategories[category].detailPath}/:serviceKey`}
+              element={<ShowcaseServiceDetail category={category} />}
+            />
+          ))}
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

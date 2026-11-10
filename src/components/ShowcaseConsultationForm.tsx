@@ -1,13 +1,18 @@
 import type { FormEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mail, Phone, Send, User } from 'lucide-react';
+import type { ShowcaseCategory } from '@/data/serviceShowcase';
 
 const inputClass =
   'w-full rounded-lg border border-slate-200 bg-slate-50 py-2.5 ps-10 pe-3 text-start text-sm text-navy-900 placeholder:text-navy-400 transition-colors focus:border-teal-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-teal-500/20';
 
-export default function TouristConsultationForm() {
+type ShowcaseConsultationFormProps = {
+  category: ShowcaseCategory;
+};
+
+export default function ShowcaseConsultationForm({ category }: ShowcaseConsultationFormProps) {
   const { t } = useTranslation();
-  const consultation = 'Services.touristServices.consultation';
+  const consultation = `Services.${category}.consultation`;
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();

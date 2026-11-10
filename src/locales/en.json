@@ -702,6 +702,63 @@
         }
       }
     },
+    "socialMedia": {
+      "title": "Social Media Marketing",
+      "subtitle": "Grow your digital presence and engage your audience with our expert marketing solutions.",
+      "learnMore": "Learn More",
+      "backToServices": "Back to all services",
+      "handleTitle": "What We Handle",
+      "processingTimeTitle": "Typical Processing Time",
+      "consultation": {
+        "title": "Get a Free Consultation",
+        "subtitle": "Share your details and our team will call you back to discuss your marketing goals.",
+        "fullName": "Full Name",
+        "phone": "Phone",
+        "email": "Email",
+        "submit": "Request Callback"
+      },
+      "items": {
+        "socialMediaManagement": {
+          "name": "Social Media Management",
+          "subtitle": "Complete management of your brand's social presence.",
+          "bullets": ["Content creation", "Community management", "Performance analytics", "Multi-platform strategy"],
+          "imageAlt": "Smartphone displaying social media content on a desk",
+          "headerSubtitle": "Build a loyal audience and increase engagement with consistent, high-quality content.",
+          "handle": [
+            { "title": "Content Calendar", "description": "Strategic planning and scheduling of posts." },
+            { "title": "Visual Assets", "description": "Custom graphics, reels, and video content." },
+            { "title": "Community Engagement", "description": "Professional handling of comments and direct messages." }
+          ],
+          "processingTime": "Monthly ongoing support with detailed weekly performance reports."
+        },
+        "paidAdvertising": {
+          "name": "Paid Advertising (PPC)",
+          "subtitle": "Data-driven ad campaigns for maximum ROI.",
+          "bullets": ["Meta & LinkedIn Ads", "Google Ads integration", "Audience targeting", "Conversion tracking"],
+          "imageAlt": "Laptop displaying an analytics dashboard with campaign data",
+          "headerSubtitle": "Reach your ideal customers precisely when they are ready to buy.",
+          "handle": [
+            { "title": "Campaign Strategy", "description": "Targeting the right demographics and interests." },
+            { "title": "Ad Creatives", "description": "Compelling copy and high-converting visual designs." },
+            { "title": "A/B Testing", "description": "Continuous optimization for lower acquisition costs." }
+          ],
+          "processingTime": "Campaigns are typically launched within 3-5 days after creative approval."
+        },
+        "brandIdentity": {
+          "name": "Brand Identity & Strategy",
+          "subtitle": "Establish a powerful and memorable digital brand.",
+          "bullets": ["Logo & visual identity", "Brand voice guidelines", "Competitor analysis", "Digital positioning"],
+          "imageAlt": "Branding materials and color palettes laid out on a table",
+          "headerSubtitle": "Differentiate your business with a cohesive brand identity that speaks directly to your target audience.",
+          "handle": [
+            { "title": "Visual Identity", "description": "Professional logos, typography, and color palettes." },
+            { "title": "Brand Guidelines", "description": "Ensuring consistent messaging across all channels." },
+            { "title": "Market Research", "description": "Analyzing competitors and identifying market trends." }
+          ],
+          "processingTime": "Initial brand concepts and strategies are delivered within 7-10 working days."
+        }
+      }
+    },
     "corporateServices": {
       "title": "Our Corporate Services",
       "featured": {
