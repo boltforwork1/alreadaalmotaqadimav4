@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, Briefcase, ShieldCheck, Check, CircleCheck as CheckCircle, Building2, Globe as Globe2, Archive, Award, Stamp, UserCheck, Landmark, Plane, ShoppingCart, ChevronDown, MapPin } from 'lucide-react';
+import { ArrowRight, Briefcase, ShieldCheck, Check, CircleCheck as CheckCircle, Building2, Globe as Globe2, Archive, Award, Stamp, UserCheck, Landmark, Plane, ShoppingCart, ChevronDown, MapPin, Compass } from 'lucide-react';
 import AnimatedCounter from '@/components/AnimatedCounter';
 
 function WhatsAppIcon({ className }: { className?: string }) {
@@ -364,6 +364,38 @@ export default function Home() {
                 </p>
               </motion.div>
             ))}
+
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: '-60px' }}
+              transition={{ duration: 0.45 }}
+              className="group flex flex-col gap-6 rounded-2xl border-2 border-teal-300 bg-gradient-to-br from-teal-50 to-white p-8 shadow-lg shadow-teal-500/10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-teal-500/20 sm:p-10 md:col-span-2 md:flex-row md:items-center md:justify-between lg:col-span-4"
+            >
+              <div className="flex items-start gap-5">
+                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-teal-100 transition-colors duration-300 group-hover:bg-teal-200">
+                  <Compass className="h-9 w-9 text-teal-500" strokeWidth={1.75} />
+                </div>
+                <div>
+                  <span className="rounded-full bg-teal-500 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
+                    {t('Home.services.tourism.eyebrow')}
+                  </span>
+                  <h3 className="mt-3 font-display text-xl font-bold text-slate-900 sm:text-2xl">
+                    {t('Home.services.tourism.title')}
+                  </h3>
+                  <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
+                    {t('Home.services.tourism.description')}
+                  </p>
+                </div>
+              </div>
+              <Link
+                to="/services"
+                className="inline-flex shrink-0 items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-gradient-to-r from-teal-500 to-teal-400 px-6 py-3 text-base font-semibold text-navy-900 shadow-lg shadow-teal-500/25 transition-all duration-200 hover:shadow-xl hover:shadow-teal-500/40 hover:brightness-105"
+              >
+                {t('Home.services.tourism.cta')}
+                <ArrowRight className="h-5 w-5 transition-transform duration-200 group-hover:translate-x-0.5" />
+              </Link>
+            </motion.div>
           </div>
 
           {/* View All Services CTA */}

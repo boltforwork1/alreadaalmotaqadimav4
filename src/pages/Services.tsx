@@ -17,24 +17,16 @@ import {
   Stamp,
   Car,
   ShieldCheck,
+  Building2,
+  Landmark,
+  Tent,
+  Ship,
+  FerrisWheel,
+  Gauge,
 } from 'lucide-react';
 
-type ServiceKey =
-  | 'tradeLicense'
-  | 'notaryPublic'
-  | 'mohre'
-  | 'gdrfa'
-  | 'sira'
-  | 'rta'
-  | 'proServices'
-  | 'goldenVisa'
-  | 'emiratesId'
-  | 'bankAccount'
-  | 'immigration'
-  | 'liquidation';
-
 type Service = {
-  key: ServiceKey;
+  key: string;
   path: string;
   icon: typeof XCircle;
   image?: string;
@@ -115,6 +107,45 @@ const services: Service[] = [
   },
 ];
 
+const touristServices: Service[] = [
+  {
+    key: 'burjKhalifa',
+    path: '/contact',
+    icon: Building2,
+    image: 'https://images.pexels.com/photos/10619945/pexels-photo-10619945.jpeg?auto=compress&cs=tinysrgb&w=1000',
+  },
+  {
+    key: 'cityTours',
+    path: '/contact',
+    icon: Landmark,
+    image: 'https://images.pexels.com/photos/36151739/pexels-photo-36151739.jpeg?auto=compress&cs=tinysrgb&w=1000',
+  },
+  {
+    key: 'desertSafari',
+    path: '/contact',
+    icon: Tent,
+    image: 'https://images.pexels.com/photos/7817185/pexels-photo-7817185.jpeg?auto=compress&cs=tinysrgb&w=1000',
+  },
+  {
+    key: 'dhowCruise',
+    path: '/contact',
+    icon: Ship,
+    image: 'https://images.pexels.com/photos/33516491/pexels-photo-33516491.jpeg?auto=compress&cs=tinysrgb&w=1000',
+  },
+  {
+    key: 'dubaiParks',
+    path: '/contact',
+    icon: FerrisWheel,
+    image: 'https://images.pexels.com/photos/749061/pexels-photo-749061.jpeg?auto=compress&cs=tinysrgb&w=1000',
+  },
+  {
+    key: 'ferrariWorld',
+    path: '/contact',
+    icon: Gauge,
+    image: 'https://images.pexels.com/photos/36329344/pexels-photo-36329344.jpeg?auto=compress&cs=tinysrgb&w=1000',
+  },
+];
+
 const heroServiceIcons: Record<string, typeof FileText> = {
   tradeLicense: FileText,
   employee: UsersIcon,
@@ -146,6 +177,73 @@ const governmentPartners = [
   { key: 'municipality', logo: '/images/pages/muni.png' },
   { key: 'sira', logo: '/images/pages/sira.png' },
 ];
+
+type ServiceCardProps = {
+  item: Service;
+  namespace: string;
+  learnMoreLabel: string;
+  features?: string[];
+};
+
+function ServiceCard({ item, namespace, learnMoreLabel, features }: ServiceCardProps) {
+  const { t } = useTranslation();
+  return (
+    <motion.div
+      variants={cardVariants}
+      whileHover={{ y: -8 }}
+      transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+      className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-xl"
+    >
+      {item.image && (
+        <div className="relative h-40 overflow-hidden">
+          <img
+            src={item.image}
+            alt={t(`${namespace}.items.${item.key}.imageAlt`)}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/55 via-transparent to-transparent" />
+          <div className="absolute bottom-3 start-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy-950/85 text-teal-300 backdrop-blur-sm">
+            <item.icon className="h-5 w-5" strokeWidth={1.75} />
+          </div>
+        </div>
+      )}
+      <div className="flex flex-1 flex-col p-6">
+        {!item.image && (
+          <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-teal-50 transition-colors duration-300 group-hover:bg-teal-100">
+            <item.icon className="h-8 w-8 text-teal-500" strokeWidth={1.75} />
+          </div>
+        )}
+        <h3 className="font-display text-lg font-bold text-navy-900">
+          {t(`${namespace}.items.${item.key}.name`)}
+        </h3>
+        <p className="mt-2 text-sm leading-relaxed text-navy-500">
+          {t(`${namespace}.items.${item.key}.description`)}
+        </p>
+        <div className="mt-5 flex-1">
+          {features && (
+            <ul className="space-y-2.5">
+              {features.map((feature) => (
+                <li key={feature} className="flex items-start gap-2.5">
+                  <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-teal-100">
+                    <Check className="h-3 w-3 text-teal-600" strokeWidth={3} />
+                  </span>
+                  <span className="text-sm leading-relaxed text-navy-600">{feature}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+        <Link
+          to={item.path}
+          className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-teal-300 bg-teal-50 px-4 py-2.5 text-sm font-semibold text-teal-700 transition-colors duration-200 group-hover:bg-teal-500 group-hover:text-white"
+        >
+          {learnMoreLabel}
+          <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
+        </Link>
+      </div>
+    </motion.div>
+  );
+}
 
 export default function Services() {
   const { t } = useTranslation();
@@ -281,62 +379,47 @@ export default function Services() {
             viewport={{ once: true, margin: '-80px' }}
             className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
           >
-            {services.map((item) => {
-              const features = t(`Services.corporateServices.items.${item.key}.features`, { returnObjects: true }) as string[];
-              return (
-                <motion.div
-                  key={item.path}
-                  variants={cardVariants}
-                  whileHover={{ y: -8 }}
-                  transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                  className="group flex flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-shadow duration-300 hover:shadow-xl"
-                >
-                  {item.image && (
-                    <div className="relative h-40 overflow-hidden">
-                      <img
-                        src={item.image}
-                        alt={t(`Services.corporateServices.items.${item.key}.imageAlt`)}
-                        className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-navy-950/55 via-transparent to-transparent" />
-                      <div className="absolute bottom-3 start-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy-950/85 text-teal-300 backdrop-blur-sm">
-                        <item.icon className="h-5 w-5" strokeWidth={1.75} />
-                      </div>
-                    </div>
-                  )}
-                  <div className="flex flex-1 flex-col p-6">
-                    {!item.image && (
-                      <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-teal-50 transition-colors duration-300 group-hover:bg-teal-100">
-                        <item.icon className="h-8 w-8 text-teal-500" strokeWidth={1.75} />
-                      </div>
-                    )}
-                    <h3 className="font-display text-lg font-bold text-navy-900">
-                      {t(`Services.corporateServices.items.${item.key}.name`)}
-                    </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-navy-500">
-                      {t(`Services.corporateServices.items.${item.key}.description`)}
-                    </p>
-                    <ul className="mt-5 flex-1 space-y-2.5">
-                      {features.map((feature) => (
-                        <li key={feature} className="flex items-start gap-2.5">
-                          <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-teal-100">
-                            <Check className="h-3 w-3 text-teal-600" strokeWidth={3} />
-                          </span>
-                          <span className="text-sm leading-relaxed text-navy-600">{feature}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    <Link
-                      to={item.path}
-                      className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg border border-teal-300 bg-teal-50 px-4 py-2.5 text-sm font-semibold text-teal-700 transition-colors duration-200 group-hover:bg-teal-500 group-hover:text-white"
-                    >
-                      {t('Services.corporateServices.learnMore')}
-                      <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1 rtl:rotate-180" />
-                    </Link>
-                  </div>
-                </motion.div>
-              );
-            })}
+            {services.map((item) => (
+              <ServiceCard
+                key={item.key}
+                item={item}
+                namespace="Services.corporateServices"
+                learnMoreLabel={t('Services.corporateServices.learnMore')}
+                features={t(`Services.corporateServices.items.${item.key}.features`, { returnObjects: true }) as string[]}
+              />
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      {/* UAE Tourist Services */}
+      <section className="bg-[#f7f8fa] py-20">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+          <motion.h2
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-80px' }}
+            transition={{ duration: 0.4 }}
+            className="text-center font-display text-3xl font-bold text-navy-900"
+          >
+            {t('Services.touristServices.title')}
+          </motion.h2>
+
+          <motion.div
+            variants={container}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, margin: '-80px' }}
+            className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3"
+          >
+            {touristServices.map((item) => (
+              <ServiceCard
+                key={item.key}
+                item={item}
+                namespace="Services.touristServices"
+                learnMoreLabel={t('Services.touristServices.bookNow')}
+              />
+            ))}
           </motion.div>
         </div>
       </section>

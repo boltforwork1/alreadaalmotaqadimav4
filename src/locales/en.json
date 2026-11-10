@@ -322,6 +322,12 @@
           "title": "Immigration & Labour",
           "description": "We undertake all kinds of Labor & Immigration Registration in Dubai, UAE for individuals and company."
         }
+      },
+      "tourism": {
+        "eyebrow": "New",
+        "title": "UAE Tourist Services",
+        "description": "Premium tourism and entertainment bookings, now offered alongside our corporate services.",
+        "cta": "Explore Tourist Services"
       }
     },
     "stats": {
@@ -593,6 +599,42 @@
         "rta": { "label": "RTA", "detail": "Transactions" },
         "corporate": { "label": "Corporate", "detail": "Bank Account" },
         "ongoing": { "label": "Ongoing", "detail": "PRO Support" }
+      }
+    },
+    "touristServices": {
+      "title": "UAE Tourist Services",
+      "bookNow": "Enquire Now",
+      "items": {
+        "burjKhalifa": {
+          "name": "Burj Khalifa Tours",
+          "description": "Experience breathtaking views from the world's tallest building. Access observation decks and enjoy a stunning panorama of the Dubai skyline.",
+          "imageAlt": "Dubai skyline seen from inside a skyscraper observation area"
+        },
+        "cityTours": {
+          "name": "City Tours",
+          "description": "Discover the rich culture and modern marvels of the UAE. Enjoy guided tours covering top landmarks, historical sites, and modern architectural wonders.",
+          "imageAlt": "Open-top tour bus on a sunny Dubai street"
+        },
+        "desertSafari": {
+          "name": "Desert Safari",
+          "description": "An exhilarating adventure in the Arabian dunes. Includes thrilling dune bashing, camel riding, traditional entertainment, and a BBQ dinner under the stars.",
+          "imageAlt": "Camel ride across the desert dunes at sunset"
+        },
+        "dhowCruise": {
+          "name": "Dhow Dinner Cruise Dubai",
+          "description": "Sail along the Dubai waters on a traditional wooden dhow. Enjoy a gourmet buffet dinner, live entertainment, and spectacular illuminated skyline views.",
+          "imageAlt": "Traditional dhow boat on the water at night"
+        },
+        "dubaiParks": {
+          "name": "Dubai Parks and Resorts",
+          "description": "A thrilling day out for the whole family. Access multiple world-class theme parks featuring roller coasters, live shows, and interactive attractions.",
+          "imageAlt": "Roller coaster ride against a clear blue sky"
+        },
+        "ferrariWorld": {
+          "name": "Ferrari World Tours",
+          "description": "Experience the ultimate adrenaline rush at the world's first Ferrari-branded theme park in Abu Dhabi, home to the fastest roller coaster on the planet.",
+          "imageAlt": "Red Ferrari race car on a track"
+        }
       }
     },
     "corporateServices": {
