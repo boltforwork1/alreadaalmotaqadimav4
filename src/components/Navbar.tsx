@@ -85,17 +85,21 @@ export default function Navbar() {
       <motion.nav
         initial={false}
         animate={{
-          backgroundColor: scrolled ? 'rgba(15, 23, 42, 0.98)' : 'rgba(15, 23, 42, 0.94)',
-          borderColor: scrolled ? 'rgba(212, 175, 55, 0.2)' : 'rgba(255, 255, 255, 0.08)',
-          boxShadow: scrolled ? '0 8px 32px rgba(0, 0, 0, 0.4)' : '0 0 0 rgba(0,0,0,0)',
+          backgroundColor: scrolled ? 'rgba(5, 57, 68, 0.98)' : 'rgba(8, 77, 89, 0.96)',
+          borderColor: scrolled ? 'rgba(220, 170, 76, 0.55)' : 'rgba(255, 255, 255, 0.16)',
+          boxShadow: scrolled ? '0 10px 34px rgba(3, 39, 47, 0.38)' : '0 0 0 rgba(0,0,0,0)',
         }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
-        className="border-b backdrop-blur-xl"
+        className="border-b border-solid backdrop-blur-xl"
       >
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-12">
           {/* Logo */}
-          <Link to="/" className="group flex items-center">
-            <img src="/logo4.png" alt={t('Navbar.logoAlt')} className="h-14 w-auto" />
+          <Link to="/" className="group flex items-center rounded-xl p-1 transition-transform duration-200 hover:scale-[1.02]">
+            <img
+              src="/images/photo_2026-11-10_12-39-02-removebg-preview.png"
+              alt={t('Navbar.logoAlt')}
+              className="h-16 w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
+            />
           </Link>
 
           {/* Desktop nav */}
@@ -107,14 +111,14 @@ export default function Navbar() {
                   key={link.path}
                   to={link.path}
                   className={`relative rounded-lg px-4 py-2 text-sm font-medium transition-colors duration-200 ${
-                    active ? 'text-teal-400' : 'text-slate-200 hover:text-teal-400'
+                    active ? 'text-[#f1c56b]' : 'text-[#edf5f5] hover:text-[#f1c56b]'
                   }`}
                 >
                   {t(`Navbar.links.${link.key}`)}
                   {active && (
                     <motion.span
                       layoutId="nav-active"
-                      className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-teal-500"
+                      className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-[#dca84c]"
                     />
                   )}
                 </Link>
@@ -133,13 +137,13 @@ export default function Navbar() {
                   <Link
                     to={dd.path}
                     className={`flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium transition-colors duration-200 ${
-                      active ? 'text-teal-400' : 'text-slate-200 group-hover:text-teal-400'
+                      active ? 'text-[#f1c56b]' : 'text-[#edf5f5] group-hover:text-[#f1c56b]'
                     }`}
                   >
                     {t(`Navbar.links.${dd.key}`)}
                     <ChevronDown
                       className={`h-4 w-4 transition-transform duration-200 group-hover:rotate-180 ${
-                        active ? 'text-teal-400' : 'text-slate-400 group-hover:text-teal-400'
+                        active ? 'text-[#f1c56b]' : 'text-[#b9d0d3] group-hover:text-[#f1c56b]'
                       }`}
                     />
                   </Link>
@@ -151,17 +155,17 @@ export default function Navbar() {
                         : 'invisible -translate-y-1 opacity-0'
                     }`}
                   >
-                    <div className="overflow-hidden rounded-xl border border-navy-700/80 bg-navy-950 shadow-2xl shadow-black/50">
+                    <div className="overflow-hidden rounded-xl border border-[#dca84c]/30 bg-[#053944] shadow-2xl shadow-[#032730]/50">
                       {dd.children.slice(0, dd.path === '/services' ? 5 : undefined).map((child) => {
                         const childActive = isActive(child.path);
                         return (
                           <Link
                             key={child.path}
                             to={child.path}
-                            className={`block border-b border-navy-800 px-5 py-3 text-sm font-medium transition-colors duration-200 last:border-b-0 ${
+                            className={`block border-b border-[#0f6674] px-5 py-3 text-sm font-medium transition-colors duration-200 last:border-b-0 ${
                               childActive
-                                ? 'bg-teal-500/10 text-teal-400'
-                                : 'text-slate-300 hover:bg-navy-800 hover:text-teal-400'
+                                ? 'bg-[#dca84c]/15 text-[#f1c56b]'
+                                : 'text-[#d7e7e8] hover:bg-[#0b5968] hover:text-[#f1c56b]'
                             }`}
                           >
                             {t(`Navbar.dropdowns.${dd.key}.${child.key}`)}
@@ -171,7 +175,7 @@ export default function Navbar() {
                       {dd.path === '/services' && (
                         <Link
                           to="/services"
-                          className="flex items-center justify-between border-t-2 border-teal-500/30 bg-teal-500/5 px-5 py-3 text-sm font-bold text-teal-400 transition-colors duration-200 hover:bg-teal-500/15"
+                          className="flex items-center justify-between border-t-2 border-[#dca84c]/50 bg-[#dca84c]/10 px-5 py-3 text-sm font-bold text-[#f1c56b] transition-colors duration-200 hover:bg-[#dca84c]/20"
                         >
                           {t('Navbar.viewAllServices')}
                           <ArrowRightIcon className="h-4 w-4" />
@@ -190,14 +194,14 @@ export default function Navbar() {
                   key={link.path}
                   to={link.path}
                   className={`relative rounded-lg px-4 py-2 text-sm font-medium transition-colors duration-200 ${
-                    active ? 'text-teal-400' : 'text-slate-200 hover:text-teal-400'
+                    active ? 'text-[#f1c56b]' : 'text-[#edf5f5] hover:text-[#f1c56b]'
                   }`}
                 >
                   {t(`Navbar.links.${link.key}`)}
                   {active && (
                     <motion.span
                       layoutId="nav-active"
-                      className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-teal-500"
+                      className="absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-[#dca84c]"
                     />
                   )}
                 </Link>
@@ -210,7 +214,7 @@ export default function Navbar() {
             <LanguageSwitcher />
             <Link
               to="/contact"
-              className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-teal-500 to-teal-400 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-teal-500/25 transition-all duration-200 hover:bg-teal-600 hover:shadow-xl hover:shadow-teal-500/40"
+              className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#dca84c] to-[#f1c56b] px-5 py-2.5 text-sm font-semibold text-[#053944] shadow-lg shadow-[#dca84c]/25 transition-all duration-200 hover:from-[#edbd5c] hover:to-[#f7d88c] hover:shadow-xl hover:shadow-[#dca84c]/40"
             >
               {t('Navbar.requestQuote')}
               <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
@@ -222,7 +226,7 @@ export default function Navbar() {
             <LanguageSwitcher />
             <button
               onClick={() => setMobileOpen((v) => !v)}
-              className="flex h-10 w-10 items-center justify-center rounded-lg text-slate-100 transition-colors hover:bg-white/10"
+              className="flex h-10 w-10 items-center justify-center rounded-lg text-[#f1c56b] transition-colors hover:bg-white/10"
               aria-label={t('Navbar.toggleMenu')}
             >
               {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -239,7 +243,7 @@ export default function Navbar() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-0 top-20 z-40 bg-navy-900/40 backdrop-blur-sm lg:hidden"
+            className="fixed inset-0 top-20 z-40 bg-[#032730]/55 backdrop-blur-sm lg:hidden"
             onClick={() => setMobileOpen(false)}
           >
             <motion.div
@@ -247,7 +251,7 @@ export default function Navbar() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -16, opacity: 0 }}
               transition={{ duration: 0.25, ease: 'easeOut' }}
-              className="mx-4 mt-2 max-h-[calc(100dvh-6rem)] overflow-y-auto overscroll-contain rounded-2xl border border-navy-100 bg-white shadow-2xl"
+              className="mx-4 mt-2 max-h-[calc(100dvh-6rem)] overflow-y-auto overscroll-contain rounded-2xl border border-[#dca84c]/35 bg-[#f8fbfa] shadow-2xl"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex flex-col p-3">
@@ -259,8 +263,8 @@ export default function Navbar() {
                       to={link.path}
                       className={`rounded-xl px-4 py-3 text-base font-medium transition-colors ${
                         active
-                          ? 'bg-teal-50 text-teal-600'
-                          : 'text-navy-700 hover:bg-navy-50 hover:text-teal-500'
+                          ? 'bg-[#dca84c]/15 text-[#075667]'
+                          : 'text-[#174752] hover:bg-[#eaf3f2] hover:text-[#a96f1f]'
                       }`}
                     >
                       {t(`Navbar.links.${link.key}`)}
@@ -274,13 +278,13 @@ export default function Navbar() {
                       to={dd.path}
                       className={`rounded-xl px-4 py-3 text-base font-medium transition-colors ${
                         isDropdownActive(dd)
-                          ? 'bg-teal-50 text-teal-600'
-                          : 'text-navy-700 hover:bg-navy-50 hover:text-teal-500'
+                          ? 'bg-[#dca84c]/15 text-[#075667]'
+                          : 'text-[#174752] hover:bg-[#eaf3f2] hover:text-[#a96f1f]'
                       }`}
                     >
                       {t(`Navbar.links.${dd.key}`)}
                     </Link>
-                    <div className="ms-3 border-s border-navy-100 ps-3">
+                    <div className="ms-3 border-s border-[#b8d1d3] ps-3">
                       {dd.children.map((child) => {
                         const active = isActive(child.path);
                         return (
@@ -289,8 +293,8 @@ export default function Navbar() {
                             to={child.path}
                             className={`block rounded-lg px-4 py-2.5 text-sm transition-colors ${
                               active
-                                ? 'bg-teal-50 text-teal-600'
-                                : 'text-navy-600 hover:bg-navy-50 hover:text-teal-500'
+                                ? 'bg-[#dca84c]/15 text-[#075667]'
+                                : 'text-[#275760] hover:bg-[#eaf3f2] hover:text-[#a96f1f]'
                             }`}
                           >
                             {t(`Navbar.dropdowns.${dd.key}.${child.key}`)}
@@ -309,8 +313,8 @@ export default function Navbar() {
                       to={link.path}
                       className={`rounded-xl px-4 py-3 text-base font-medium transition-colors ${
                         active
-                          ? 'bg-teal-50 text-teal-600'
-                          : 'text-navy-700 hover:bg-navy-50 hover:text-teal-500'
+                          ? 'bg-[#dca84c]/15 text-[#075667]'
+                          : 'text-[#174752] hover:bg-[#eaf3f2] hover:text-[#a96f1f]'
                       }`}
                     >
                       {t(`Navbar.links.${link.key}`)}
@@ -318,19 +322,19 @@ export default function Navbar() {
                   );
                 })}
 
-                <div className="mt-2 flex items-center gap-3 border-t border-navy-100 pt-3">
+                <div className="mt-2 flex items-center gap-3 border-t border-[#c6d9da] pt-3">
                   <a
                     href="https://wa.me/971504229389"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-navy-200 text-navy-700 transition-colors hover:border-teal-400 hover:text-teal-600"
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[#9bbfc2] text-[#075667] transition-colors hover:border-[#dca84c] hover:text-[#a96f1f]"
                     aria-label={t('Navbar.whatsappLabel')}
                   >
                     <MessageCircle className="h-5 w-5" />
                   </a>
                   <Link
                     to="/contact"
-                    className="flex flex-1 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-teal-500 to-teal-400 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-teal-500/25 hover:bg-teal-600"
+                    className="flex flex-1 items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#dca84c] to-[#f1c56b] px-5 py-2.5 text-sm font-semibold text-[#053944] shadow-lg shadow-[#dca84c]/25 hover:from-[#edbd5c] hover:to-[#f7d88c]"
                   >
                     {t('Navbar.requestQuote')}
                     <ArrowRight className="h-4 w-4" />
