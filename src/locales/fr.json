@@ -1,0 +1,1664 @@
+{
+  "Navbar": {
+    "links": {
+      "home": "Accueil",
+      "businessSetup": "Création d'entreprise",
+      "services": "Services",
+      "about": "À propos",
+      "contact": "Contact"
+    },
+    "dropdowns": {
+      "businessSetup": {
+        "mainlandLicense": "Licence Mainland",
+        "freeZoneLicense": "Licence Free Zone",
+        "freelanceLicenseAbuDhabi": "Licence Freelance – Abu Dhabi",
+        "eTraderLicenseDubai": "Licence E-Trader – Dubai"
+      },
+      "services": {
+        "monthlyProContract": "Contrat PRO Mensuel",
+        "tradeLicense": "Licence Commerciale",
+        "mohreServices": "Services MOHRE",
+        "emiratesIdServices": "Services Emirates ID",
+        "uaeGoldenVisa": "Golden Visa EAU",
+        "proServices": "Services PRO",
+        "corporateBankAccount": "Compte Bancaire d'Entreprise",
+        "immigrationRegistration": "Immigration & Enregistrement",
+        "companyLiquidation": "Liquidation d'Entreprise",
+        "gdrfaServices": "Services GDRFA",
+        "rtaServices": "Services RTA",
+        "siraServices": "Services SIRA",
+        "notaryPublicServices": "Services de Notaire Public"
+      }
+    },
+    "viewAllServices": "Voir Tous les Services",
+    "requestQuote": "Demander un Devis",
+    "toggleMenu": "Basculer le menu",
+    "logoAlt": "Al Reyada Al Motaqadima",
+    "whatsappLabel": "WhatsApp"
+  },
+
+  "ConsultationForm": {
+    "title": "Obtenez une Consultation Gratuite",
+    "subtitle": "Nos experts vous contacteront sous un jour ouvrable.",
+    "placeholders": {
+      "fullName": "Nom Complet",
+      "phoneNumber": "Numéro de Téléphone",
+      "emailAddress": "Adresse E-mail"
+    },
+    "buttons": {
+      "requestCallback": "Demander un Rappel",
+      "requestSent": "Demande Envoyée !"
+    },
+    "successMessage": "Merci ! Nous vous contacterons bientôt.",
+    "calculatorCtaText": "Ou calculez votre coût instantanément",
+    "openCostCalculator": "Ouvrir le Calculateur de Coûts"
+  },
+
+  "Footer": {
+    "tagline": "Al REYADA AL MOTAQADIMA est là pour s'assurer que les investisseurs, les entrepreneurs et les propriétaires d'entreprises ne perdent plus de sommeil à s'inquiéter des complexités de la création d'entreprise.",
+    "quickLinks": "Liens Rapides",
+    "links": {
+      "home": "Accueil",
+      "businessSetup": "Création d'Entreprise",
+      "services": "Services",
+      "aboutUs": "À Propos de Nous",
+      "contact": "Contact"
+    },
+    "contactInfo": "Informations de Contact",
+    "address": {
+      "line1": "Bureau G83, Elegant Star Business Center",
+      "line2": "Deira, Dubai, EAU"
+    },
+    "call": "+971 50 250 7774",
+    "whatsapp": "+971 50 422 9389",
+    "email": "info@alreyada-almotaqdima.ae",
+    "stayConnected": "Restez Connecté",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Votre e-mail",
+    "subscribed": "Merci de votre inscription !",
+    "rights": "Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions d'Utilisation"
+  },
+
+  "FloatingChatbot": {
+    "header": {
+      "title": "Assistant Intelligent Central Hub",
+      "online": "En ligne"
+    },
+    "aria": {
+      "newChat": "Démarrer une nouvelle conversation",
+      "newChatTitle": "Nouvelle Conversation",
+      "closeChat": "Fermer la conversation",
+      "openAssistant": "Ouvrir l'assistant",
+      "closeAssistant": "Fermer l'assistant",
+      "sendMessage": "Envoyer le message"
+    },
+    "welcome": "Bienvenue chez Central Hub. Comment pouvons-nous vous aider dans votre création d'entreprise aux EAU aujourd'hui ?",
+    "placeholder": "Posez une question...",
+    "suggestions": "Suggestions",
+    "quickOptions": {
+      "cost": "Combien coûte la création d'entreprise ?",
+      "legal": "Quelles sont les conditions légales ?",
+      "compare": "Mainland vs Free Zone ?",
+      "sponsor": "Ai-je besoin d'un sponsor local ?",
+      "time": "Combien de temps cela prend-il ?",
+      "consultant": "Parler à un Consultant d'Entreprise"
+    },
+    "replies": {
+      "costFreeZone": "La création d'entreprise en Free Zone commence à environ 4 888 AED, avec 100 % de propriété étrangère, zéro impôt sur les sociétés (dans la plupart des zones) et un délai rapide de 3 à 5 jours. Utilisez notre Calculateur de Coûts pour un devis exact basé sur votre activité et votre nombre de visas.",
+      "costFreeZone_actions": {
+        "openCostCalculator": "Ouvrir le Calculateur de Coûts",
+        "freeZoneBenefits": "Avantages de la Free Zone"
+      },
+      "costMainland": "La création d'entreprise en Mainland commence à environ 12 000 AED. Depuis 2021, la plupart des activités commerciales permettent une propriété 100 % étrangère — aucun sponsor local requis. Obtenez un chiffre exact avec notre Calculateur de Coûts.",
+      "costMainland_actions": {
+        "openCostCalculator": "Ouvrir le Calculateur de Coûts",
+        "exploreMainlandSetup": "Explorer la Création en Mainland"
+      },
+      "costGeneral": "La création d'entreprise aux EAU commence à 4 888 AED pour les forfaits Free Zone et 12 000 AED pour le Mainland. Vous pouvez utiliser notre Calculateur de Coûts instantané pour un devis précis !",
+      "costGeneral_actions": {
+        "openCostCalculator": "Ouvrir le Calculateur de Coûts",
+        "talkOnWhatsApp": "Discuter sur WhatsApp"
+      },
+      "legal": "Les investisseurs étrangers bénéficient d'une propriété 100 % étrangère dans les Free Zones et le Mainland (selon la Loi sur les Sociétés Commerciales), avec 0 % d'impôt sur le revenu personnel.",
+      "legal_actions": {
+        "exploreMainlandSetup": "Explorer la Création en Mainland",
+        "freeZoneBenefits": "Avantages de la Free Zone"
+      },
+      "compare": "Le Mainland vous permet de commercer partout aux EAU et de soumissionner pour des contrats gouvernementaux. Les Free Zones offrent un rapatriement 100 % du capital et zéro droit de douane dans la zone.",
+      "compare_actions": {
+        "mainlandSetup": "Création en Mainland",
+        "freeZoneSetup": "Création en Free Zone"
+      },
+      "sponsor": "Excellente nouvelle ! Depuis la mise à jour de la loi de 2021, les investisseurs étrangers peuvent détenir 100 % de propriété dans les sociétés du Mainland pour la plupart des activités commerciales. Aucun sponsor local n'est nécessaire !",
+      "sponsor_actions": {
+        "exploreMainlandSetup": "Explorer la Création en Mainland",
+        "talkOnWhatsApp": "Discuter sur WhatsApp"
+      },
+      "timeline": "Les créations en Free Zone peuvent prendre seulement 3 à 5 jours ! Les créations en Mainland prennent généralement 1 à 2 semaines selon les approbations et le type d'activité.",
+      "timeline_actions": {
+        "freeZoneSetup": "Création en Free Zone",
+        "mainlandSetup": "Création en Mainland"
+      },
+      "goldenVisa": "Le Golden Visa des EAU accorde une résidence de 10 ans ! Il nécessite un investissement immobilier de 2 millions AED ou des critères spécifiques d'entrepreneuriat/de talent. Nous gérons l'intégralité de la demande.",
+      "goldenVisa_actions": {
+        "goldenVisaDetails": "Détails du Golden Visa",
+        "talkOnWhatsApp": "Discuter sur WhatsApp"
+      },
+      "visa": "Nous gérons les visas d'emploi, les visas des personnes à charge, l'annulation de visas et le Golden Visa de 10 ans des EAU pour les investisseurs. Notre équipe gère l'ensemble du processus de bout en bout.",
+      "visa_actions": {
+        "goldenVisaDetails": "Détails du Golden Visa",
+        "immigrationServices": "Services d'Immigration"
+      },
+      "bank": "Nous accélérons l'ouverture de comptes bancaires d'entreprise auprès des principales banques des EAU. Le processus prend généralement 10 à 30 jours selon la citoyenneté du propriétaire et les exigences de conformité.",
+      "bank_actions": {
+        "bankAccountService": "Service de Compte Bancaire"
+      },
+      "liquidation": "La liquidation d'entreprise prend environ 50 à 60 jours. Nous gérons l'audit, l'annulation des visas, la clôture de la carte d'établissement et l'annulation finale de la licence en pleine conformité.",
+      "liquidation_actions": {
+        "liquidationService": "Service de Liquidation"
+      },
+      "license": "Nous gérons l'émission de nouvelles licences commerciales, le renouvellement et les modifications d'activité. La plupart des demandes sont complétées dans les 5 à 7 jours ouvrables.",
+      "license_actions": {
+        "tradeLicenseService": "Service de Licence Commerciale"
+      },
+      "consultant": "Nos consultants sont disponibles dès maintenant sur WhatsApp pour vous accompagner étape par étape !",
+      "consultant_actions": {
+        "connectViaWhatsApp": "Se connecter via WhatsApp"
+      },
+      "fallback": "Je serais ravi de vous aider ! Pour une réponse personnalisée, connectez-vous avec nos consultants sur WhatsApp — ils vous guideront étape par étape.",
+      "fallback_actions": {
+        "connectViaWhatsApp": "Se connecter via WhatsApp"
+      }
+    },
+    "suggestionLabels": {
+      "howMuchFreeZone": "Combien coûte une Free Zone ?",
+      "howMuchMainland": "Combien coûte une licence Mainland ?",
+      "costOfVisa": "Coût d'un visa ?",
+      "whatIsGoldenVisa": "Qu'est-ce que le Golden Visa ?",
+      "needLocalSponsor": "Ai-je besoin d'un sponsor local ?",
+      "howLongSetupTake": "Combien de temps prend la création ?",
+      "mainlandVsFreeZone": "Mainland vs Free Zone ?",
+      "howToOpenBankAccount": "Comment ouvrir un compte bancaire ?",
+      "legalConditions": "Quelles sont les conditions légales ?",
+      "howToGetTradeLicense": "Comment obtenir une licence commerciale ?",
+      "howToCloseCompany": "Comment fermer une entreprise ?",
+      "speakWithConsultant": "Parler à un consultant"
+    }
+  },
+
+  "StatsBar": {
+    "defaults": {
+      "clientsServed": "Clients Servis",
+      "yearsOfExperience": "Années d'Expérience",
+      "freeZonePartners": "Partenaires Free Zone",
+      "complianceRate": "Taux de Conformité"
+    }
+  },
+
+  "Home": {
+    "hero": {
+      "badge": "Votre Partenaire de Confiance pour la Création d'Entreprise à Dubai",
+      "title": "Création d'Entreprise à Dubai &",
+      "titleHighlight": "Constitution de Société EAU & Services PRO",
+      "description": "Démarrez, gérez et développez votre entreprise aux EAU avec des services professionnels de création d'entreprise et de services gouvernementaux. Que vous ayez besoin d'une société Mainland ou Free Zone, d'une licence commerciale, de services de visa, de services PRO ou d'approbations gouvernementales, notre équipe est là pour rendre le processus simple et direct.",
+      "getStartedToday": "Commencer Aujourd'hui",
+      "whatsappNumber": "+971 50 422 9389",
+      "heroImageAlt": "Bureau de luxe à Dubai surplombant la skyline",
+      "highlights": {
+        "trusted": "Fiable",
+        "trustedDesc": "Support Professionnel",
+        "uaeExpertise": "Expertise EAU",
+        "uaeExpertiseDesc": "Connaissance Locale",
+        "endToEndService": "Service de Bout en Bout",
+        "endToEndServiceDesc": "De la Création au Développement"
+      }
+    },
+    "jurisdictions": {
+      "eyebrow": "Constitution de Société EAU",
+      "title": "Choisissez Votre Meilleure Option",
+      "subtitle": "Explorez les meilleures options pour votre entreprise. Chaque option offre des avantages uniques adaptés à différents besoins commerciaux.",
+      "items": {
+        "mainland": {
+          "name": "Licence Mainland",
+          "description": "Pour les entreprises qui souhaitent opérer directement sur le marché local des EAU.",
+          "features": [
+            "Bureau physique requis",
+            "Large gamme d'activités commerciales",
+            "Opérer sur le marché local des EAU",
+            "Options de visa investisseur et employé"
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Skyline de Dubai avec des tours d'affaires modernes"
+        },
+        "freeZone": {
+          "name": "Licence Free Zone",
+          "description": "Création d'entreprise flexible sans bureau physique dans le cadre de nos forfaits disponibles.",
+          "features": [
+            "Aucun bureau physique requis",
+            "Jusqu'à 10 visas investisseur selon la Free Zone et le forfait sélectionné",
+            "Activités d'importation et d'exportation",
+            "Vendre des produits en ligne / E-Commerce"
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Centre d'affaires Free Zone de Dubai"
+        },
+        "freelanceAbuDhabi": {
+          "name": "Licence Freelance – Abu Dhabi",
+          "description": "Travaillez indépendamment à Abu Dhabi dans le cadre d'une activité freelance éligible.",
+          "features": [
+            "Aucun bureau physique requis",
+            "Un visa de résidence pour le titulaire de la licence",
+            "Parrainage familial disponible sous conditions",
+            "Adapté aux consultants, designers et développeurs"
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Freelance travaillant dans un bureau à domicile moderne"
+        },
+        "eTrader": {
+          "name": "Licence E-Trader - Dubai",
+          "description": "Démarrez votre entreprise en ligne avec une création à moindre coût.",
+          "features": [
+            "Aucun bureau physique requis",
+            "Aucun visa de résidence inclus",
+            "Solution à moindre coût",
+            "Vendre via des plateformes en ligne éligibles telles qu'Amazon et Noon, sous réserve des exigences de la plateforme et de l'activité."
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Vendeur en ligne emballant des produits pour une entreprise e-commerce"
+        }
+      }
+    },
+    "formation": {
+      "eyebrow": "Création d'Entreprise à Dubai",
+      "title": "Création d'Entreprise à Dubai & aux EAU",
+      "description": "AL REYADA AL MOTAQADIMA BUSINESSMEN SERVICES L.L.C. fournit des services professionnels de création d'entreprise et de constitution de société aux EAU. Nous aidons les entreprises à choisir la bonne option, à gérer les procédures de licence commerciale, à préparer la documentation requise et à gérer les approbations gouvernementales nécessaires du début à la fin.",
+      "benefits": [
+        "Constitution de Société Mainland",
+        "Constitution de Société Free Zone",
+        "Licence E-Commerce",
+        "Licence Freelance – Abu Dhabi",
+        "Approbations Gouvernementales & Documentation",
+        "Support PRO Continu",
+        "Émission & Renouvellement de Licence Commerciale",
+        "Modifications d'Activité et de Licence"
+      ]
+    },
+    "services": {
+      "eyebrow": "Services de Création d'Entreprise à Dubai",
+      "title": "Services que Nous Fournissons pour Créer Votre Entreprise à Dubai EAU",
+      "viewAllServices": "Voir Tous les Services",
+      "items": {
+        "companyFormation": {
+          "title": "Constitution de Société à Dubai",
+          "description": "Créer une société à Dubai implique beaucoup de paperasse. Laissez-nous faire notre travail et concentrez-vous sur votre entreprise."
+        },
+        "companyLiquidation": {
+          "title": "Liquidation d'Entreprise",
+          "description": "Conseils et avis d'experts sur la liquidation d'entreprise et la meilleure approche de liquidation, liquidateurs à Dubai."
+        },
+        "businessLicense": {
+          "title": "Licence Commerciale",
+          "description": "Nous sommes la première entreprise de création d'entreprise et de constitution de société des EAU."
+        },
+        "proVisaServices": {
+          "title": "Services PRO & Visa",
+          "description": "Licence Commerciale, Visas d'Employés, Légalisations, Traduction & Services d'Immigration."
+        },
+        "corporateSponsor": {
+          "title": "Sponsor d'Entreprise & Nominé",
+          "description": "Établissez votre entreprise avec les principaux services de nominé d'entreprise de Dubai."
+        },
+        "bankLiaison": {
+          "title": "Liaison Bancaire & Assistance",
+          "description": "Nous pouvons vous aider à mettre en place une structure qui pourra ensuite être transformée en filiale ou bureau de représentation."
+        },
+        "governmentServices": {
+          "title": "Services Gouvernementaux",
+          "description": "Avec un accès direct aux départements et ministères du gouvernement, nous pouvons accomplir votre travail de manière très rapide."
+        },
+        "immigrationLabour": {
+          "title": "Immigration & Travail",
+          "description": "Nous entreprenons toutes sortes d'enregistrements de Travail et d'Immigration à Dubai, EAU pour les particuliers et les entreprises."
+        }
+      }
+    },
+    "stats": {
+      "clientsHelped": "Clients Aidés",
+      "yearsExperience": "Années d'Expérience",
+      "expertConsultants": "Consultants Experts",
+      "clientSatisfaction": "Satisfaction Client"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions Fréquemment Posées",
+      "subtitle": "Tout ce que vous devez savoir sur la création de votre entreprise à Dubai.",
+      "items": [
+        {
+          "q": "Pourquoi créer une entreprise Mainland aux EAU ?",
+          "a": "Les EAU sont une destination de choix offrant de nombreuses opportunités commerciales. L'emplacement du marché cible et des activités commerciales devrait guider le choix entre Dubai et Abu Dhabi."
+        },
+        {
+          "q": "Comment un étranger peut-il créer une entreprise à Dubai ?",
+          "a": "La Loi sur les Sociétés Commerciales permet une propriété 100 % étrangère. Étapes : déterminer le type d'entité, choisir le nom de l'entreprise, demander une licence commerciale, obtenir les pré-approbations, enregistrer votre entreprise et obtenir votre licence."
+        },
+        {
+          "q": "Quelle est la meilleure Free Zone pour ouvrir une société à Dubai ?",
+          "a": "Les facteurs clés incluent l'emplacement, les activités commerciales choisies et les besoins en espace de bureau. Contactez nos experts pour trouver la solution parfaite."
+        },
+        {
+          "q": "Quelle licence commerciale dois-je choisir ?",
+          "a": "Cela dépend de votre activité, de vos besoins en bureau, en visas et de votre budget. Contactez-nous et nous vous aiderons à identifier l'option appropriée."
+        },
+        {
+          "q": "Ai-je besoin d'un bureau pour une société Mainland ?",
+          "a": "Un bureau physique ou des locaux commerciaux sont généralement requis, selon l'activité et la réglementation applicable."
+        },
+        {
+          "q": "Ai-je besoin d'un bureau pour une société Free Zone ?",
+          "a": "Nos forfaits Free Zone disponibles peuvent être établis sans bureau physique. Les exigences varient selon la Free Zone et le forfait."
+        },
+        {
+          "q": "Puis-je obtenir une licence Free Zone sans visa de résidence ?",
+          "a": "Oui, certains forfaits peuvent être émis sans visa de résidence."
+        },
+        {
+          "q": "Combien de visas investisseur puis-je obtenir avec une société Free Zone ?",
+          "a": "La capacité en visas dépend de la Free Zone et du forfait sélectionné et peut atteindre jusqu'à 10 visas investisseur dans les forfaits applicables."
+        },
+        {
+          "q": "Puis-je créer une entreprise en tant que Freelance ?",
+          "a": "Les professionnels éligibles peuvent obtenir une licence freelance selon leur activité et leurs qualifications."
+        },
+        {
+          "q": "Pouvez-vous gérer mon visa après la création de l'entreprise ?",
+          "a": "Oui. Nous fournissons des services liés aux visas et à l'immigration dans le cadre de notre support commercial."
+        },
+        {
+          "q": "Fournissez-vous des services de renouvellement de licence ?",
+          "a": "Oui. Nous assistons avec le renouvellement de licence et diverses modifications de licence."
+        },
+        {
+          "q": "Fournissez-vous l'enregistrement de marques ?",
+          "a": "Oui. Nous fournissons un support pour les procédures d'enregistrement de marques aux EAU."
+        },
+        {
+          "q": "Fournissez-vous des services municipaux ?",
+          "a": "Oui. Nous assistons avec les permis et approbations municipaux requis pour les activités commerciales et locaux éligibles."
+        }
+      ],
+      "stillHaveQuestions": "Vous avez encore des questions ?",
+      "ctaButton": "Contactez-nous dès aujourd'hui pour une Consultation Gratuite"
+    },
+    "quote": {
+      "eyebrow": "Commencer",
+      "title": "Demander un Devis Gratuit",
+      "subtitle": "Parlez-nous un peu de vos objectifs commerciaux et nos consultants vous contacteront bientôt.",
+      "fullNameLabel": "Nom Complet",
+      "fullNamePlaceholder": "Entrez votre nom complet",
+      "contactLabel": "E-mail / Téléphone",
+      "contactPlaceholder": "E-mail ou numéro de téléphone",
+      "button": "Demander un Devis Gratuit",
+      "buttonSent": "Envoyé !",
+      "successMessage": "Merci ! L'un de nos consultants vous contactera bientôt."
+    }
+  },
+
+  "About": {
+    "hero": {
+      "title": "Al Reyada Al Motaqadima",
+      "subtitle": "Votre partenaire de confiance pour la création d'entreprise et les services gouvernementaux aux EAU.",
+      "imageAlt": "Skyline de Dubai et un bureau d'affaires moderne au coucher du soleil",
+      "logoAlt": "Logo Al Reyada Al Motaqadima"
+    },
+    "who": {
+      "eyebrow": "Qui est Al Reyada Al Motaqadima ?",
+      "title": "Votre Partenaire de Confiance pour la Création et le Développement d'Entreprise",
+      "p1": "Nous aidons les entrepreneurs et les entreprises à démarrer, gérer et développer leurs sociétés aux EAU avec des services professionnels de création d'entreprise, PRO et gouvernementaux.",
+      "p2": "De la constitution de société et des licences commerciales aux visas, services PRO et approbations gouvernementales, notre équipe fournit un support pratique tout au long de votre parcours entrepreneurial. Notre objectif est simple : rendre la création d'entreprise et les processus gouvernementaux aux EAU plus faciles, plus rapides et plus directs pour nos clients.",
+      "imageAlt": "Leader d'entreprise Central Hub dans un bureau moderne à Dubai"
+    },
+    "features": {
+      "localIndependent": {
+        "title": "Local & Indépendant",
+        "points": [
+          "100 % détenu par des Émiratis",
+          "Sponsorise directement les sociétés onshore",
+          "Accès non restreint au marché local",
+          "Les opérations quotidiennes restent aux propriétaires étrangers"
+        ]
+      },
+      "reachNetwork": {
+        "title": "Portée & Réseau",
+        "points": [
+          "Membre d'une famille de premier plan de Dubai",
+          "Accès aux investisseurs et hauts fonctionnaires",
+          "Forte relation de travail avec les secteurs clés",
+          "Opère au sein d'un groupe de sociétés liées"
+        ]
+      }
+    },
+    "approach": {
+      "eyebrow": "Notre Approche",
+      "title": "Notre Approche pour Votre Succès Commercial",
+      "pillars": {
+        "successParamount": {
+          "title": "Votre Succès Est Primordial",
+          "text": "Gestionnaire de compte dédié du début à la fin."
+        },
+        "transparent": {
+          "title": "Transparent",
+          "text": "Tous les frais clairement détaillés ; aucun coût caché."
+        },
+        "efficientInvisible": {
+          "title": "Efficace & Invisible",
+          "text": "Travail proactif en arrière-plan ; dépôt centralisé des documents."
+        },
+        "globallyInclusive": {
+          "title": "Inclusif Mondialement",
+          "text": "Équipe multiculturelle et multilingue au service de toutes les nationalités."
+        },
+        "fullService": {
+          "title": "Service Complet",
+          "text": "Service de bout en bout dès la première interaction."
+        },
+        "accessible": {
+          "title": "Accessible",
+          "text": "Joignable tout au long de l'engagement ; ouvert aux mises à jour."
+        }
+      }
+    },
+    "cta": {
+      "title": "Vous cherchez les prix des licences commerciales aux EAU ? Calculez le coût maintenant. Cela prend moins de 30 secondes.",
+      "button": "Calculateur de Coûts"
+    }
+  },
+
+  "BusinessSetup": {
+    "hero": {
+      "eyebrow": "Votre partenaire de confiance",
+      "title": "Création d'Entreprise",
+      "titleLine2": "à Dubai",
+      "titleHighlight": "Partenaire",
+      "description": "Services complets de création d'entreprise et de services gouvernementaux pour les investisseurs, les entrepreneurs et les sociétés aux EAU.",
+      "imageAlt": "Skyline de Dubai vue depuis un bureau d'affaires moderne",
+      "getStarted": "Commencer",
+      "contactUs": "Nous Contacter",
+      "highlights": [
+        "Fiable & Professionnel",
+        "Support de Bout en Bout",
+        "Processus Transparent",
+        "Consultant Dédié"
+      ]
+    },
+    "jurisdictions": {
+      "eyebrow": "Constitution de société EAU",
+      "title": "Explorez Vos",
+      "titleHighlight": "Options de Création",
+      "titleSuffix": "d'Entreprise",
+      "subtitle": "Choisissez la bonne option pour vos objectifs commerciaux. Comparez les options et démarrez avec le support d'experts.",
+      "items": {
+        "mainland": {
+          "name": "Licence Mainland",
+          "description": "Pour les entreprises qui souhaitent opérer directement sur le marché local des EAU.",
+          "features": [
+            "Bureau physique requis",
+            "Large gamme d'activités commerciales",
+            "Opérer sur le marché local des EAU",
+            "Options de visa investisseur et employé"
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Skyline de Dubai avec des tours d'affaires modernes"
+        },
+        "freeZone": {
+          "name": "Licence Free Zone",
+          "description": "Création d'entreprise flexible sans bureau physique dans le cadre de nos forfaits disponibles.",
+          "features": [
+            "Aucun bureau physique requis",
+            "Jusqu'à 10 visas investisseur selon la Free Zone et le forfait sélectionné",
+            "Activités d'importation et d'exportation",
+            "Vendre des produits en ligne / E-Commerce"
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Centre d'affaires Free Zone de Dubai"
+        },
+        "freelanceAbuDhabi": {
+          "name": "Licence Freelance – Abu Dhabi",
+          "description": "Travaillez indépendamment à Abu Dhabi dans le cadre d'une activité freelance éligible.",
+          "features": [
+            "Aucun bureau physique requis",
+            "Un visa de résidence pour le titulaire de la licence",
+            "Parrainage familial disponible sous conditions",
+            "Adapté aux consultants, designers et développeurs"
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Freelance travaillant dans un bureau à domicile moderne"
+        },
+        "eTrader": {
+          "name": "Licence E-Trader - Dubai",
+          "description": "Démarrez votre entreprise en ligne avec une création à moindre coût.",
+          "features": [
+            "Aucun bureau physique requis",
+            "Aucun visa de résidence inclus",
+            "Solution à moindre coût",
+            "Vendre via des plateformes en ligne éligibles telles qu'Amazon et Noon, sous réserve des exigences de la plateforme et de l'activité."
+          ],
+          "buttonText": "En Savoir Plus",
+          "imageAlt": "Vendeur en ligne emballant des produits pour une entreprise e-commerce"
+        }
+      }
+    },
+    "process": {
+      "title": "Un Processus",
+      "titleHighlight": "Simple",
+      "subtitle": "Nous rendons la création d'entreprise aux EAU simple et sans tracas.",
+      "steps": {
+        "step1": {
+          "title": "Choisissez Votre Option",
+          "description": "Sélectionnez la meilleure option pour votre entreprise."
+        },
+        "step2": {
+          "title": "Préparez les Documents",
+          "description": "Nous vous guidons pour les documents requis."
+        },
+        "step3": {
+          "title": "Soumission & Approbations",
+          "description": "Nous gérons toutes les soumissions gouvernementales et les suivis."
+        },
+        "step4": {
+          "title": "Recevez Votre Licence Commerciale",
+          "description": "Démarrez votre entreprise en toute confiance."
+        }
+      }
+    },
+    "cta": {
+      "title": "Vous ne savez pas quelle option convient à votre entreprise ?",
+      "button": "Comparer les Coûts Maintenant"
+    }
+  },
+
+  "Services": {
+    "hero": {
+      "title": "Services Commerciaux &",
+      "titleHighlight": "Gouvernementaux",
+      "description": "Support professionnel pour la création de votre entreprise et les transactions gouvernementales courantes aux EAU.",
+      "imageAlt": "Skyline de Dubai au coucher du soleil",
+      "heroItems": {
+        "tradeLicense": { "label": "Licence Commerciale", "detail": "Services" },
+        "employee": { "label": "Employé", "detail": "Procédures" },
+        "mohre": { "label": "MOHRE", "detail": "Transactions" },
+        "immigration": { "label": "Immigration", "detail": "& Résidence" },
+        "municipality": { "label": "Municipalité", "detail": "& Services Fonciers" },
+        "rta": { "label": "RTA", "detail": "Transactions" },
+        "corporate": { "label": "Entreprise", "detail": "Compte Bancaire" },
+        "ongoing": { "label": "Support PRO", "detail": "Continu" }
+      }
+    },
+    "corporateServices": {
+      "title": "Nos Services aux Entreprises",
+      "featured": {
+        "tag": "En Vedette",
+        "name": "Contrat PRO Mensuel",
+        "description": "Support gouvernemental continu complet et gestion des transactions.",
+        "features": [
+          "Support PRO Dédié",
+          "Support Résidence & Visa",
+          "Support Licence Commerciale & MOHRE",
+          "Rappels d'Échéance et d'Expiration"
+        ],
+        "button": "En Savoir Plus"
+      },
+      "items": {
+        "tradeLicense": {
+          "name": "Licence Commerciale",
+          "description": "Émission de nouvelle licence, renouvellement et modification d'activité gérés de bout en bout.",
+          "imageAlt": "Personne signant un document commercial à un bureau",
+          "features": [
+            "Émission de nouvelle licence",
+            "Renouvellement annuel de licence",
+            "Modifications d'activité commerciale",
+            "Mises à jour des partenaires et dirigeants"
+          ]
+        },
+        "notaryPublic": {
+          "name": "Services de Notaire Public",
+          "description": "Notarisation, légalisation et services de documents juridiques rapides et fiables aux EAU.",
+          "imageAlt": "Bâtiment des Tribunaux de Dubai représentant les services de notaire et documents juridiques",
+          "features": [
+            "Procuration (POA)",
+            "Statuts & Amendements",
+            "Légalisation de Signature",
+            "Notarisation de Documents Juridiques"
+          ]
+        },
+        "mohre": {
+          "name": "Services MOHRE",
+          "description": "Gestion complète des dossiers du Ministère des Ressources Humaines et du Travail.",
+          "imageAlt": "Professionnels discutant affaires dans une réunion de bureau moderne",
+          "features": [
+            "Émission de permis de travail",
+            "Contrats de travail",
+            "Services de dossier de travail de l'entreprise",
+            "Procédures gouvernementales des employés"
+          ]
+        },
+        "gdrfa": {
+          "name": "Services GDRFA",
+          "description": "Gestion experte de toutes les transactions d'immigration, de visa et de résidence.",
+          "imageAlt": "Passeport et documents de voyage symbolisant les services d'immigration et de visa",
+          "features": [
+            "Permis de résidence et d'entrée",
+            "Services de visa et tamponnage",
+            "Renouvellement de résidence",
+            "Annulation de visa"
+          ]
+        },
+        "sira": {
+          "name": "Services SIRA",
+          "description": "Obtention des approbations nécessaires de sécurité et de sûreté pour vos locaux commerciaux.",
+          "imageAlt": "Caméra de surveillance moderne montée sur un bâtiment",
+          "features": [
+            "Demandes SIRA",
+            "Approbations CCTV & Sécurité",
+            "Procédures de NOC",
+            "Procédures de licence de sécurité"
+          ]
+        },
+        "rta": {
+          "name": "Services RTA",
+          "description": "Traitement fluide des approbations de l'autorité des transports et des procédures de véhicules.",
+          "imageAlt": "Logo de l'Autorité des Routes et des Transports",
+          "features": [
+            "Transactions liées au RTA",
+            "Procédures gouvernementales de véhicules",
+            "Approbations de transport commercial",
+            "Suivi des demandes"
+          ]
+        },
+        "proServices": {
+          "name": "Services PRO",
+          "description": "Nous gérons les transactions de votre entreprise et du gouvernement du début à la fin.",
+          "imageAlt": "Consultant professionnel examinant des documents juridiques dans un bureau moderne",
+          "features": [
+            "Demandes et approbations gouvernementales",
+            "Traitement et dégagement de documents",
+            "Coordination avec les autorités gouvernementales",
+            "Suivi rapide des demandes"
+          ]
+        },
+        "goldenVisa": {
+          "name": "Golden Visa EAU",
+          "description": "Résidence longue durée de 10 ans pour les investisseurs, entrepreneurs et talents.",
+          "imageAlt": "Document Golden Visa avec la skyline de Dubai en arrière-plan",
+          "features": [
+            "Résidence longue durée de 10 ans",
+            "Pour les investisseurs, talents et entrepreneurs",
+            "Aucun sponsor local requis",
+            "Parrainage familial et personnel domestique"
+          ]
+        },
+        "emiratesId": {
+          "name": "Services Emirates ID",
+          "description": "Support complet pour toutes vos exigences de carte d'identité Emirates.",
+          "imageAlt": "Carte d'identité des Émirats Arabes Unis affichée avec la skyline de Dubai",
+          "features": [
+            "Nouvelles demandes d'Emirates ID",
+            "Procédures de renouvellement d'ID",
+            "Remplacement des cartes perdues",
+            "Suivi rapide des demandes"
+          ]
+        },
+        "bankAccount": {
+          "name": "Compte Bancaire d'Entreprise",
+          "description": "Ouverture accélérée de compte bancaire d'entreprise auprès des principales banques des EAU.",
+          "imageAlt": "Portefeuille et cartes de crédit représentant les services bancaires d'entreprise",
+          "features": [
+            "Partenariats avec les principales banques des EAU",
+            "Processus d'approbation accéléré",
+            "Options de comptes multi-devises",
+            "Assistance bancaire dédiée"
+          ]
+        },
+        "immigration": {
+          "name": "Immigration & Enregistrement",
+          "description": "Traitement des visas, Emirates ID et aptitude médicale pour vous et votre personnel.",
+          "imageAlt": "Personne tenant un passeport dans un terminal d'aéroport animé",
+          "features": [
+            "Traitement des visas investisseur et employé",
+            "Demandes et renouvellements d'Emirates ID",
+            "Coordination des tests d'aptitude médicale",
+            "Support de parrainage familial"
+          ]
+        },
+        "liquidation": {
+          "name": "Liquidation d'Entreprise",
+          "description": "Fermeture professionnelle et radiation de votre entreprise en pleine conformité.",
+          "imageAlt": "Panneau fermé symbolisant la liquidation et la radiation d'entreprise",
+          "features": [
+            "Radiation officielle de l'entreprise",
+            "Fermeture des visas et de la carte d'établissement",
+            "Rapport d'audit et lettres de dégagement",
+            "Pleine conformité avec les lois des EAU"
+          ]
+        }
+      },
+      "learnMore": "En Savoir Plus"
+    },
+    "governmentPartners": {
+      "eyebrow": "Liaison gouvernementale de confiance",
+      "title": "Autorités Gouvernementales que Nous Soutenons",
+      "items": {
+        "gdrfa": "Direction Générale de la Résidence et des Affaires Étrangères",
+        "mohre": "Ministère des Ressources Humaines et de l'Émiratisation",
+        "rta": "Autorité des Routes et des Transports",
+        "dubai": "Département de l'Économie et du Tourisme de Dubai",
+        "municipality": "Municipalité de Dubai",
+        "sira": "Agence de Régulation de l'Industrie de la Sécurité"
+      }
+    },
+    "cta": {
+      "title": "Prêt à démarrer votre entreprise à Dubai ?",
+      "button": "Calculez Votre Coût Maintenant"
+    }
+  },
+
+  "Contact": {
+    "hero": {
+      "title": "Contactez-Nous",
+      "subtitle": "Laissez-nous aider votre entreprise à avancer. Contactez nos experts dès aujourd'hui."
+    },
+    "info": {
+      "eyebrow": "Informations de Contact",
+      "title": "Entrer en Contact",
+      "description": "Que vous créiez une nouvelle entreprise ou que vous en développiez une existante, notre équipe est prête à vous guider à chaque étape. Contactez-nous et nous répondrons dans un jour ouvrable.",
+      "addressLabel": "Adresse",
+      "addressValue": "Bureau G83, Elegant Star Business Center, Deira, Dubai, EAU",
+      "callLabel": "Appel",
+      "callValue": "+971 50 250 7774",
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "+971 50 422 9389",
+      "emailLabel": "E-mail",
+      "emailValue": "info@alreyada-almotaqdima.ae",
+      "openInMaps": "Ouvrir dans Maps",
+      "mapTitle": "Elegant Star Business Center, Deira, Dubai — Carte"
+    },
+    "form": {
+      "fullName": "Nom Complet",
+      "fullNamePlaceholder": "Jean Dupont",
+      "email": "Adresse E-mail",
+      "emailOptional": "Adresse E-mail (Optionnel)",
+      "emailPlaceholder": "jean@exemple.com",
+      "phone": "Numéro de Téléphone",
+      "phonePlaceholder": "+971 4 000 0000",
+      "subject": "Sujet",
+      "subjectOptional": "Sujet (Optionnel)",
+      "subjectPlaceholder": "Comment pouvons-nous vous aider ?",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de vos besoins commerciaux...",
+      "button": "Envoyer un Message WhatsApp",
+      "whatsappHeader": "Nouvelle Demande depuis le Site Web :",
+      "successTitle": "Ouverture de WhatsApp",
+      "successBody": "Votre message a été préparé dans WhatsApp. Appuyez simplement sur envoyer pour contacter directement notre équipe.",
+      "sendAnother": "Envoyer un autre message"
+    }
+  },
+
+  "CostCalculator": {
+    "currency": "AED",
+    "eyebrow": "Estimation Instantanée",
+    "title": "Calculateur de Coûts de Création d'Entreprise",
+    "subtitle": "Obtenez une estimation instantanée pour la constitution de votre société aux EAU en moins de 30 secondes.",
+    "steps": ["Option", "Visas"],
+    "step1": {
+      "title": "Choisissez Votre Option",
+      "subtitle": "Sélectionnez le type de constitution de société aux EAU qui correspond à vos besoins commerciaux.",
+      "options": {
+        "freeZone": {
+          "label": "Free Zone",
+          "desc": "100 % propriété étrangère, idéal pour le commerce international"
+        },
+        "dubaiMainland": {
+          "label": "Dubai Mainland",
+          "desc": "Commercer partout sur le marché local des EAU"
+        },
+        "dubaiETrader": {
+          "label": "Dubai E-Trader",
+          "desc": "Entreprise en ligne à faible coût. Vendre sur les plateformes numériques"
+        },
+        "abuDhabiFreelance": {
+          "label": "Freelance Abu Dhabi",
+          "desc": "Pour les spécialistes & créatifs. Parrainage familial"
+        }
+      }
+    },
+    "step2": {
+      "title": "Nombre de Visas Requis",
+      "subtitle": "De combien de visas de résidence avez-vous besoin pour votre équipe ?",
+      "visaOptions": {
+        "0": "0 Visa",
+        "1": "1 Visa",
+        "2": "2 Visas",
+        "3": "3 Visas",
+        "4": "4 Visas",
+        "noVisa": "Licence Seule - Sans Visa"
+      },
+      "back": "Retour"
+    },
+    "result": {
+      "title": "Votre Coût Estimé",
+      "subtitle": "Sur la base de vos sélections, voici votre coût de création estimé :",
+      "estimatedRange": "Fourchette Estimée",
+      "disclaimer": "Le prix final dépend du type d'activité et des frais gouvernementaux supplémentaires.",
+      "setupType": "Type de Création",
+      "visas": "Visas",
+      "talkToExpert": "Parler à un Expert",
+      "startOver": "Recommencer"
+    }
+  },
+
+  "Mainland": {
+    "eyebrow": "Juridiction de Création d'Entreprise",
+    "title": "Création de Société Mainland",
+    "subtitle": "La création de société Mainland à Dubai et aux EAU est rapide et sans tracas, avec 100 % de propriété pour la plupart des activités.",
+    "p1": "Les EAU sont reconnus comme une destination de choix pour les investisseurs étrangers cherchant à établir une présence au Moyen-Orient. La constitution de société Mainland vous permet de commercer directement avec le marché local des EAU, de soumissionner pour des appels d'offres gouvernementaux et d'opérer sans restrictions géographiques — tout en bénéficiant d'une propriété 100 % étrangère pour la majorité des activités commerciales suite aux réformes réglementaires récentes.",
+    "p2": "Que vous lanciez une entreprise commerciale, industrielle ou professionnelle, une licence Mainland vous donne la flexibilité d'opérer dans les sept émirats et à l'international, ce qui en fait la juridiction la plus polyvalente pour les entreprises ambitieuses.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      {
+        "title": "100 % de Propriété Étrangère",
+        "description": "Conservez la pleine propriété de votre entreprise sans nécessiter de sponsor local pour la plupart des activités."
+      },
+      {
+        "title": "Aucun Impôt sur les Sociétés / Personnel",
+        "description": "Bénéficiez de l'environnement fiscal des EAU exempt d'impôt sur le revenu personnel et des sociétés."
+      },
+      {
+        "title": "Commercer Librement Partout aux EAU",
+        "description": "Opérez dans tous les émirats et accédez à l'ensemble du marché local de consommateurs sans restriction."
+      },
+      {
+        "title": "Aucune Restriction sur le Nombre d'Employés",
+        "description": "Embauchez autant d'employés que votre entreprise le nécessite sans limitation de quota de visas."
+      },
+      {
+        "title": "Éligibilité aux Contrats Gouvernementaux",
+        "description": "Soumissionnez pour des contrats et projets gouvernementaux fédéraux et municipaux lucratifs."
+      },
+      {
+        "title": "Options d'Espace de Bureau Illimitées",
+        "description": "Securez un espace de bureau de toute taille à Dubai pour développer vos opérations."
+      }
+    ],
+    "limitationsTitle": "Limitations Potentielles",
+    "limitations": [
+      {
+        "title": "Sponsor Local Peut Être Requis",
+        "description": "Pour certaines activités restreintes, un sponsor local émirati détenant 51 % des parts peut toujours être nécessaire."
+      },
+      {
+        "title": "Coûts de Création Plus Élevés",
+        "description": "La création en Mainland implique généralement des coûts initiaux plus élevés que les alternatives en Free Zone."
+      },
+      {
+        "title": "Plus de Conformité Réglementaire",
+        "description": "Soumis aux réglementations du DED, aux approbations municipales et aux exigences de conformité supplémentaires."
+      }
+    ]
+  },
+
+  "FreeZone": {
+    "eyebrow": "Juridiction de Création d'Entreprise",
+    "title": "Création de Société en Free Zone",
+    "subtitle": "100 % propriété étrangère, exonérations fiscales et licences accélérées dans plus de 50 Free Zones spécialisées.",
+    "p1": "Avec plus de cinquante Free Zones aux EAU, chacune répondant à des industries et activités commerciales spécifiques, la constitution de société en Free Zone offre une propriété 100 % étrangère, le rapatriement complet du capital et des bénéfices, et des exonérations fiscales totales. Les Free Zones sont idéales pour le commerce, les services, la technologie, les médias, la logistique et les sociétés holding qui n'ont pas besoin d'un accès direct au marché Mainland des EAU.",
+    "p2": "Chaque Free Zone a sa propre autorité de régulation, son cadre de licences et sa structure de frais. Le choix de la bonne Free Zone dépend de votre activité commerciale, de vos besoins en espace de bureau et en visas — notre équipe vous aide à comparer et à sélectionner la juridiction optimale.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      {
+        "title": "100 % de Rapatriement du Capital & des Bénéfices",
+        "description": "Pleine propriété et capacité de rapatrier tout le capital et les bénéfices sans restriction."
+      },
+      {
+        "title": "0 % d'Impôt sur les Sociétés et Personnel",
+        "description": "Profitez d'exonérations fiscales complètes sur les revenus des sociétés et les revenus personnels."
+      },
+      {
+        "title": "Aucune Restriction de Devise",
+        "description": "Opérez librement en AED, USD, EUR et autres devises sans contrôle des capitaux."
+      },
+      {
+        "title": "Licences Accélérées",
+        "description": "Processus de création simplifié avec des licences souvent émises en quelques jours."
+      },
+      {
+        "title": "Infrastructure de Classe Mondiale",
+        "description": "Parcs d'activités dédiés avec des installations et une connectivité de pointe."
+      },
+      {
+        "title": "Quotas de Visas Basés sur l'Espace de Bureau",
+        "description": "Allocations de visas flexibles proportionnelles à votre surface de bureau louée."
+      }
+    ],
+    "limitationsTitle": "Limitations Potentielles",
+    "limitations": [
+      {
+        "title": "Impossible de Commercer Directement en Mainland",
+        "description": "Les sociétés en Free Zone ne peuvent pas commercer directement avec le marché Mainland des EAU sans un distributeur ou agent local."
+      },
+      {
+        "title": "Restreint aux Locaux de la Free Zone",
+        "description": "Les opérations doivent être physiquement situées dans les limites de la Free Zone désignée."
+      }
+    ],
+    "jurisdictionsTitle": "Free Zones Populaires",
+    "jurisdictions": {
+      "dmcc": {
+        "description": "DMCC est le centre mondial dédié pour plus de 18 000 entreprises, situé au cœur du quartier JLT de Dubai. Reconnu comme la Free Zone leader au monde pendant plusieurs années consécutives, DMCC offre un écosystème de classe mondiale pour le commerce des matières premières, la crypto, la finance et les services professionnels.",
+        "features": [
+          "18 000+ entreprises enregistrées",
+          "Options flexibles de bureau et de coworking",
+          "Licence multi-activités disponible"
+        ]
+      },
+      "dso": {
+        "description": "DSO est une Free Zone mondialement reconnue et un parc technologique intégré situé à Dubai Silicon Oasis. Il fournit un écosystème complet pour les sociétés technologiques, d'ingénierie et axées sur l'innovation, combinant des zones résidentielles, commerciales et industrielles dans une seule communauté.",
+        "features": [
+          "Infrastructure axée sur la technologie",
+          "Forfaits de licence et de visas abordables",
+          "Aménités de smart city et installations de R&D"
+        ]
+      }
+    }
+  },
+
+  "Offshore": {
+    "eyebrow": "Juridiction de Création d'Entreprise",
+    "title": "Création de Société Offshore",
+    "subtitle": "Constitution de société offshore avec compte bancaire aux EAU. Nous maintenons les plus hauts standards de confidentialité.",
+    "p1": "Les sociétés offshore offrent une approche légitime de gestion de patrimoine, de protection d'actifs et de structures de holding internationales. Une société offshore enregistrée aux EAU ou dans une autre juridiction peut posséder des actifs, détenir de la propriété intellectuelle et servir de société mère pour des opérations internationales — tout en bénéficiant d'une efficacité fiscale, de la confidentialité et d'un compte bancaire aux EAU.",
+    "p2": "Nous assistons dans le cycle complet de constitution de société offshore, de la sélection de juridiction et l'enregistrement à la conformité continue et l'ouverture de compte bancaire. Notre priorité absolue est de maintenir les standards de confidentialité et de confidentialité tout au long du processus.",
+    "privacyNote": "Confidentialité & Conformité : Nous opérons en pleine conformité avec les réglementations internationales tout en maintenant les plus hauts standards de confidentialité client.",
+    "jurisdictionsTitle": "Juridictions Offshore Disponibles",
+    "jurisdictions": {
+      "ajman": {
+        "tabLabel": "Ajman Offshore",
+        "description": "Établie en 1988 comme l'une des premières Free Zones aux EAU, Ajman Offshore fournit une option rentable et efficace d'enregistrement de société offshore aux EAU. Elle est largement utilisée pour les structures de holding, la protection d'actifs et le commerce international.",
+        "features": [
+          "Juridiction offshore basée aux EAU",
+          "Éligible à un compte bancaire d'entreprise aux EAU",
+          "Création et renouvellement rentables",
+          "Aucun bureau physique requis"
+        ]
+      },
+      "bvi": {
+        "tabLabel": "BVI",
+        "description": "Les Îles Vierges Britanniques (BVI) sont le centre offshore leader et le plus populaire au monde, avec plus de 400 000 sociétés constituées. Les Business Companies des BVI sont largement utilisées pour les structures de holding, de trading et d'investissement internationaux, offrant flexibilité, neutralité fiscale et un cadre juridique bien établi.",
+        "features": [
+          "Juridiction offshore la plus populaire au monde",
+          "400 000+ sociétés enregistrées",
+          "Structure d'actions flexible et aucun capital minimum",
+          "Cadre solide de protection d'actifs"
+        ]
+      },
+      "seychelles": {
+        "tabLabel": "Seychelles",
+        "description": "Avec ses politiques fiscales favorables, les Seychelles sont devenues une destination commerciale privilégiée pour les entrepreneurs internationaux. Les International Business Companies (IBC) des Seychelles offrent une exemption fiscale sur les revenus étrangers, des exigences minimales de reporting et un processus d'incorporation rapide.",
+        "features": [
+          "Zéro impôt sur les revenus de source étrangère",
+          "Incorporation rapide (1-2 jours)",
+          "Exigences minimales de reporting annuel",
+          "Haut niveau de confidentialité"
+        ]
+      }
+    }
+  },
+
+  "FinancialCentre": {
+    "eyebrow": "Juridiction de Création d'Entreprise",
+    "title": "Création dans un Centre Financier",
+    "subtitle": "Juridictions financières de classe mondiale pour les banques, la fintech, les sociétés d'investissement et les services professionnels.",
+    "p1": "Les EAU comptent deux Free Zones spécialisées dans le secteur financier : le Dubai International Financial Centre (DIFC) et l'Abu Dhabi Global Market (ADGM). Les deux opèrent comme des juridictions indépendantes avec leurs propres systèmes juridiques basés sur la common law, leurs propres tribunaux et des autorités de régulation dédiées — ce qui en fait les destinations de premier choix pour les institutions financières, les sociétés fintech, les firmes d'investissement et les services professionnels dans la région.",
+    "p2": "Ces centres financiers fournissent un cadre réglementaire internationalement reconnu, un système juridique de common law et un accès à un vivier profond de talents financiers — idéal pour les banques, les gestionnaires d'actifs, les compagnies d'assurance et les innovateurs fintech.",
+    "jurisdictionsTitle": "Juridictions Financières",
+    "difc": {
+      "description": "Un hub financier leader dans la région Moyen-Orient, Afrique et Asie du Sud (MEASA). Le DIFC abrite 25 000+ professionnels et 2 400+ entités actives, offrant un système juridique indépendant de common law, un cadre réglementaire de classe mondiale et un écosystème florissant pour la finance, la fintech et les services professionnels.",
+      "features": [
+        "2 400+ entités enregistrées actives",
+        "25 000+ professionnels travaillant dans le centre",
+        "Tribunaux indépendants de common law et arbitrage",
+        "Cadre réglementaire DFSA aligné avec les standards mondiaux"
+      ]
+    },
+    "adgm": {
+      "description": "Environnement commercial organisé et favorable pour les sociétés financières. ADGM, situé à Abu Dhabi, opère sous la common law anglaise et offre un cadre réglementaire robuste via la FSRA, ce qui en fait une juridiction attractive pour les banques, les gestionnaires d'actifs, les sociétés fintech et les sociétés holding.",
+      "features": [
+        "Système juridique de common law anglaise",
+        "FSRA — régulateur internationalement reconnu",
+        "Application directe du droit anglais",
+        "Bac à sable fintech et licences d'innovation"
+      ]
+    }
+  },
+
+  "FreelanceLicenseAbuDhabi": {
+    "eyebrow": "Juridiction de Création d'Entreprise",
+    "title": "Licence Freelance – Abu Dhabi",
+    "subtitle": "Exercez votre profession indépendamment dans l'Émirat d'Abu Dhabi. Obtenez une licence freelance pour exercer vos activités professionnelles indépendamment dans le cadre d'activités approuvées, conformément aux plus hauts standards et exigences pour faire des affaires. Cette licence est conçue pour être le choix optimal pour les spécialistes et les professionnels hautement expérimentés dans les domaines techniques, numériques, marketing, créatifs et conseil.",
+    "eligibilityAlertTitle": "Êtes-Vous Éligible à une Licence Freelance ?",
+    "eligibilityAlertText": "Veuillez noter que la licence freelance n'est pas une option générale adaptée à tous les individus ou à toutes les activités commerciales. L'éligibilité dépend principalement de la nature de l'activité à exercer, ainsi que des qualifications académiques, du parcours d'expérience professionnelle et des documents justificatifs requis. Chez Al Reyada Al Motaqadima, nous effectuons un examen approfondi de votre activité, de vos qualifications et de vos documents avant d'initier toute procédure, afin d'assurer la pleine confirmation de votre adéquation et de votre conformité avec les exigences d'émission de la licence.",
+    "eligibilityAlertButton": "Vérifiez Votre Éligibilité Maintenant",
+    "whatIsItTitle": "Qu'est-ce que la Licence Freelance d'Abu Dhabi ?",
+    "whatIsItText": "La licence freelance est une licence légalement reconnue dédiée exclusivement aux spécialistes et aux professionnels qualifiés qui aspirent à exercer leurs activités professionnelles indépendamment dans l'Émirat d'Abu Dhabi dans le cadre d'une liste spécifique d'activités approuvées. Cette licence vous accorde une pleine autorité légale pour fournir vos services aux entreprises et aux particuliers, gérer librement votre activité et constituer une large clientèle conformément au cadre juridique et aux exigences applicables dans l'Émirat.",
+    "activitiesTitle": "Activités Approuvées",
+    "activities": [
+      {
+        "title": "Technologie & Services Numériques",
+        "description": "Conception de sites web, conception et développement de logiciels et systèmes, conseil IT, services de gestion de réseaux IT, développement d'applications et de logiciels IA."
+      },
+      {
+        "title": "Marketing & Médias Numériques",
+        "description": "Conseil et études de marketing avancé, gestion de campagnes et d'opérations, services de publicité en ligne, conseil et études médias, conseil en relations publiques spécialisées."
+      },
+      {
+        "title": "E-Commerce",
+        "description": "Commerce en ligne via sites web, commerce via plateformes de médias sociaux, services d'informations commerciales, services de saisie de données, classification et analyse de données avancées."
+      },
+      {
+        "title": "Design & Créativité",
+        "description": "Services de design graphique et créatif, design de mode et de vêtements, design de bijoux et d'ornements précieux, services de photographie professionnelle, production et tournage de vidéos personnelles."
+      },
+      {
+        "title": "Conseil",
+        "description": "Conseil et études en management, conseil en développement et gestion de projets, conseil économique et études de faisabilité, conseil en développement RH, conseil spécialisé en logistique."
+      }
+    ],
+    "activitiesNote": "Note importante : Ce ne sont que des exemples d'activités figurant sur la liste des activités de la licence freelance, et non une liste complète de toutes les activités disponibles. Les critères et exigences d'éligibilité varient considérablement selon le type d'activité choisi et le profil du demandeur.",
+    "requirementsTitle": "Exigences Clés",
+    "requirements": [
+      {
+        "title": "Qualification Académique",
+        "description": "Une qualification académique (universitaire ou équivalente) pertinente et liée à la nature de l'activité peut être requise."
+      },
+      {
+        "title": "Expérience Professionnelle",
+        "description": "Des certificats d'expérience certifiés ou des documents officiels prouvant votre expérience pratique sont souvent requis."
+      },
+      {
+        "title": "Certifications Professionnelles",
+        "description": "Des certifications professionnelles spécialisées ou des accréditations d'organismes reconnus peuvent être nécessaires."
+      },
+      {
+        "title": "Identité Numérique (UAE Pass)",
+        "description": "Un compte actif et vérifié sur l'application d'identité numérique UAE Pass est requis."
+      },
+      {
+        "title": "Documents Financiers",
+        "description": "Des relevés bancaires ou des preuves de revenus démontrant votre capacité financière peuvent être demandés."
+      },
+      {
+        "title": "Documents & Approbations Supplémentaires",
+        "description": "Certaines activités peuvent nécessiter des approbations préalables ou des documents supplémentaires de la part des autorités gouvernementales compétentes."
+      }
+    ],
+    "warningTitle": "Alerte Importante Avant de Postuler",
+    "warningText": "Il faut comprendre que la licence freelance est complètement différente d'une licence commerciale générale. Votre activité choisie doit figurer exclusivement parmi les activités approuvées pour ce type de licence. Les exigences en matière de qualification, d'expérience et de documents varient considérablement d'une activité à l'autre. De plus, le simple fait de détenir une qualification académique ou une expérience professionnelle ne garantit pas automatiquement l'approbation de l'émission de la licence. Par conséquent, chez Al Reyada Al Motaqadima, nous nous engageons à examiner votre profil, votre activité et vos documents de manière exhaustive avant d'entreprendre toute démarche afin d'économiser votre temps et vos efforts.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      "Aucun bureau physique ou locaux requis (selon les exigences de l'activité).",
+      "Flexibilité maximale dans l'exercice de votre activité et la prestation de services aux clients indépendamment.",
+      "100 % de propriété indépendante dans le cadre de la structure juridique de la licence.",
+      "Options pour demander un visa de résidence aux EAU (sous réserve d'éligibilité et d'exigences).",
+      "Autorité légale de contracter et de travailler avec plusieurs clients et entités simultanément."
+    ],
+    "targetAudienceTitle": "Public Cible",
+    "targetAudience": [
+      "Designers et créatifs dans divers domaines.",
+      "Consultants et experts (management, économie, ressources humaines).",
+      "Spécialistes du marketing numérique et de la publicité.",
+      "Professionnels du secteur e-commerce et de la gestion de données.",
+      "Développeurs web, programmeurs et experts IT.",
+      "Photographes et créateurs de contenu visuel."
+    ],
+    "ourServicesTitle": "Nos Services",
+    "ourServices": [
+      "Évaluation et examen approfondis de l'activité la mieux adaptée à votre expertise.",
+      "Examen préliminaire d'éligibilité avant de payer des frais gouvernementaux.",
+      "Vérification des qualifications académiques et des certificats d'expérience.",
+      "Collecte, préparation et rédaction de tous les documents requis.",
+      "Suivi en temps réel des procédures d'émission de licence avec les autorités compétentes.",
+      "Assistance professionnelle avec les procédures de résidence (sous réserve d'éligibilité).",
+      "Support complet pour le parrainage familial et les procédures de résidence conformément à la loi.",
+      "Suivi de bout en bout de la transaction de A à Z jusqu'à l'achèvement réussi."
+    ]
+  },
+
+  "ETraderLicense": {
+    "eyebrow": "Juridiction de Création d'Entreprise",
+    "title": "Licence E-Trader - Dubai",
+    "subtitle": "Démarrez votre entreprise en ligne avec une création à moindre coût.",
+    "p1": "La Licence E-Trader est une initiative spécialisée visant à soutenir les entreprises à domicile et les entrepreneurs numériques. Elle permet aux individus de mener des affaires en ligne, offrant un cadre réglementé pour vendre des services ou des produits via les médias sociaux et les plateformes numériques sans avoir besoin d'une vitrine physique.",
+    "p2": "Cette option est le tremplin parfait pour les startups, les professionnels du numérique et les prestataires de services en ligne cherchant une entrée à faible coût sur le marché des EAU. Elle assure la confiance des consommateurs en donnant à votre entreprise en ligne un statut légitime et enregistré auprès du gouvernement.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      {
+        "title": "Solution à Moindre Coût",
+        "description": "Création très abordable conçue spécifiquement pour autonomiser les entrepreneurs solo."
+      },
+      {
+        "title": "Aucun Bureau Physique Requis",
+        "description": "Opération totalement légitime depuis chez soi sans exigences de bail commercial."
+      },
+      {
+        "title": "Plateformes en Ligne",
+        "description": "Vendre via des plateformes en ligne éligibles telles qu'Amazon et Noon, sous réserve des exigences de la plateforme et de l'activité."
+      },
+      {
+        "title": "Services Numériques & Médias Sociaux",
+        "description": "Idéal pour fournir du conseil, du marketing numérique et des services professionnels en ligne."
+      },
+      {
+        "title": "Création Rapide",
+        "description": "Processus d'approbation simplifié pour démarrer votre entreprise rapidement."
+      }
+    ],
+    "limitationsTitle": "Limitations Potentielles",
+    "limitations": [
+      {
+        "title": "Aucun Visa de Résidence Inclus",
+        "description": "Ce type de licence ne fournit pas d'éligibilité à un visa de résidence."
+      },
+      {
+        "title": "Aucun Magasin Physique ni Personnel",
+        "description": "Impossible d'ouvrir un magasin physique ou d'embaucher du personnel."
+      },
+      {
+        "title": "Restrictions d'Activité Commerciale",
+        "description": "Les activités de commerce commercial (vente de biens physiques) peuvent avoir des restrictions de nationalité spécifiques selon l'autorité émettrice."
+      }
+    ]
+  },
+
+  "BankAccount": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Compte Bancaire d'Entreprise",
+    "subtitle": "Ouverture accélérée de compte bancaire d'entreprise auprès des principales banques des EAU.",
+    "leadText": "Généralement, le processus ne prend pas plus de 10 à 30 jours, selon la citoyenneté du propriétaire et les exigences de conformité de la banque.",
+    "p1": "Ouverture accélérée de compte bancaire d'entreprise auprès des principales banques des EAU. Nous vous guidons à travers la conformité et la documentation requises pour que vos services bancaires d'entreprise démarrent sans délais.",
+    "mainlandTitle": "Société Mainland",
+    "mainlandRequirements": [
+      "Copie de licence commerciale valide",
+      "Statuts de la société (MOA)",
+      "Copies de passeport des actionnaires/directeurs",
+      "Page de visa de l'actionnaire & Emirates ID",
+      "Preuve d'adresse professionnelle (Ejari)",
+      "CV de la direction / profil d'entreprise"
+    ],
+    "freeZoneTitle": "Société en Free Zone",
+    "freeZoneRequirements": [
+      "Copie de licence Free Zone valide",
+      "Certificat d'incorporation",
+      "Copies de passeport des actionnaires/directeurs",
+      "Contrat de bail Free Zone",
+      "Statuts de la société (MOA)",
+      "Description de l'activité commerciale"
+    ],
+    "importantNotes": "Notes Importantes",
+    "footnotes": [
+      { "mark": "*", "text": "Certaines banques exigent un solde moyen minimum." },
+      { "mark": "**", "text": "Une visite personnelle peut être requise pour l'activation finale du compte." },
+      { "mark": "***", "text": "L'approbation de conformité dépend de la nationalité du demandeur et de l'activité commerciale." },
+      { "mark": "****", "text": "Des documents supplémentaires peuvent être demandés au cas par cas." }
+    ]
+  },
+
+  "Immigration": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Immigration & Enregistrement",
+    "subtitle": "Traitement des visas, Emirates ID et aptitude médicale pour vous et votre personnel.",
+    "leadText": "Laissez-nous vous aider avec votre immigration et enregistrement aux EAU. Nous pouvons gérer tous les types de traitement de visa, permis de résidence et enregistrement de citoyens.",
+    "p1": "Licence Commerciale, Visas d'Employés, Légalisations, Traduction & Services d'Immigration. Nous entreprenons toutes sortes d'enregistrements de Travail et d'Immigration à Dubai, EAU pour les particuliers et les entreprises.",
+    "servicesTitle": "Nos Services d'Immigration",
+    "services": [
+      {
+        "title": "Visas d'Employés",
+        "description": "Nouveaux visas d'emploi pour votre personnel, du permis d'entrée au tamponnage.",
+        "timeframe": "15-20 jours"
+      },
+      {
+        "title": "Visas des Personnes à Charge",
+        "description": "Visas de résidence pour les conjoints, enfants et autres personnes à charge.",
+        "timeframe": "5-7 jours"
+      },
+      {
+        "title": "Annulation de Visa",
+        "description": "Annulation en douceur des visas existants en pleine conformité.",
+        "timeframe": "2-3 jours"
+      },
+      {
+        "title": "Paiement d'Amendes",
+        "description": "Règlement des amendes d'immigration et de travail en votre nom.",
+        "timeframe": "1-2 jours"
+      },
+      {
+        "title": "Dégagement de Documents",
+        "description": "Dégagement des documents officiels auprès des autorités compétentes.",
+        "timeframe": "3-5 jours"
+      },
+      {
+        "title": "Légalisation & Authentification",
+        "description": "Légalisation MOFA, authentification d'ambassade et traduction de documents.",
+        "timeframe": "5-10 jours"
+      }
+    ]
+  },
+
+  "Liquidation": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Liquidation d'Entreprise",
+    "subtitle": "Fermeture professionnelle et radiation de votre entreprise en pleine conformité avec la réglementation des EAU.",
+    "leadText": "Le temps moyen nécessaire pour la liquidation d'une société privée (enregistrée en Mainland ou dans une des Free Zones) est d'environ 50-60 jours.",
+    "p1": "Conseils et avis d'experts sur la liquidation d'entreprise et la meilleure approche de liquidation, fournis par des liquidateurs expérimentés à Dubai. Fermeture professionnelle et radiation de votre entreprise en pleine conformité avec la réglementation des EAU.",
+    "stagesTitle": "Étapes Obligatoires de Liquidation",
+    "stages": [
+      {
+        "title": "Procédure d'Audit",
+        "description": "Un auditeur enregistré examine les comptes de la société et émet une lettre de liquidation formelle confirmant que la société est exempte de dettes et prête pour la radiation."
+      },
+      {
+        "title": "Procédure d'Immigration",
+        "description": "Tous les visas des employés sont annulés, les Emirates ID sont restitués et la carte d'établissement est fermée avant que la société puisse être radiée."
+      },
+      {
+        "title": "Procédures d'Entreprise",
+        "description": "Inclut la fermeture de la carte d'établissement, la résolution de panneau et l'annonce officielle de liquidation publiée dans la gazette."
+      }
+    ],
+    "timelineTitle": "Calendrier du Processus de Liquidation",
+    "tableHeaders": ["Processus", "Documents Requis", "Conditions Supplémentaires", "Délai"],
+    "tableRows": [
+      {
+        "process": "Lettre de liquidation de l'audit",
+        "documents": "Copie de licence, MOA",
+        "conditions": "L'auditeur doit être approuvé",
+        "timeframe": "15-20 jours ouvrables"
+      },
+      {
+        "process": "Annulation des visas d'employés",
+        "documents": "Copies passeport, visa, EID",
+        "conditions": "EID du sponsor",
+        "timeframe": "1-2 jours ouvrables"
+      },
+      {
+        "process": "Fermeture de la carte d'établissement",
+        "documents": "Carte d'établissement, copie de licence",
+        "conditions": "Tous les visas doivent être annulés d'abord",
+        "timeframe": "3-5 jours orvrables"
+      },
+      {
+        "process": "Résolution de panneau & annonce de liquidation",
+        "documents": "Certificat de liquidation, résolution du conseil",
+        "conditions": "Publié dans la gazette locale",
+        "timeframe": "10-15 jours orvrables"
+      },
+      {
+        "process": "Annulation finale de la licence",
+        "documents": "Lettre de liquidation, lettres de dégagement",
+        "conditions": "Tous les frais réglés",
+        "timeframe": "5-7 jours orvrables"
+      }
+    ],
+    "footerNote": "Les délais sont indicatifs et peuvent varier selon le type de licence, le nombre de visas et le temps de traitement de l'autorité compétente."
+  },
+
+  "GoldenVisa": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Golden Visa EAU",
+    "subtitle": "Résidence longue durée de 10 ans pour les investisseurs, entrepreneurs et talents.",
+    "leadText": "Le Golden Visa des EAU offre une résidence longue durée aux investisseurs, entrepreneurs et talents spécialisés.",
+    "p1": "Sécurisez votre avenir et profitez d'avantages inégalés aux EAU, incluant la possibilité de vivre, travailler et étudier sans besoin d'un sponsor national, avec une pleine propriété de votre entreprise.",
+    "eligibilityTitle": "Conditions d'Éligibilité",
+    "eligibilityText": "Investissement immobilier : Le demandeur doit posséder un bien aux EAU d'une valeur minimale de 2 000 000 AED (soit en pleine propriété soit via un plan hypothécaire approuvé).",
+    "stagesTitle": "Principales Étapes",
+    "stages": [
+      {
+        "title": "Approbation DLD",
+        "description": "Le Dubai Land Department vérifie que l'investissement immobilier atteint le seuil de 2 millions AED et émet la lettre d'éligibilité."
+      },
+      {
+        "title": "Tests Médicaux",
+        "description": "Une prise de sang standard et une radiographie sont effectuées dans un centre d'aptitude médicale approuvé."
+      },
+      {
+        "title": "Biométrie",
+        "description": "La prise d'empreintes digitales et la capture biométrique sont complétées pour l'émission du nouvel Emirates ID."
+      }
+    ],
+    "timelineTitle": "Calendrier du Processus du Golden Visa",
+    "tableHeaders": ["Processus", "Documents Requis", "Conditions Supplémentaires", "Délai"],
+    "tableRows": [
+      {
+        "process": "Demande auprès du DLD",
+        "documents": "APS, titre de propriété, copie passeport, photo HD, assurance maladie",
+        "conditions": "Valeur du bien ≥ 2M AED",
+        "timeframe": "2-3 jours orvrables"
+      },
+      {
+        "process": "Test médical",
+        "documents": "Passeport original",
+        "conditions": "Groupe sanguin, Radio",
+        "timeframe": "1 heure"
+      },
+      {
+        "process": "Biométrie & Emirates ID",
+        "documents": "Passeport original, EID existant",
+        "conditions": "Le demandeur doit être présent",
+        "timeframe": "30 minutes"
+      },
+      {
+        "process": "Tamponnage du visa",
+        "documents": "Passeport, résultat médical, EID",
+        "conditions": "Toutes les étapes antérieures complétées",
+        "timeframe": "5-7 jours orvrables"
+      }
+    ],
+    "noticeTitle": "Avis Important",
+    "noticeText": "Le demandeur ne peut pas quitter le pays pendant la procédure. Planifiez vos déplacements en conséquence pour éviter des retards ou l'annulation de la demande."
+  },
+
+  "TradeLicense": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Licence Commerciale",
+    "subtitle": "Émission de nouvelle licence, renouvellement et modification d'activité gérés de bout en bout.",
+    "leadText": "En tant que l'un des meilleurs consultants en création d'entreprise à Dubai, nous sommes spécialisés dans le processus d'obtention de votre licence commerciale de manière fluide et sans tracas.",
+    "p1": "Émission de nouvelle licence, renouvellement et modification d'activité gérés de bout en bout. Nous sommes la première entreprise de création d'entreprise et de constitution de société des EAU, garantissant que votre licence commerciale est obtenue, maintenue et mise à jour sans friction.",
+    "servicesTitle": "Ce Que Nous Gérons",
+    "services": [
+      {
+        "title": "Émission de Nouvelle Licence",
+        "description": "Obtenez une nouvelle licence commerciale pour votre activité, que ce soit en Mainland ou en Free Zone."
+      },
+      {
+        "title": "Renouvellement de Licence",
+        "description": "Renouvellement en temps opportun de votre licence commerciale existante pour éviter les pénalités et les interruptions."
+      },
+      {
+        "title": "Modification d'Activité",
+        "description": "Ajoutez, supprimez ou modifiez des activités commerciales sur votre licence existante."
+      }
+    ],
+    "processingTimeTitle": "Délai de Traitement Typique",
+    "processingTimeText": "La plupart des demandes de licence commerciale sont complétées dans les 5-7 jours orvrables à compter de la soumission de tous les documents requis."
+  },
+
+  "ProServices": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services PRO Gouvernementaux Professionnels",
+    "subtitle": "Nous gérons toutes les transactions gouvernementales de votre entreprise du début à la fin, garantissant une pleine conformité et éliminant les délais administratifs.",
+    "leadText": "Naviguer dans les réglementations gouvernementales aux EAU nécessite de l'expertise. Nos services PRO gèrent toutes les transactions gouvernementales de votre entreprise du début à la fin, garantissant une pleine conformité et éliminant les délais administratifs. Nous agissons comme votre liaison gouvernementale dédiée.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      {
+        "title": "Traitement de Bout en Bout",
+        "description": "Nous gérons les demandes gouvernementales, la saisie de documents et le traitement."
+      },
+      {
+        "title": "Coordination avec les Autorités",
+        "description": "Interaction fluide avec le DED, MOHRE, GDRFA et autres organismes municipaux."
+      },
+      {
+        "title": "Efficacité Temps & Coût",
+        "description": "Évitez les amendes, les erreurs de saisie et les retards dans vos documents."
+      },
+      {
+        "title": "Transactions d'Entreprise",
+        "description": "Gestion experte des transactions, approbations et NOC liés à l'entreprise."
+      },
+      {
+        "title": "Suivi Continu",
+        "description": "Nous suivons vos demandes jusqu'à l'approbation finale."
+      }
+    ]
+  },
+
+  "MonthlyContract": {
+    "hero": {
+      "eyebrow": "Service aux Entreprises",
+      "title": "Contrat PRO Mensuel d'Entreprise",
+      "subtitle": "Laissez notre équipe experte gérer l'ensemble de vos exigences gouvernementales sur une base mensuelle, garantissant que vos opérations commerciales ne sont jamais interrompues.",
+      "benefits": {
+        "dedicatedPro": {
+          "title": "PRO Dédié",
+          "description": "Une équipe spécialisée pour vos besoins continus"
+        },
+        "visaManagement": {
+          "title": "Gestion des Visas",
+          "description": "Visas investisseur, employé & famille gérés"
+        },
+        "govApprovals": {
+          "title": "Approbations Gouv.",
+          "description": "Coordination avec toutes les autorités compétentes"
+        },
+        "expiryReminders": {
+          "title": "Rappels d'Échéance",
+          "description": "Rappels proactifs pour éviter les pénalités"
+        }
+      }
+    },
+    "intro": "Au lieu de gérer chaque transaction séparément, choisissez un contrat de support PRO continu. Laissez notre équipe experte gérer l'ensemble de vos exigences gouvernementales sur une base mensuelle. Cela garantit que vos opérations commerciales ne sont jamais interrompues par des documents expirés ou des échéances manquées.",
+    "packages": {
+      "eyebrow": "Tarifs",
+      "title": "Forfaits PRO Mensuels",
+      "subtitle": "Forfaits flexibles conçus pour soutenir les entreprises de toutes tailles.",
+      "items": {
+        "basic": {
+          "name": "Forfait Basique",
+          "subtitle": "Petites Entreprises",
+          "priceSuffix": "/mois",
+          "currency": "AED",
+          "features": [
+            "Jusqu'à 8 transactions gouvernementales/mois",
+            "Services PRO essentiels",
+            "Support résidence & visa",
+            "Services de licence commerciale",
+            "Support & consultation continus"
+          ],
+          "button": "Demander un Devis"
+        },
+        "standard": {
+          "name": "Forfait Standard",
+          "subtitle": "Entreprises en Croissance",
+          "priceSuffix": "/mois",
+          "currency": "AED",
+          "popular": "Le Plus Populaire",
+          "features": [
+            "Jusqu'à 20 transactions gouvernementales/mois",
+            "Tous les services du Forfait Basique",
+            "Services RH & travail",
+            "Approbations gouvernementales",
+            "Agent PRO dédié",
+            "Rapports mensuels & suivi"
+          ],
+          "button": "Demander un Devis"
+        },
+        "premium": {
+          "name": "Forfait Premium",
+          "subtitle": "Grandes Entreprises",
+          "priceSuffix": "/mois",
+          "currency": "AED",
+          "features": [
+            "Transactions gouvernementales illimitées",
+            "Tous les services du Forfait Standard",
+            "Gestionnaire de compte PRO dédié",
+            "Support prioritaire & accéléré",
+            "Support NOC, légalisation & documents juridiques",
+            "Rapports mensuels & solutions personnalisées"
+          ],
+          "button": "Demander un Devis"
+        }
+      }
+    },
+    "keyBenefits": {
+      "eyebrow": "Ce Que Vous Obtenez",
+      "title": "Principaux Avantages",
+      "subtitle": "Support PRO complet couvrant chaque aspect de vos transactions gouvernementales.",
+      "items": [
+        {
+          "title": "Support PRO Dédié",
+          "description": "Une équipe spécialisée pour vos besoins continus."
+        },
+        {
+          "title": "Gestion Résidence & Visa",
+          "description": "Visas investisseur, employé & famille, renouvellements et annulations."
+        },
+        {
+          "title": "Support Licence Commerciale",
+          "description": "Renouvellements, modifications et mises à jour d'entreprise."
+        },
+        {
+          "title": "Services MOHRE & Travail",
+          "description": "Permis de travail, contrats et dossiers de travail."
+        },
+        {
+          "title": "Approbations Gouvernementales",
+          "description": "Coordination avec les autorités compétentes."
+        },
+        {
+          "title": "Approbations Spéciales",
+          "description": "Support pour RTA, SIRA, Municipalité et plus."
+        },
+        {
+          "title": "Légalisation & Documents Juridiques",
+          "description": "MOFA, ambassade et documentation juridique."
+        },
+        {
+          "title": "Rappels d'Échéance et d'Expiration",
+          "description": "Rappels proactifs pour éviter les pénalités."
+        },
+        {
+          "title": "Suivi Quotidien & Support",
+          "description": "Suivi continu des demandes soumises."
+        }
+      ]
+    },
+    "governmentPartners": {
+      "eyebrow": "Liaison gouvernementale de confiance",
+      "title": "Autorités Gouvernementales que Nous Soutenons",
+      "items": {
+        "gdrfa": "Direction Générale de la Résidence et des Affaires Étrangères",
+        "mohre": "Ministère des Ressources Humaines et de l'Émiratisation",
+        "rta": "Autorité des Routes et des Transports",
+        "dubai": "Département de l'Économie et du Tourisme de Dubai",
+        "municipality": "Municipalité de Dubai",
+        "sira": "Agence de Régulation de l'Industrie de la Sécurité"
+      }
+    }
+  },
+
+  "EmiratesId": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services Emirates ID",
+    "subtitle": "Support complet pour toutes vos exigences de carte d'identité Emirates.",
+    "leadText": "L'Emirates ID est une carte d'identité obligatoire pour tous les résidents des EAU. Nous fournissons une assistance fluide pour les nouvelles demandes, les renouvellements et les remplacements, garantissant que votre ID est traité rapidement et avec précision sans erreurs de saisie ni délais.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      "Nouvelles demandes d'Emirates ID",
+      "Renouvellement des ID existants",
+      "Remplacement des cartes perdues ou endommagées",
+      "Suivi rapide des demandes"
+    ]
+  },
+
+  "MohreServices": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services du Ministère des Ressources Humaines",
+    "subtitle": "Gestion complète des dossiers du Ministère des Ressources Humaines et du Travail.",
+    "leadText": "Gérer les relations de travail et la conformité MOHRE est critique pour toute entreprise avec des employés. Nous gérons efficacement le dossier de travail de votre entreprise, les permis de travail et les contrats d'emploi pour maintenir votre entreprise pleinement conforme aux lois du travail des EAU.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      "Traitement des permis de travail",
+      "Rédaction et légalisation des contrats d'emploi",
+      "Transactions liées au travail",
+      "Création et services de dossier de travail d'entreprise",
+      "Procédures gouvernementales liées aux employés"
+    ]
+  },
+
+  "GdrfaServices": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services GDRFA & Immigration",
+    "subtitle": "Gestion experte de toutes les transactions d'immigration, de visa et de résidence.",
+    "leadText": "Naviguer dans les systèmes de la Direction Générale de la Résidence et des Affaires Étrangères (GDRFA) peut être complexe. Nous offrons des services d'immigration complets pour traiter les visas et permis de résidence pour vos investisseurs, employés et leurs personnes à charge.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      "Demandes de résidence",
+      "Émission de permis d'entrée",
+      "Services et traitement des visas",
+      "Renouvellement de résidence",
+      "Annulation de visa",
+      "Transactions générales d'immigration"
+    ]
+  },
+
+  "RtaServices": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services & Approbations RTA",
+    "subtitle": "Traitement fluide des approbations de l'autorité des transports et des procédures de véhicules.",
+    "leadText": "Pour les entreprises nécessitant des véhicules commerciaux, des flottes de livraison ou des approbations liées au transport, traiter avec l'Autorité des Routes et des Transports (RTA) est essentiel. Nous facilitons toutes les transactions d'entreprise et NOC liés au RTA.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      "Transactions d'entreprise liées au RTA",
+      "Procédures gouvernementales liées aux véhicules",
+      "Approbations de transport commercial",
+      "Suivi rapide des demandes"
+    ]
+  },
+
+  "SiraServices": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services & Approbations SIRA",
+    "subtitle": "Obtention des approbations nécessaires de sécurité et de sûreté pour vos locaux commerciaux.",
+    "leadText": "L'Agence de Régulation de l'Industrie de la Sécurité (SIRA) régule la conformité de sécurité à Dubai. Nous assistons les entreprises qui nécessitent des approbations SIRA, garantissant que vos locaux commerciaux respectent toutes les réglementations de licence CCTV et de sécurité.",
+    "benefitsTitle": "Principaux Avantages",
+    "benefits": [
+      "Demandes sur le portail SIRA",
+      "Approbations de sécurité et CCTV",
+      "Procédures de NOC pour des activités commerciales spécifiques",
+      "Procédures de licence liées à la sécurité",
+      "Suivi des demandes"
+    ]
+  },
+
+  "NotaryServices": {
+    "eyebrow": "Service aux Entreprises",
+    "title": "Services de Notaire Public",
+    "subtitle": "Notarisation, légalisation et services de documents juridiques rapides et fiables aux EAU.",
+    "p1": "Les services de notaire et de légalisation professionnels sont essentiels pour juridiquement authentifier vos documents commerciaux et personnels aux EAU. Nous fournissons un support expert, rapide et fiable pour la rédaction, la légalisation et la notarisation de tous les documents juridiques afin de garantir que vos opérations commerciales restent pleinement conformes aux réglementations gouvernementales et aux standards judiciaires des EAU.",
+    "servicesTitle": "Services de Notaire Complets",
+    "services": [
+      "Procuration (POA)",
+      "Accords d'Entreprise",
+      "Statuts & Amendements",
+      "Déclarations & Engagements",
+      "Légalisation de Signature",
+      "Notarisation de Documents Juridiques",
+      "Accords Civils & Commerciaux",
+      "Affidavits & Déclarations",
+      "Traduction & Notarisation"
+    ]
+  },
+
+  "ServiceLayout": {
+    "eyebrow": "Service aux Entreprises"
+  },
+
+  "LanguageSwitcher": {
+    "ariaSwitchLanguage": "Changer de langue"
+  },
+
+  "NotFound": {
+    "title": "Page Non Trouvée",
+    "message": "La page que vous recherchez n'existe pas ou a été déplacée. Veuillez retourner à la page d'accueil.",
+    "backHome": "Retour à l'Accueil"
+  }
+}

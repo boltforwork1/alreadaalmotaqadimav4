@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Poppins', system-ui, sans-serif;
+
+  --color-navy-950: #03060d;
+  --color-navy-900: #070b16;
+  --color-navy-800: #0e1424;
+  --color-navy-700: #1a2236;
+  --color-navy-600: #2a3450;
+  --color-navy-500: #475569;
+  --color-navy-400: #94a3b8;
+  --color-navy-300: #cbd5e1;
+  --color-navy-200: #e2e8f0;
+  --color-navy-100: #f1f5f9;
+  --color-navy-50: #f8fafc;
+
+  --color-teal-600: #b8932e;
+  --color-teal-500: #d4af37;
+  --color-teal-400: #e0c25c;
+  --color-teal-300: #ead08a;
+  --color-teal-200: #f3e3b0;
+  --color-teal-100: #faf0cf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* RTL: When Arabic is active, use Alexandria for both body and headings */
+html[lang="ar"] body {
+  font-family: 'Alexandria', system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] h5,
+html[lang="ar"] h6 {
+  font-family: 'Alexandria', system-ui, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Russian: use Montserrat */
+html[lang="ru"] body {
+  font-family: 'Montserrat', 'Inter', system-ui, sans-serif;
+}
+
+/* Hindi: Poppins is already the display font; use it for body too */
+html[lang="hi"] body {
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

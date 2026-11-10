@@ -1,0 +1,1664 @@
+{
+  "Navbar": {
+    "links": {
+      "home": "Home",
+      "businessSetup": "Business Setup",
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "dropdowns": {
+      "businessSetup": {
+        "mainlandLicense": "Mainland License",
+        "freeZoneLicense": "Free Zone License",
+        "freelanceLicenseAbuDhabi": "Freelance License \u2013 Abu Dhabi",
+        "eTraderLicenseDubai": "E-Trader License \u2013 Dubai"
+      },
+      "services": {
+        "monthlyProContract": "Monthly PRO Contract",
+        "tradeLicense": "Trade License",
+        "mohreServices": "MOHRE Services",
+        "emiratesIdServices": "Emirates ID Services",
+        "uaeGoldenVisa": "UAE Golden Visa",
+        "proServices": "PRO Services",
+        "corporateBankAccount": "Corporate Bank Account",
+        "immigrationRegistration": "Immigration & Registration",
+        "companyLiquidation": "Company Liquidation",
+        "gdrfaServices": "GDRFA Services",
+        "rtaServices": "RTA Services",
+        "siraServices": "SIRA Services",
+        "notaryPublicServices": "Notary Public Services"
+      }
+    },
+    "viewAllServices": "View All Services",
+    "requestQuote": "Get Started Today",
+    "toggleMenu": "Toggle menu",
+    "logoAlt": "Al Reyada Al Motaqadima",
+    "whatsappLabel": "WhatsApp"
+  },
+
+  "ConsultationForm": {
+    "title": "Get a Free Consultation",
+    "subtitle": "Our experts will reach out within one business day.",
+    "placeholders": {
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "emailAddress": "Email Address"
+    },
+    "buttons": {
+      "requestCallback": "Request Callback",
+      "requestSent": "Request Sent!"
+    },
+    "successMessage": "Thank you! We'll be in touch shortly.",
+    "calculatorCtaText": "Or calculate your cost instantly",
+    "openCostCalculator": "Open Cost Calculator"
+  },
+
+  "Footer": {
+    "tagline": "Al REYADA AL MOTAQADIMA is here to ensure Investors, Entrepreneurs, and Business Owners no longer lose sleep worrying about the complexities of business setup.",
+    "quickLinks": "Quick Links",
+    "links": {
+      "home": "Home",
+      "businessSetup": "Business Setup",
+      "services": "Services",
+      "aboutUs": "About Us",
+      "contact": "Contact"
+    },
+    "contactInfo": "Contact Info",
+    "address": {
+      "line1": "Office G83, Elegant Star Business Center",
+      "line2": "Deira, Dubai, UAE"
+    },
+    "call": "+971 50 250 7774",
+    "whatsapp": "+971 50 422 9389",
+    "email": "info@alreyada-almotaqdima.ae",
+    "stayConnected": "Stay Connected",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Your email",
+    "subscribed": "Thanks for subscribing!",
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+
+  "FloatingChatbot": {
+    "header": {
+      "title": "Central Hub Smart Assistant",
+      "online": "Online now"
+    },
+    "aria": {
+      "newChat": "Start new chat",
+      "newChatTitle": "New Chat",
+      "closeChat": "Close chat",
+      "openAssistant": "Open assistant",
+      "closeAssistant": "Close assistant",
+      "sendMessage": "Send message"
+    },
+    "welcome": "Welcome to Central Hub. How can I assist with your UAE business setup today?",
+    "placeholder": "Type a question...",
+    "suggestions": "Suggestions",
+    "quickOptions": {
+      "cost": "How much does business setup cost?",
+      "legal": "What are the legal conditions?",
+      "compare": "Mainland vs Free Zone?",
+      "sponsor": "Do I need a local sponsor?",
+      "time": "How long does it take?",
+      "consultant": "Speak with a Business Consultant"
+    },
+    "replies": {
+      "costFreeZone": "Free Zone business setup starts from approximately AED 4,888, with 100% foreign ownership, zero corporate tax (in most zones), and a fast 3\u20135 day turnaround. Use our Cost Calculator for an exact quote based on your activity and visa count.",
+      "costFreeZone_actions": {
+        "openCostCalculator": "Open Cost Calculator",
+        "freeZoneBenefits": "Free Zone Benefits"
+      },
+      "costMainland": "Mainland business setup starts from approximately AED 12,000. Since 2021, most commercial activities allow 100% foreign ownership \u2014 no local sponsor required. Get an exact figure with our Cost Calculator.",
+      "costMainland_actions": {
+        "openCostCalculator": "Open Cost Calculator",
+        "exploreMainlandSetup": "Explore Mainland Setup"
+      },
+      "costGeneral": "Business setup in the UAE starts from AED 4,888 for Free Zone packages and AED 12,000 for Mainland. You can use our instant Cost Calculator for an accurate quote!",
+      "costGeneral_actions": {
+        "openCostCalculator": "Open Cost Calculator",
+        "talkOnWhatsApp": "Talk on WhatsApp"
+      },
+      "legal": "Foreign investors enjoy 100% foreign ownership in both Free Zones and Mainland (under the Commercial Companies Law), with 0% personal income tax.",
+      "legal_actions": {
+        "exploreMainlandSetup": "Explore Mainland Setup",
+        "freeZoneBenefits": "Free Zone Benefits"
+      },
+      "compare": "Mainland lets you trade anywhere in the UAE and bid on government contracts. Free Zones offer 100% capital repatriation and zero customs duty within the zone.",
+      "compare_actions": {
+        "mainlandSetup": "Mainland Setup",
+        "freeZoneSetup": "Free Zone Setup"
+      },
+      "sponsor": "Great news! Since the 2021 law update, foreign investors can have 100% ownership in Mainland companies for most commercial activities. No local sponsor is needed!",
+      "sponsor_actions": {
+        "exploreMainlandSetup": "Explore Mainland Setup",
+        "talkOnWhatsApp": "Talk on WhatsApp"
+      },
+      "timeline": "Free Zone setups can take just 3\u20135 days! Mainland setups typically take 1\u20132 weeks depending on approvals and activity type.",
+      "timeline_actions": {
+        "freeZoneSetup": "Free Zone Setup",
+        "mainlandSetup": "Mainland Setup"
+      },
+      "goldenVisa": "The UAE Golden Visa grants 10-year residency! It requires a 2M AED real estate investment or specific entrepreneurial/talent criteria. We handle the full application.",
+      "goldenVisa_actions": {
+        "goldenVisaDetails": "Golden Visa Details",
+        "talkOnWhatsApp": "Talk on WhatsApp"
+      },
+      "visa": "We handle employment visas, dependent visas, visa cancellation, and the 10-year UAE Golden Visa for investors. Our team manages the entire process end-to-end.",
+      "visa_actions": {
+        "goldenVisaDetails": "Golden Visa Details",
+        "immigrationServices": "Immigration Services"
+      },
+      "bank": "We fast-track corporate bank account opening with leading UAE banks. The process typically takes 10\u201330 days depending on the owner's citizenship and compliance requirements.",
+      "bank_actions": {
+        "bankAccountService": "Bank Account Service"
+      },
+      "liquidation": "Company liquidation takes approximately 50\u201360 days. We handle the audit, visa cancellation, establishment card closure, and final license cancellation in full compliance.",
+      "liquidation_actions": {
+        "liquidationService": "Liquidation Service"
+      },
+      "license": "We handle new trade license issuance, renewal, and activity amendments. Most applications are completed within 5\u20137 working days.",
+      "license_actions": {
+        "tradeLicenseService": "Trade License Service"
+      },
+      "consultant": "Our consultants are available right now on WhatsApp to assist you step-by-step!",
+      "consultant_actions": {
+        "connectViaWhatsApp": "Connect via WhatsApp"
+      },
+      "fallback": "I'd love to help with that! For a tailored answer, connect with our consultants on WhatsApp \u2014 they'll guide you step-by-step.",
+      "fallback_actions": {
+        "connectViaWhatsApp": "Connect via WhatsApp"
+      }
+    },
+    "suggestionLabels": {
+      "howMuchFreeZone": "How much is a Free Zone?",
+      "howMuchMainland": "How much is a Mainland license?",
+      "costOfVisa": "Cost of a visa?",
+      "whatIsGoldenVisa": "What is the Golden Visa?",
+      "needLocalSponsor": "Do I need a local sponsor?",
+      "howLongSetupTake": "How long does setup take?",
+      "mainlandVsFreeZone": "Mainland vs Free Zone?",
+      "howToOpenBankAccount": "How to open a bank account?",
+      "legalConditions": "What are the legal conditions?",
+      "howToGetTradeLicense": "How to get a trade license?",
+      "howToCloseCompany": "How to close a company?",
+      "speakWithConsultant": "Speak with a consultant"
+    }
+  },
+
+  "StatsBar": {
+    "defaults": {
+      "clientsServed": "Clients Served",
+      "yearsOfExperience": "Years of Experience",
+      "freeZonePartners": "Free Zone Partners",
+      "complianceRate": "Compliance Rate"
+    }
+  },
+
+  "Home": {
+    "hero": {
+      "badge": "Your Trusted Dubai Business Setup Partner",
+      "title": "Business Setup in Dubai &",
+      "titleHighlight": "UAE Company Formation & PRO Services",
+      "description": "Start, manage and grow your business in the UAE with professional business setup and government services. Whether you need a Mainland or Free Zone company, trade licence, visa services, PRO services or government approvals, our team is here to make the process simple and straightforward.",
+      "getStartedToday": "Open In Maps",
+      "whatsappNumber": "+971 50 422 9389",
+      "heroImageAlt": "Luxury Dubai business office overlooking the skyline",
+      "highlights": {
+        "trusted": "Trusted",
+        "trustedDesc": "Professional Support",
+        "uaeExpertise": "UAE Expertise",
+        "uaeExpertiseDesc": "Local Knowledge",
+        "endToEndService": "End-to-End Service",
+        "endToEndServiceDesc": "From Setup to Growth"
+      }
+    },
+    "jurisdictions": {
+      "eyebrow": "UAE Company Formation",
+      "title": "Choose Your Best Setup",
+      "subtitle": "Explore the best setups for your company. Each option offers unique advantages tailored to different business needs.",
+      "items": {
+        "mainland": {
+          "name": "Mainland License",
+          "description": "For businesses that want to operate directly in the UAE local market.",
+          "features": [
+            "Physical office required",
+            "Wide range of business activities",
+            "Operate in the UAE local market",
+            "Investor and employee visa options"
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Dubai skyline with modern business towers"
+        },
+        "freeZone": {
+          "name": "Free Zone License",
+          "description": "Flexible company setup without a physical office under our available packages.",
+          "features": [
+            "No physical office required",
+            "Up to 10 investor visas depending on the Free Zone and selected package",
+            "Import & Export activities",
+            "Sell products online / E-Commerce"
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Dubai Free Zone business center"
+        },
+        "freelanceAbuDhabi": {
+          "name": "Freelance License \u2013 Abu Dhabi",
+          "description": "Work independently in Abu Dhabi under an eligible freelance activity.",
+          "features": [
+            "No physical office required",
+            "One residence visa for the license holder",
+            "Family sponsorship available subject to requirements",
+            "Suitable for consultants, designers, and developers"
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Freelancer working in a modern home office"
+        },
+        "eTrader": {
+          "name": "E-Trader License - Dubai",
+          "description": "Start your online business with a lower-cost setup.",
+          "features": [
+            "No physical office required",
+            "No residence visa included",
+            "Lower-cost solution",
+            "Sell through eligible online marketplaces such as Amazon and Noon, subject to platform and activity requirements."
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Online seller packing products for an ecommerce business"
+        }
+      }
+    },
+    "formation": {
+      "eyebrow": "Business Setup in Dubai",
+      "title": "Business Setup in Dubai & UAE",
+      "description": "AL REYADA AL MOTAQADIMA BUSINESSMEN SERVICES L.L.C. provides professional business setup and company formation services in the UAE. We help businesses choose the right setup, handle trade license procedures, prepare the required documentation and manage the necessary government approvals from start to finish.",
+      "benefits": [
+        "Mainland Company Formation",
+        "Free Zone Company Formation",
+        "E-Commerce License",
+        "Freelance License \u2013 Abu Dhabi",
+        "Government Approvals & Documentation",
+        "Ongoing PRO Support",
+        "Trade License Issuance & Renewal",
+        "Business Activity & License Amendments"
+      ]
+    },
+    "services": {
+      "eyebrow": "Dubai Business Setup Services",
+      "title": "Services We Provide to Set Up Your Company in Dubai UAE",
+      "viewAllServices": "View all Services",
+      "items": {
+        "companyFormation": {
+          "title": "Company Formation in Dubai",
+          "description": "Starting a Dubai company involves tons of paperwork. Let us do our job and you can focus on your business."
+        },
+        "companyLiquidation": {
+          "title": "Company Liquidation",
+          "description": "Expert company liquidation advice and opinion best liquidation approach, Dubai liquidators."
+        },
+        "businessLicense": {
+          "title": "Business License",
+          "description": "We are UAE's Leading business setup & company formation company."
+        },
+        "proVisaServices": {
+          "title": "PRO & Visa Services",
+          "description": "Commercial License, Employee Visas, Attestations, Translation & Immigration Services."
+        },
+        "corporateSponsor": {
+          "title": "Corporate Sponsor & Nominee",
+          "description": "Establish your company with Dubai's leading corporate nominee services."
+        },
+        "bankLiaison": {
+          "title": "Bank Liaison & Assistance",
+          "description": "We can help you set up such a structure which can later be transformed into a subsidiary or branch office."
+        },
+        "governmentServices": {
+          "title": "Government Services",
+          "description": "With direct access to Government Departments and Ministries, we can get your job done in very timely manner."
+        },
+        "immigrationLabour": {
+          "title": "Immigration & Labour",
+          "description": "We undertake all kinds of Labor & Immigration Registration in Dubai, UAE for individuals and company."
+        }
+      }
+    },
+    "stats": {
+      "clientsHelped": "Clients Helped",
+      "yearsExperience": "Years Experience",
+      "expertConsultants": "Expert Consultants",
+      "clientSatisfaction": "Client Satisfaction"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about setting up your business in Dubai.",
+      "items": [
+        {
+          "q": "Why should someone set up a mainland business in the UAE?",
+          "a": "The UAE is a prime destination offering myriad business opportunities. Location of target market and business activities should guide the choice between Dubai and Abu Dhabi."
+        },
+        {
+          "q": "How can a foreigner start a business in Dubai?",
+          "a": "The CCL permits 100% foreign ownership. Steps: determine entity type, select company name, apply for a business license, get pre-approvals, register your business, and get your license."
+        },
+        {
+          "q": "What is the best free zone to open a company in Dubai?",
+          "a": "Key factors include location, chosen business activities, and office space requirements. Contact our experts to find the perfect fit."
+        },
+        {
+          "q": "Which business license should I choose?",
+          "a": "It depends on your business activity, office requirements, visa needs and budget. Contact us and we\u2019ll help you identify the suitable option."
+        },
+        {
+          "q": "Do I need an office for a Mainland company?",
+          "a": "A physical office or business premises is generally required, subject to the activity and applicable regulations."
+        },
+        {
+          "q": "Do I need an office for a Free Zone company?",
+          "a": "Our available Free Zone packages can be established without a physical office. Requirements vary depending on the Free Zone and package."
+        },
+        {
+          "q": "Can I get a Free Zone license without a residence visa?",
+          "a": "Yes, selected packages can be issued without a residence visa."
+        },
+        {
+          "q": "How many investor visas can I get with a Free Zone company?",
+          "a": "Visa capacity depends on the Free Zone and selected package and can reach up to 10 investor visas in applicable packages."
+        },
+        {
+          "q": "Can I open a company as a Freelancer?",
+          "a": "Eligible professionals may be able to obtain a Freelance license depending on their activity and qualifications."
+        },
+        {
+          "q": "Can you handle my visa after setting up the company?",
+          "a": "Yes. We provide visa and immigration-related services as part of our business support."
+        },
+        {
+          "q": "Do you provide license renewal services?",
+          "a": "Yes. We assist with license renewal and various license amendments."
+        },
+        {
+          "q": "Do you provide trademark registration?",
+          "a": "Yes. We provide support with trademark registration procedures in the UAE."
+        },
+        {
+          "q": "Do you provide Municipality services?",
+          "a": "Yes. We assist with municipality permits and approvals required for eligible business activities and premises."
+        }
+      ],
+      "stillHaveQuestions": "Still have questions?",
+      "ctaButton": "Contact us today for a Free Consultation"
+    },
+    "quote": {
+      "eyebrow": "Get Started",
+      "title": "Request a Free Quote",
+      "subtitle": "Tell us a little about your business goals and our consultants will reach out to you shortly.",
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "Enter your full name",
+      "contactLabel": "Email / Phone",
+      "contactPlaceholder": "Email or phone number",
+      "button": "Request A Free Quote",
+      "buttonSent": "Sent!",
+      "successMessage": "Thank you! One of our consultants will reach out to you shortly."
+    }
+  },
+
+  "About": {
+    "hero": {
+      "title": "Al Reyada Al Motaqadima",
+      "subtitle": "Your trusted partner for business setup and government services in the UAE.",
+      "imageAlt": "Dubai skyline and a modern business office at sunset",
+      "logoAlt": "Al Reyada Al Motaqadima logo"
+    },
+    "who": {
+      "eyebrow": "Who is Al Reyada Al Motaqadima ?",
+      "title": "Your Trusted Partner for Business Setup & Growth",
+      "p1": "We help entrepreneurs and businesses start, manage and grow their companies in the UAE with professional business setup, PRO and government services.",
+      "p2": "From company formation and trade licences to visas, PRO services and government approvals, our team provides practical support throughout your business journey. Our goal is simple: to make UAE business setup and government processes easier, faster and more straightforward for our clients.",
+      "imageAlt": "Central Hub business leader in a modern Dubai office"
+    },
+    "features": {
+      "localIndependent": {
+        "title": "Local & Independent",
+        "points": [
+          "100% Emirati-owned",
+          "Sponsors onshore companies directly",
+          "Unrestricted local market access",
+          "Day-to-day operations remain with foreign owners"
+        ]
+      },
+      "reachNetwork": {
+        "title": "Reach & Network",
+        "points": [
+          "Member of leading Dubai family",
+          "Access to investors & high-level government officials",
+          "Strong working relationships with key sectors",
+          "Operates within a related group of companies"
+        ]
+      }
+    },
+    "approach": {
+      "eyebrow": "Our Approach",
+      "title": "Our Approach for your Business Success",
+      "pillars": {
+        "successParamount": {
+          "title": "Your Success is Paramount",
+          "text": "Dedicated account manager from start to finish."
+        },
+        "transparent": {
+          "title": "Transparent",
+          "text": "All fees clearly laid out; no hidden costs."
+        },
+        "efficientInvisible": {
+          "title": "Efficient & Invisible",
+          "text": "Proactive background work; centralized document repository."
+        },
+        "globallyInclusive": {
+          "title": "Globally Inclusive",
+          "text": "Multicultural, multilingual team serving all nationalities."
+        },
+        "fullService": {
+          "title": "Full Service",
+          "text": "All-inclusive end-to-end service from first interaction."
+        },
+        "accessible": {
+          "title": "Accessible",
+          "text": "Reachable throughout engagement; open to updates."
+        }
+      }
+    },
+    "cta": {
+      "title": "Looking for UAE Trade License pricing? Calculate the cost now. It takes less than 30 seconds.",
+      "button": "Cost Calculator"
+    }
+  },
+
+  "BusinessSetup": {
+    "hero": {
+      "eyebrow": "Your trusted",
+      "title": "Business Setup",
+      "titleLine2": "Partner",
+      "titleHighlight": "in Dubai",
+      "description": "Complete business setup and government services for investors, entrepreneurs and companies in the UAE.",
+      "imageAlt": "Dubai skyline viewed from a modern business office",
+      "getStarted": "Get Started",
+      "contactUs": "Contact Us",
+      "highlights": [
+        "Reliable & Professional",
+        "End-to-End Support",
+        "Transparent Process",
+        "Dedicated Consultant"
+      ]
+    },
+    "jurisdictions": {
+      "eyebrow": "UAE company formation",
+      "title": "Explore Your",
+      "titleHighlight": "Business Setup",
+      "titleSuffix": "Options",
+      "subtitle": "Choose the right setup for your business goals. Compare the options and get started with expert support.",
+      "items": {
+        "mainland": {
+          "name": "Mainland License",
+          "description": "For businesses that want to operate directly in the UAE local market.",
+          "features": [
+            "Physical office required",
+            "Wide range of business activities",
+            "Operate in the UAE local market",
+            "Investor and employee visa options"
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Dubai skyline with modern business towers"
+        },
+        "freeZone": {
+          "name": "Free Zone License",
+          "description": "Flexible company setup without a physical office under our available packages.",
+          "features": [
+            "No physical office required",
+            "Up to 10 investor visas depending on the Free Zone and selected package",
+            "Import & Export activities",
+            "Sell products online / E-Commerce"
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Dubai Free Zone business center"
+        },
+        "freelanceAbuDhabi": {
+          "name": "Freelance License \u2013 Abu Dhabi",
+          "description": "Work independently in Abu Dhabi under an eligible freelance activity.",
+          "features": [
+            "No physical office required",
+            "One residence visa for the license holder",
+            "Family sponsorship available subject to requirements",
+            "Suitable for consultants, designers, and developers"
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Freelancer working in a modern home office"
+        },
+        "eTrader": {
+          "name": "E-Trader License - Dubai",
+          "description": "Start your online business with a lower-cost setup.",
+          "features": [
+            "No physical office required",
+            "No residence visa included",
+            "Lower-cost solution",
+            "Sell through eligible online marketplaces such as Amazon and Noon, subject to platform and activity requirements."
+          ],
+          "buttonText": "Learn More",
+          "imageAlt": "Online seller packing products for an ecommerce business"
+        }
+      }
+    },
+    "process": {
+      "title": "A Simple",
+      "titleHighlight": "Process",
+      "subtitle": "We make company setup in the UAE simple and hassle-free.",
+      "steps": {
+        "step1": {
+          "title": "Choose Your Setup",
+          "description": "Select the best option for your business."
+        },
+        "step2": {
+          "title": "Prepare Documents",
+          "description": "We guide you with the required documents."
+        },
+        "step3": {
+          "title": "Submit & Approvals",
+          "description": "We handle all government submissions and follow-ups."
+        },
+        "step4": {
+          "title": "Receive Your Trade License",
+          "description": "Start your business with confidence."
+        }
+      }
+    },
+    "cta": {
+      "title": "Not sure which Setup fits your business?",
+      "button": "Compare Costs Now"
+    }
+  },
+
+  "Services": {
+    "hero": {
+      "title": "Business &",
+      "titleHighlight": "Government Services",
+      "description": "Professional support for your company's setup and ongoing government transactions in the UAE.",
+      "imageAlt": "Dubai skyline at sunset",
+      "heroItems": {
+        "tradeLicense": { "label": "Trade License", "detail": "Services" },
+        "employee": { "label": "Employee", "detail": "Procedures" },
+        "mohre": { "label": "MOHRE", "detail": "Transactions" },
+        "immigration": { "label": "Immigration", "detail": "& Residency" },
+        "municipality": { "label": "Municipality", "detail": "& Land Services" },
+        "rta": { "label": "RTA", "detail": "Transactions" },
+        "corporate": { "label": "Corporate", "detail": "Bank Account" },
+        "ongoing": { "label": "Ongoing", "detail": "PRO Support" }
+      }
+    },
+    "corporateServices": {
+      "title": "Our Corporate Services",
+      "featured": {
+        "tag": "Featured",
+        "name": "Monthly PRO Contract",
+        "description": "Complete ongoing government support and transaction management.",
+        "features": [
+          "Dedicated PRO Support",
+          "Residency & Visa Support",
+          "Trade License & MOHRE Support",
+          "Deadline & Expiry Reminders"
+        ],
+        "button": "Learn More"
+      },
+      "items": {
+        "tradeLicense": {
+          "name": "Trade License",
+          "description": "New license issuance, renewal, and activity amendment handled end-to-end.",
+          "imageAlt": "Person signing a business document at an office desk",
+          "features": [
+            "New license issuance",
+            "Annual license renewal",
+            "Business activity amendments",
+            "Partner & manager updates"
+          ]
+        },
+        "notaryPublic": {
+          "name": "Notary Public Services",
+          "description": "Fast and reliable notarization, attestation, and legal document services in the UAE.",
+          "imageAlt": "Dubai Courts building representing notary and legal document services",
+          "features": [
+            "Power of Attorney (POA)",
+            "MOA & Amendments",
+            "Signature Attestation",
+            "Legal Documents Notarization"
+          ]
+        },
+        "mohre": {
+          "name": "MOHRE Services",
+          "description": "Complete management of Ministry of Human Resources and labour files.",
+          "imageAlt": "Professionals discussing business in a modern office meeting",
+          "features": [
+            "Work permits issuance",
+            "Employment contracts",
+            "Company labour file services",
+            "Employee government procedures"
+          ]
+        },
+        "gdrfa": {
+          "name": "GDRFA Services",
+          "description": "Expert handling of all immigration, visa, and residency transactions.",
+          "imageAlt": "Passport and travel documents symbolizing immigration and visa services",
+          "features": [
+            "Residence & Entry permits",
+            "Visa services & stamping",
+            "Residence renewal",
+            "Visa cancellation"
+          ]
+        },
+        "sira": {
+          "name": "SIRA Services",
+          "description": "Securing necessary safety and security approvals for your business premises.",
+          "imageAlt": "Modern surveillance camera mounted on a building exterior",
+          "features": [
+            "SIRA applications",
+            "CCTV & Security approvals",
+            "NOC procedures",
+            "Security licensing procedures"
+          ]
+        },
+        "rta": {
+          "name": "RTA Services",
+          "description": "Smooth processing of transport authority approvals and vehicle procedures.",
+          "imageAlt": "Roads and Transport Authority logo",
+          "features": [
+            "RTA-related transactions",
+            "Vehicle government procedures",
+            "Commercial transport approvals",
+            "Application follow-up"
+          ]
+        },
+        "proServices": {
+          "name": "PRO Services",
+          "description": "We handle your company and government transactions from start to finish.",
+          "imageAlt": "Professional consultant reviewing legal paperwork in a modern office",
+          "features": [
+            "Government applications & approvals",
+            "Document processing & clearance",
+            "Government authority coordination",
+            "Fast application follow-up"
+          ]
+        },
+        "goldenVisa": {
+          "name": "UAE Golden Visa",
+          "description": "Long-term 10-year residency for investors, entrepreneurs, and talent.",
+          "imageAlt": "Golden Visa document with the Dubai skyline in the background",
+          "features": [
+            "10-year long-term residency",
+            "For investors, talents & entrepreneurs",
+            "No local sponsor required",
+            "Family and domestic staff sponsorship"
+          ]
+        },
+        "emiratesId": {
+          "name": "Emirates ID Services",
+          "description": "Comprehensive support for all your Emirates identity card requirements.",
+          "imageAlt": "United Arab Emirates identity card displayed with the Dubai skyline",
+          "features": [
+            "New Emirates ID applications",
+            "ID Renewal procedures",
+            "Replacement of lost cards",
+            "Fast application follow-up"
+          ]
+        },
+        "bankAccount": {
+          "name": "Corporate Bank Account",
+          "description": "Fast-track corporate bank account opening with leading UAE banks.",
+          "imageAlt": "Wallet and credit cards representing corporate banking services",
+          "features": [
+            "Partnerships with top UAE banks",
+            "Fast-track approval process",
+            "Multi-currency account options",
+            "Dedicated banking assistance"
+          ]
+        },
+        "immigration": {
+          "name": "Immigration & Registration",
+          "description": "Visa processing, Emirates ID, and medical fitness for you and your staff.",
+          "imageAlt": "Person holding a passport at a busy airport terminal",
+          "features": [
+            "Investor & employee visa processing",
+            "Emirates ID applications & renewals",
+            "Medical fitness test coordination",
+            "Family sponsorship support"
+          ]
+        },
+        "liquidation": {
+          "name": "Company Liquidation",
+          "description": "Professional closure and deregistration of your company in full compliance.",
+          "imageAlt": "Closed sign symbolizing company liquidation and deregistration",
+          "features": [
+            "Official company deregistration",
+            "Visa and establishment card closure",
+            "Audit report & clearance letters",
+            "Full compliance with UAE laws"
+          ]
+        }
+      },
+      "learnMore": "Learn More"
+    },
+    "governmentPartners": {
+      "eyebrow": "Trusted government liaison",
+      "title": "Government Authorities We Support",
+      "items": {
+        "gdrfa": "General Directorate of Residency and Foreigners Affairs",
+        "mohre": "Ministry of Human Resources and Emiratisation",
+        "rta": "Roads and Transport Authority",
+        "dubai": "Dubai Department of Economy and Tourism",
+        "municipality": "Dubai Municipality",
+        "sira": "Security Industry Regulatory Agency"
+      }
+    },
+    "cta": {
+      "title": "Ready to start your business in Dubai?",
+      "button": "Calculate Your Cost Now"
+    }
+  },
+
+  "Contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Let us help your business move forward. Get in touch with our experts today."
+    },
+    "info": {
+      "eyebrow": "Contact Information",
+      "title": "Get in Touch",
+      "description": "Whether you're setting up a new business or expanding an existing one, our team is ready to guide you through every step. Reach out and we'll respond within one business day.",
+      "addressLabel": "Address",
+      "addressValue": "Office G83, Elegant Star Business Center, Deira, Dubai, UAE",
+      "callLabel": "Call",
+      "callValue": "+971 50 250 7774",
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "+971 50 422 9389",
+      "emailLabel": "Email",
+      "emailValue": "info@alreyada-almotaqdima.ae",
+      "openInMaps": "Open in Maps",
+      "mapTitle": "Elegant Star Business Center, Deira, Dubai — Map"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailOptional": "Email Address (Optional)",
+      "emailPlaceholder": "john@example.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+971 4 000 0000",
+      "subject": "Subject",
+      "subjectOptional": "Subject (Optional)",
+      "subjectPlaceholder": "How can we help?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your business needs...",
+      "button": "Send WhatsApp Message",
+      "whatsappHeader": "New Inquiry from Website:",
+      "successTitle": "Opening WhatsApp",
+      "successBody": "Your message has been prepared in WhatsApp. Just hit send there to reach our team directly.",
+      "sendAnother": "Send another message"
+    }
+  },
+
+  "CostCalculator": {
+    "currency": "AED",
+    "eyebrow": "Instant Estimate",
+    "title": "Business Setup Cost Calculator",
+    "subtitle": "Get an instant estimate for your UAE company formation in less than 30 seconds.",
+    "steps": ["Setup", "Visas"],
+    "step1": {
+      "title": "Choose Your Setup",
+      "subtitle": "Select the type of UAE company formation that fits your business needs.",
+      "options": {
+        "freeZone": {
+          "label": "Free Zone",
+          "desc": "100% foreign ownership, ideal for international trade"
+        },
+        "dubaiMainland": {
+          "label": "Dubai Mainland",
+          "desc": "Trade anywhere in the UAE local market"
+        },
+        "dubaiETrader": {
+          "label": "Dubai E-Trader",
+          "desc": "Low-cost online business. Sell on digital platforms"
+        },
+        "abuDhabiFreelance": {
+          "label": "Abu Dhabi Freelance",
+          "desc": "For specialists & creatives. Family sponsorship"
+        }
+      }
+    },
+    "step2": {
+      "title": "Number of Visas Required",
+      "subtitle": "How many residency visas do you need for your team?",
+      "visaOptions": {
+        "0": "0 Visas",
+        "1": "1 Visa",
+        "2": "2 Visas",
+        "3": "3 Visas",
+        "4": "4 Visas",
+        "noVisa": "License Only - No Visa"
+      },
+      "back": "Back"
+    },
+    "result": {
+      "title": "Your Estimated Cost",
+      "subtitle": "Based on your selections, here's your estimated setup cost:",
+      "estimatedRange": "Estimated Range",
+      "disclaimer": "Final pricing depends on activity type and additional government fees.",
+      "setupType": "Setup Type",
+      "visas": "Visas",
+      "talkToExpert": "Talk to an Expert",
+      "startOver": "Start Over"
+    }
+  },
+
+  "Mainland": {
+    "eyebrow": "Business Setup Jurisdiction",
+    "title": "Mainland Company Setup",
+    "subtitle": "Mainland company setup in Dubai and the UAE is quick & hassle-free, with 100% ownership for most activities.",
+    "p1": "The UAE is recognised as a prime destination for foreign investors seeking to establish a presence in the Middle East. Mainland company formation allows you to trade directly with the local UAE market, bid on government tenders, and operate without geographic restrictions \u2014 all while enjoying 100% foreign ownership for the majority of business activities following recent regulatory reforms.",
+    "p2": "Whether you are launching a commercial, industrial, or professional venture, a mainland license gives you the flexibility to operate across all seven emirates and internationally, making it the most versatile jurisdiction for ambitious businesses.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      {
+        "title": "100% Foreign Ownership",
+        "description": "Retain full ownership of your business without requiring a local sponsor for most activities."
+      },
+      {
+        "title": "No Corporate / Personal Tax",
+        "description": "Benefit from the UAE's tax-free environment on personal and corporate income."
+      },
+      {
+        "title": "Trade Freely Anywhere in the UAE",
+        "description": "Operate across all emirates and access the entire local consumer market without restriction."
+      },
+      {
+        "title": "No Restrictions on Number of Employees",
+        "description": "Hire as many employees as your business requires with no visa quota limitations."
+      },
+      {
+        "title": "Government Contract Eligibility",
+        "description": "Bid on lucrative federal and municipal government contracts and projects."
+      },
+      {
+        "title": "Unlimited Office Space Options",
+        "description": "Secure office space of any size across Dubai to scale your operations."
+      }
+    ],
+    "limitationsTitle": "Potential Limitations",
+    "limitations": [
+      {
+        "title": "Local Sponsor May Be Required",
+        "description": "For certain restricted activities, a local Emirati sponsor holding 51% shares may still be needed."
+      },
+      {
+        "title": "Higher Setup Costs",
+        "description": "Mainland setup typically involves higher initial costs compared to free zone alternatives."
+      },
+      {
+        "title": "More Regulatory Compliance",
+        "description": "Subject to DED regulations, municipal approvals, and additional compliance requirements."
+      }
+    ]
+  },
+
+  "FreeZone": {
+    "eyebrow": "Business Setup Jurisdiction",
+    "title": "Free Zone Company Setup",
+    "subtitle": "100% foreign ownership, tax exemptions, and fast-track licensing across 50+ specialized free zones.",
+    "p1": "With more than fifty Free Zones in the UAE, each catering to specific industries and business activities, free zone company formation offers 100% foreign ownership, full repatriation of capital and profits, and complete tax exemptions. Free zones are ideal for trading, services, technology, media, logistics, and holding companies that do not require direct access to the UAE mainland market.",
+    "p2": "Each free zone has its own regulatory authority, licensing framework, and fee structure. Choosing the right free zone depends on your business activity, office space requirements, and visa needs \u2014 our team helps you compare and select the optimal jurisdiction.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      {
+        "title": "100% Repatriation of Capital & Profits",
+        "description": "Full ownership and the ability to repatriate all capital and profits without restriction."
+      },
+      {
+        "title": "0% Corporate & Personal Tax",
+        "description": "Enjoy complete tax exemptions on corporate income and personal earnings."
+      },
+      {
+        "title": "No Currency Restrictions",
+        "description": "Operate freely in AED, USD, EUR, and other currencies with no capital controls."
+      },
+      {
+        "title": "Fast-Track Licensing",
+        "description": "Streamlined setup process with licenses often issued within days."
+      },
+      {
+        "title": "World-Class Infrastructure",
+        "description": "Purpose-built business parks with state-of-the-art facilities and connectivity."
+      },
+      {
+        "title": "Visa Quotas Based on Office Space",
+        "description": "Flexible visa allocations proportional to your leased office area."
+      }
+    ],
+    "limitationsTitle": "Potential Limitations",
+    "limitations": [
+      {
+        "title": "Cannot Trade Directly on Mainland",
+        "description": "Free zone companies cannot directly trade with the UAE mainland market without a local distributor or agent."
+      },
+      {
+        "title": "Restricted to Free Zone Premises",
+        "description": "Operations must be physically located within the designated free zone boundary."
+      }
+    ],
+    "jurisdictionsTitle": "Popular Free Zone Jurisdictions",
+    "jurisdictions": {
+      "dmcc": {
+        "description": "DMCC is the dedicated global centre for more than 18,000 businesses, located in the heart of Dubai's JLT district. Recognised as the world's leading free zone for multiple consecutive years, DMCC offers a world-class ecosystem for commodities trading, crypto, finance, and professional services.",
+        "features": [
+          "18,000+ registered businesses",
+          "Flexible office and co-working options",
+          "Multi-activity license available"
+        ]
+      },
+      "dso": {
+        "description": "DSO is a globally recognized free zone and an integrated technology park located in Dubai Silicon Oasis. It provides a comprehensive ecosystem for technology, engineering, and innovation-driven companies, combining residential, commercial, and industrial zones in one community.",
+        "features": [
+          "Technology-focused infrastructure",
+          "Affordable licensing and visa packages",
+          "Smart city amenities and R&D facilities"
+        ]
+      }
+    }
+  },
+
+  "Offshore": {
+    "eyebrow": "Business Setup Jurisdiction",
+    "title": "Offshore Company Setup",
+    "subtitle": "Offshore Company Formation with UAE Bank Account. We maintain highest privacy standards.",
+    "p1": "Offshore companies offer a legitimate approach to wealth management, asset protection, and international holding structures. An offshore company registered in the UAE or another jurisdiction can own assets, hold intellectual property, and serve as a parent company for international operations \u2014 all while benefiting from tax efficiency, confidentiality, and a UAE bank account.",
+    "p2": "We assist with the full lifecycle of offshore company formation, from jurisdiction selection and registration to ongoing compliance and bank account opening. Our highest priority is maintaining privacy and confidentiality standards throughout the process.",
+    "privacyNote": "Privacy & Compliance: We operate in full compliance with international regulations while maintaining the highest standards of client confidentiality.",
+    "jurisdictionsTitle": "Available Offshore Jurisdictions",
+    "jurisdictions": {
+      "ajman": {
+        "tabLabel": "Ajman Offshore",
+        "description": "Established in 1988 as one of the first free zones in the UAE, Ajman Offshore provides a cost-effective and efficient offshore company registration option within the UAE. It is widely used for holding structures, asset protection, and international trading.",
+        "features": [
+          "UAE-based offshore jurisdiction",
+          "Eligible for UAE corporate bank account",
+          "Cost-effective setup and renewal",
+          "No physical office required"
+        ]
+      },
+      "bvi": {
+        "tabLabel": "BVI",
+        "description": "The British Virgin Islands (BVI) is the world's leading and most popular offshore centre, with over 400,000 incorporated companies. BVI Business Companies are widely used for international holding, trading, and investment structures, offering flexibility, tax neutrality, and a well-established legal framework.",
+        "features": [
+          "World's most popular offshore jurisdiction",
+          "400,000+ registered companies",
+          "Flexible share structure and no minimum capital",
+          "Strong asset protection framework"
+        ]
+      },
+      "seychelles": {
+        "tabLabel": "Seychelles",
+        "description": "With its favourable tax policies, Seychelles has increasingly become a preferred business destination for international entrepreneurs. Seychelles International Business Companies (IBCs) offer tax exemption on foreign income, minimal reporting requirements, and a fast incorporation process.",
+        "features": [
+          "Zero tax on foreign-sourced income",
+          "Fast incorporation (1-2 days)",
+          "Minimal annual reporting requirements",
+          "High level of confidentiality"
+        ]
+      }
+    }
+  },
+
+  "FinancialCentre": {
+    "eyebrow": "Business Setup Jurisdiction",
+    "title": "Financial Centre Setup",
+    "subtitle": "World-class financial jurisdictions for banks, fintech, investment firms, and professional services.",
+    "p1": "The UAE has two specialist free zones focusing on the financial sector: the Dubai International Financial Centre (DIFC) and the Abu Dhabi Global Market (ADGM). Both operate as independent jurisdictions with their own legal systems based on common law, their own courts, and dedicated regulatory authorities \u2014 making them the premier destinations for financial institutions, fintech companies, investment firms, and professional services in the region.",
+    "p2": "These financial centres provide an internationally recognised regulatory framework, a common-law legal system, and access to a deep pool of financial talent \u2014 ideal for banks, asset managers, insurance firms, and fintech innovators.",
+    "jurisdictionsTitle": "Financial Jurisdictions",
+    "difc": {
+      "description": "A leading financial hub in the Middle East, Africa and South Asia (MEASA) region. DIFC is home to 25,000+ professionals and 2,400+ active entities, offering an independent common-law legal system, a world-class regulatory framework, and a thriving ecosystem for finance, fintech, and professional services.",
+      "features": [
+        "2,400+ active registered entities",
+        "25,000+ professionals working in the centre",
+        "Independent common-law courts and arbitration",
+        "DFSA regulatory framework aligned with global standards"
+      ]
+    },
+    "adgm": {
+      "description": "Well-organized and favorable business environment for finance companies. ADGM, located in Abu Dhabi, operates on English common law and offers a robust regulatory framework through the FSRA, making it an attractive jurisdiction for banks, asset managers, fintech firms, and holding companies.",
+      "features": [
+        "English common-law legal system",
+        "FSRA \u2014 internationally recognised regulator",
+        "Direct application of English law",
+        "Fintech sandbox and innovation licenses"
+      ]
+    }
+  },
+
+  "FreelanceLicenseAbuDhabi": {
+    "eyebrow": "Business Setup Jurisdiction",
+    "title": "Freelance License – Abu Dhabi",
+    "subtitle": "Practice your profession independently in the Emirate of Abu Dhabi. Obtain a freelance licence to carry out your professional activities independently under approved activities, in accordance with the highest standards and requirements for doing business. This licence is designed to be the optimal choice for specialists and highly experienced professionals in technical, digital, marketing, creative, and consulting fields.",
+    "eligibilityAlertTitle": "Are You Eligible for a Freelance Licence?",
+    "eligibilityAlertText": "Please note that the freelance licence is not a general option suitable for all individuals or all business activities. Eligibility depends primarily on the nature of the activity to be practiced, as well as academic qualifications, professional experience record, and supporting documents required. At Al Reyada Al Motaqadima, we conduct a thorough review of your activity, qualifications, and documents before initiating any procedures, to ensure full confirmation of your suitability and compliance with the licence issuance requirements.",
+    "eligibilityAlertButton": "Check Your Eligibility Now",
+    "whatIsItTitle": "What is the Abu Dhabi Freelance Licence?",
+    "whatIsItText": "The freelance licence is a legally recognised licence dedicated exclusively to specialists and skilled professionals who aspire to practice their professional activities independently in the Emirate of Abu Dhabi within a specific list of approved activities. This licence grants you full legal authority to provide your services to companies and individuals, manage your business freely, and build a broad client base in accordance with the legal framework and requirements applicable in the Emirate.",
+    "activitiesTitle": "Approved Activities",
+    "activities": [
+      {
+        "title": "Technology & Digital Services",
+        "description": "Website design, software and system design and development, IT consultancy, IT network management services, AI application and software development."
+      },
+      {
+        "title": "Marketing & Digital Media",
+        "description": "Advanced marketing consultancy and studies, campaign and operations management, online advertising services, media consultancy and studies, specialised public relations consultancy."
+      },
+      {
+        "title": "E-Commerce",
+        "description": "Online trading through websites, trading via social media platforms, commercial information services, data entry services, advanced data classification and analysis."
+      },
+      {
+        "title": "Design & Creativity",
+        "description": "Graphic and creative design services, fashion and apparel design, jewellery and precious ornaments design, professional photography services, personal video production and filming."
+      },
+      {
+        "title": "Consulting",
+        "description": "Management consultancy and studies, project development and management consultancy, economic consultancy and feasibility studies, HR development consultancy, specialised logistics consultancy."
+      }
+    ],
+    "activitiesNote": "Important note: These are just prominent examples of activities listed under the freelance licence activities list, and not a comprehensive list of all available activities. Eligibility criteria and requirements vary significantly depending on the chosen activity type and the applicant's profile.",
+    "requirementsTitle": "Key Requirements",
+    "requirements": [
+      {
+        "title": "Academic Qualification",
+        "description": "An academic qualification (university or equivalent) relevant and related to the nature of the activity may be required."
+      },
+      {
+        "title": "Professional Experience",
+        "description": "Certified experience certificates or official documents proving your practical experience are often required."
+      },
+      {
+        "title": "Professional Certifications",
+        "description": "Specialised professional certifications or accreditations from recognised bodies may be needed."
+      },
+      {
+        "title": "Digital Identity (UAE Pass)",
+        "description": "An active and verified account on the UAE Pass digital identity app is required."
+      },
+      {
+        "title": "Financial Documents",
+        "description": "Bank statements or proof of income demonstrating your financial capacity may be requested."
+      },
+      {
+        "title": "Additional Documents & Approvals",
+        "description": "Some activities may require prior approvals or additional documents from the relevant government authorities."
+      }
+    ],
+    "warningTitle": "Important Alert Before Applying",
+    "warningText": "It must be understood that the freelance licence is completely different from a general commercial licence. Your chosen activity must be listed exclusively among the approved activities for this type of licence. Qualification, experience, and document requirements vary significantly from one activity to another. Moreover, merely holding an academic qualification or professional experience does not automatically guarantee approval for licence issuance. Therefore, at Al Reyada Al Motaqadima, we are committed to reviewing your profile, activity, and documents comprehensively before taking any step to save your time and effort.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "No physical office or premises required (subject to activity requirements).",
+      "Maximum flexibility in practicing your activity and providing services to clients independently.",
+      "100% independent ownership under the legal structure of the licence.",
+      "Options to apply for a UAE residence visa (subject to eligibility and requirements).",
+      "Legal authority to contract and work with multiple clients and entities simultaneously."
+    ],
+    "targetAudienceTitle": "Target Audience",
+    "targetAudience": [
+      "Designers and creatives across various fields.",
+      "Consultants and experts (management, economics, human resources).",
+      "Specialists in digital marketing and advertising.",
+      "Professionals in the e-commerce and data management sector.",
+      "Web developers, programmers, and IT experts.",
+      "Photographers and visual content creators."
+    ],
+    "ourServicesTitle": "Our Services",
+    "ourServices": [
+      "Thorough assessment and review of the activity best suited to your expertise.",
+      "Preliminary eligibility review before paying any government fees.",
+      "Verification of academic qualifications and experience certificates.",
+      "Collection, preparation, and drafting of all required documents.",
+      "Real-time tracking of licence issuance procedures with relevant authorities.",
+      "Professional assistance with residency procedures (upon meeting eligibility).",
+      "Comprehensive support for family sponsorship and residency procedures in accordance with the law.",
+      "End-to-end follow-up of the transaction from A to Z until successful completion."
+    ]
+  },
+
+  "ETraderLicense": {
+    "eyebrow": "Business Setup Jurisdiction",
+    "title": "E-Trader License - Dubai",
+    "subtitle": "Start your online business with a lower-cost setup.",
+    "p1": "The E-Trader License is a specialized initiative aimed at supporting home-based businesses and digital entrepreneurs. It allows individuals to conduct business online, offering a regulated framework to sell services or products through social media and digital platforms without the need for a physical storefront.",
+    "p2": "This setup is the perfect launchpad for startups, digital professionals, and online service providers looking for a low-cost entry into the UAE market. It ensures consumer confidence by giving your online business a legitimate, government-registered status.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      {
+        "title": "Lower-Cost Solution",
+        "description": "Highly affordable setup designed specifically to empower solo entrepreneurs."
+      },
+      {
+        "title": "No Physical Office Required",
+        "description": "Completely legitimate operation from home without commercial leasing requirements."
+      },
+      {
+        "title": "Online Marketplaces",
+        "description": "Sell through eligible online marketplaces such as Amazon and Noon, subject to platform and activity requirements."
+      },
+      {
+        "title": "Digital & Social Media Services",
+        "description": "Ideal for providing consultancy, digital marketing, and professional online services."
+      },
+      {
+        "title": "Quick Setup",
+        "description": "Streamlined approval process to get your business up and running rapidly."
+      }
+    ],
+    "limitationsTitle": "Potential Limitations",
+    "limitations": [
+      {
+        "title": "No Residence Visa Included",
+        "description": "This license type does not provide residency visa eligibility."
+      },
+      {
+        "title": "No Physical Shop or Staff",
+        "description": "Cannot open a physical shop or hire staff."
+      },
+      {
+        "title": "Trading Activity Restrictions",
+        "description": "Commercial trading activities (selling physical goods) may have specific nationality restrictions depending on the issuing authority."
+      }
+    ]
+  },
+
+  "BankAccount": {
+    "eyebrow": "Corporate Service",
+    "title": "Corporate Bank Account",
+    "subtitle": "Fast-track corporate bank account opening with leading UAE banks.",
+    "leadText": "Usually, the process takes no more than 10\u201330 days, depending on the citizenship of the owner and the bank's compliance requirements.",
+    "p1": "Fast-track corporate bank account opening with leading UAE banks. We guide you through the compliance and documentation required to get your business banking up and running without delays.",
+    "mainlandTitle": "Mainland Company",
+    "mainlandRequirements": [
+      "Valid trade license copy",
+      "Memorandum of Association (MOA)",
+      "Shareholder/Director passport copies",
+      "Shareholder visa page & Emirates ID",
+      "Proof of business address (Ejari)",
+      "Management CV / business profile"
+    ],
+    "freeZoneTitle": "Free Zone Company",
+    "freeZoneRequirements": [
+      "Valid free zone license copy",
+      "Certificate of incorporation",
+      "Shareholder/Director passport copies",
+      "Free zone lease agreement",
+      "Memorandum of Association (MOA)",
+      "Business activity description"
+    ],
+    "importantNotes": "Important Notes",
+    "footnotes": [
+      { "mark": "*", "text": "Some banks require a minimum average balance." },
+      { "mark": "**", "text": "Personal visit may be required for final account activation." },
+      { "mark": "***", "text": "Compliance approval depends on the applicant's nationality and business activity." },
+      { "mark": "****", "text": "Additional documents may be requested on a case-by-case basis." }
+    ]
+  },
+
+  "Immigration": {
+    "eyebrow": "Corporate Service",
+    "title": "Immigration & Registration",
+    "subtitle": "Visa processing, Emirates ID, and medical fitness for you and your staff.",
+    "leadText": "Let us help you with your UAE immigration and registration. We can handle all types of visa processing, residency permits, and citizen registration.",
+    "p1": "Commercial License, Employee Visas, Attestations, Translation & Immigration Services. We undertake all kinds of Labor & Immigration Registration in Dubai, UAE for individuals and companies.",
+    "servicesTitle": "Our Immigration Services",
+    "services": [
+      {
+        "title": "Employee Visas",
+        "description": "New employment visas for your staff, from entry permit to stamping.",
+        "timeframe": "15-20 days"
+      },
+      {
+        "title": "Dependent Visas",
+        "description": "Residency visas for spouses, children, and other dependents.",
+        "timeframe": "5-7 days"
+      },
+      {
+        "title": "Visa Cancellation",
+        "description": "Smooth cancellation of existing visas with full compliance.",
+        "timeframe": "2-3 days"
+      },
+      {
+        "title": "Fines Payment",
+        "description": "Settlement of immigration and labour fines on your behalf.",
+        "timeframe": "1-2 days"
+      },
+      {
+        "title": "Documents Clearance",
+        "description": "Clearance of official documents through the relevant authorities.",
+        "timeframe": "3-5 days"
+      },
+      {
+        "title": "Attestation & Legalization",
+        "description": "MOFA attestation, embassy legalization, and document translation.",
+        "timeframe": "5-10 days"
+      }
+    ]
+  },
+
+  "Liquidation": {
+    "eyebrow": "Corporate Service",
+    "title": "Company Liquidation",
+    "subtitle": "Professional closure and deregistration of your company in full compliance with UAE regulations.",
+    "leadText": "An average time needed for liquidation of a private company (either registered in mainland or in one of free zones) is 50-60 days approx.",
+    "p1": "Expert company liquidation advice and opinion on the best liquidation approach, provided by experienced Dubai liquidators. Professional closure and deregistration of your company in full compliance with UAE regulations.",
+    "stagesTitle": "Mandatory Stages of Liquidation",
+    "stages": [
+      {
+        "title": "Audit Procedure",
+        "description": "A registered auditor reviews the company accounts and issues a formal liquidation letter confirming the company is debt-free and ready for deregistration."
+      },
+      {
+        "title": "Immigration Procedure",
+        "description": "All employee visas are cancelled, Emirates IDs are surrendered, and the establishment card is closed before the company can be deregistered."
+      },
+      {
+        "title": "Corporate Proceedings",
+        "description": "Includes establishment card closure, signboard resolution, and the official liquidation announcement published in the gazette."
+      }
+    ],
+    "timelineTitle": "Liquidation Process Timeline",
+    "tableHeaders": ["Process", "Documents Required", "Additional Conditions", "Timeframe"],
+    "tableRows": [
+      {
+        "process": "Letter of liquidation from audit",
+        "documents": "License copy, MOA",
+        "conditions": "Auditor must be approved",
+        "timeframe": "15-20 working days"
+      },
+      {
+        "process": "Employee visa cancellation",
+        "documents": "Passport, visa, EID copies",
+        "conditions": "EID of sponsor",
+        "timeframe": "1-2 working days"
+      },
+      {
+        "process": "Establishment card closure",
+        "documents": "Establishment card, license copy",
+        "conditions": "All visas must be cancelled first",
+        "timeframe": "3-5 working days"
+      },
+      {
+        "process": "Signboard resolution & liquidation announcement",
+        "documents": "Liquidation certificate, board resolution",
+        "conditions": "Published in local gazette",
+        "timeframe": "10-15 working days"
+      },
+      {
+        "process": "Final license cancellation",
+        "documents": "Liquidation letter, clearance letters",
+        "conditions": "All dues cleared",
+        "timeframe": "5-7 working days"
+      }
+    ],
+    "footerNote": "Timeframes are indicative and may vary depending on the license type, number of visas, and the relevant authority's processing time."
+  },
+
+  "GoldenVisa": {
+    "eyebrow": "Corporate Service",
+    "title": "UAE Golden Visa",
+    "subtitle": "Long-term 10-year residency for investors, entrepreneurs, and talent.",
+    "leadText": "The UAE Golden Visa offers long-term residency to investors, entrepreneurs, and specialized talents.",
+    "p1": "Secure your future and enjoy unparalleled benefits in the UAE, including the ability to live, work, and study without the need for a national sponsor, with full ownership of your business.",
+    "eligibilityTitle": "Eligibility Conditions",
+    "eligibilityText": "Real estate investment: The applicant must own a property in the UAE valued at a minimum of 2,000,000 AED (either outright or via an approved mortgage plan).",
+    "stagesTitle": "Main Stages",
+    "stages": [
+      {
+        "title": "DLD Approval",
+        "description": "The Dubai Land Department verifies the real estate investment meets the 2M AED threshold and issues the eligibility letter."
+      },
+      {
+        "title": "Medical Tests",
+        "description": "A standard blood test and X-ray are conducted at an approved medical fitness center."
+      },
+      {
+        "title": "Biometrics",
+        "description": "Fingerprinting and biometric capture are completed for the new Emirates ID issuance."
+      }
+    ],
+    "timelineTitle": "Golden Visa Process Timeline",
+    "tableHeaders": ["Process", "Documents Required", "Additional Conditions", "Timeframe"],
+    "tableRows": [
+      {
+        "process": "Application with DLD",
+        "documents": "SPA, Title deed, Passport copy, HD photo, Health insurance",
+        "conditions": "Property value \u2265 2M AED",
+        "timeframe": "2-3 working days"
+      },
+      {
+        "process": "Medical test",
+        "documents": "Original passport",
+        "conditions": "Blood type, X-Ray",
+        "timeframe": "1 hour"
+      },
+      {
+        "process": "Biometrics & Emirates ID",
+        "documents": "Original passport, existing EID",
+        "conditions": "Applicant must be present",
+        "timeframe": "30 minutes"
+      },
+      {
+        "process": "Visa stamping",
+        "documents": "Passport, medical result, EID",
+        "conditions": "All prior steps cleared",
+        "timeframe": "5-7 working days"
+      }
+    ],
+    "noticeTitle": "Important Notice",
+    "noticeText": "The applicant cannot leave the country during the procedure. Plan your travel accordingly to avoid delays or cancellation of the application."
+  },
+
+  "TradeLicense": {
+    "eyebrow": "Corporate Service",
+    "title": "Trade License",
+    "subtitle": "New license issuance, renewal, and activity amendment handled end-to-end.",
+    "leadText": "As one of the best business setup consultants in Dubai, we specialize in making the process of obtaining your trade license smooth and hassle-free.",
+    "p1": "New license issuance, renewal, and activity amendment handled end-to-end. We are UAE's leading business setup & company formation company, ensuring your trade license is obtained, maintained, and updated without friction.",
+    "servicesTitle": "What We Handle",
+    "services": [
+      {
+        "title": "New License Issuance",
+        "description": "Obtain a brand-new trade license for your business activity, whether mainland or free zone."
+      },
+      {
+        "title": "License Renewal",
+        "description": "Timely renewal of your existing trade license to avoid penalties and downtime."
+      },
+      {
+        "title": "Activity Amendment",
+        "description": "Add, remove, or modify business activities on your existing license."
+      }
+    ],
+    "processingTimeTitle": "Typical Processing Time",
+    "processingTimeText": "Most trade license applications are completed within 5-7 working days from submission of all required documents."
+  },
+
+  "ProServices": {
+    "eyebrow": "Corporate Service",
+    "title": "Professional Government PRO Services",
+    "subtitle": "We handle all your company's government transactions from start to finish, ensuring full compliance and eliminating administrative delays.",
+    "leadText": "Navigating government regulations in the UAE requires expertise. Our PRO services handle all your company's government transactions from start to finish, ensuring full compliance and eliminating administrative delays. We act as your dedicated government liaison.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      {
+        "title": "End-to-End Processing",
+        "description": "We manage government applications, document typing, and processing."
+      },
+      {
+        "title": "Authority Coordination",
+        "description": "Seamless interaction with DED, MOHRE, GDRFA, and other municipal bodies."
+      },
+      {
+        "title": "Time & Cost Efficiency",
+        "description": "Avoid fines, typing errors, and delays in your paperwork."
+      },
+      {
+        "title": "Company Transactions",
+        "description": "Expert handling of company-related transactions, approvals, and NOCs."
+      },
+      {
+        "title": "Continuous Follow-up",
+        "description": "We track your applications until final approval."
+      }
+    ]
+  },
+
+  "MonthlyContract": {
+    "hero": {
+      "eyebrow": "Corporate Service",
+      "title": "Monthly Corporate PRO Contract",
+      "subtitle": "Let our expert team manage your complete government requirements on a monthly retainer, ensuring your business operations are never interrupted.",
+      "benefits": {
+        "dedicatedPro": {
+          "title": "Dedicated PRO",
+          "description": "A specialized team for your ongoing needs"
+        },
+        "visaManagement": {
+          "title": "Visa Management",
+          "description": "Investor, employee & family visas handled"
+        },
+        "govApprovals": {
+          "title": "Gov. Approvals",
+          "description": "Coordination with all relevant authorities"
+        },
+        "expiryReminders": {
+          "title": "Expiry Reminders",
+          "description": "Proactive reminders to avoid penalties"
+        }
+      }
+    },
+    "intro": "Instead of handling every transaction separately, choose an ongoing PRO support contract. Let our expert team manage your complete government requirements on a monthly retainer. This ensures your business operations are never interrupted by expired documents or missed deadlines.",
+    "packages": {
+      "eyebrow": "Pricing Plans",
+      "title": "Monthly PRO Packages",
+      "subtitle": "Flexible packages designed to support businesses of all sizes.",
+      "items": {
+        "basic": {
+          "name": "Basic Package",
+          "subtitle": "Small Businesses",
+          "priceSuffix": "/month",
+          "currency": "AED",
+          "features": [
+            "Up to 8 government transactions/month",
+            "Essential PRO services",
+            "Residency & visa support",
+            "Trade license services",
+            "Ongoing support & consultation"
+          ],
+          "button": "Request a Quote"
+        },
+        "standard": {
+          "name": "Standard Package",
+          "subtitle": "Growing Businesses",
+          "priceSuffix": "/month",
+          "currency": "AED",
+          "popular": "Most Popular",
+          "features": [
+            "Up to 20 government transactions/month",
+            "All Basic Package services",
+            "HR & labour services",
+            "Government approvals",
+            "Dedicated PRO officer",
+            "Monthly reporting & follow-up"
+          ],
+          "button": "Request a Quote"
+        },
+        "premium": {
+          "name": "Premium Package",
+          "subtitle": "Larger Companies",
+          "priceSuffix": "/month",
+          "currency": "AED",
+          "features": [
+            "Unlimited government transactions",
+            "All Standard Package services",
+            "Dedicated PRO account manager",
+            "Priority & expedited support",
+            "NOC, attestation & legal document support",
+            "Monthly reports & customized solutions"
+          ],
+          "button": "Request a Quote"
+        }
+      }
+    },
+    "keyBenefits": {
+      "eyebrow": "What You Get",
+      "title": "Key Benefits",
+      "subtitle": "Comprehensive PRO support covering every aspect of your government transactions.",
+      "items": [
+        {
+          "title": "Dedicated PRO Support",
+          "description": "A specialized team for your ongoing needs."
+        },
+        {
+          "title": "Residency & Visa Management",
+          "description": "Investor, employee & family visas, renewals and cancellations."
+        },
+        {
+          "title": "Trade License Support",
+          "description": "Renewals, amendments and company updates."
+        },
+        {
+          "title": "MOHRE & Labour Services",
+          "description": "Work permits, contracts and labour files."
+        },
+        {
+          "title": "Government Approvals",
+          "description": "Coordination with relevant authorities."
+        },
+        {
+          "title": "Special Approvals",
+          "description": "Support for RTA, SIRA, Municipality and more."
+        },
+        {
+          "title": "Attestation & Legal Documents",
+          "description": "MOFA, embassy and legal documentation."
+        },
+        {
+          "title": "Deadline & Expiry Reminders",
+          "description": "Proactive reminders to avoid penalties."
+        },
+        {
+          "title": "Daily Follow-Up & Support",
+          "description": "Continuous follow-up on submitted applications."
+        }
+      ]
+    },
+    "governmentPartners": {
+      "eyebrow": "Trusted government liaison",
+      "title": "Government Authorities We Support",
+      "items": {
+        "gdrfa": "General Directorate of Residency and Foreigners Affairs",
+        "mohre": "Ministry of Human Resources and Emiratisation",
+        "rta": "Roads and Transport Authority",
+        "dubai": "Dubai Department of Economy and Tourism",
+        "municipality": "Dubai Municipality",
+        "sira": "Security Industry Regulatory Agency"
+      }
+    }
+  },
+
+  "EmiratesId": {
+    "eyebrow": "Corporate Service",
+    "title": "Emirates ID Services",
+    "subtitle": "Comprehensive support for all your Emirates identity card requirements.",
+    "leadText": "The Emirates ID is a mandatory identity card for all UAE residents. We provide seamless assistance for new applications, renewals, and replacements, ensuring your ID is processed quickly and accurately without typing errors or delays.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "New Emirates ID applications",
+      "Renewal of existing IDs",
+      "Replacement of lost or damaged cards",
+      "Fast application follow-up"
+    ]
+  },
+
+  "MohreServices": {
+    "eyebrow": "Corporate Service",
+    "title": "Ministry of Human Resources Services",
+    "subtitle": "Complete management of Ministry of Human Resources and labour files.",
+    "leadText": "Managing labor relations and MOHRE compliance is critical for any business with employees. We efficiently handle your company's labor file, work permits, and employment contracts to keep your business fully compliant with UAE labor laws.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "Processing work permits",
+      "Drafting and attestation of employment contracts",
+      "Labour-related transactions",
+      "Company labour file setup and services",
+      "Employee-related government procedures"
+    ]
+  },
+
+  "GdrfaServices": {
+    "eyebrow": "Corporate Service",
+    "title": "GDRFA & Immigration Services",
+    "subtitle": "Expert handling of all immigration, visa, and residency transactions.",
+    "leadText": "Navigating the General Directorate of Residency and Foreigners Affairs (GDRFA) systems can be complex. We offer comprehensive immigration services to process visas and residency permits for your investors, employees, and their dependents.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "Residence applications",
+      "Entry permits issuance",
+      "Visa services and processing",
+      "Residence renewal",
+      "Visa cancellation",
+      "General immigration transactions"
+    ]
+  },
+
+  "RtaServices": {
+    "eyebrow": "Corporate Service",
+    "title": "RTA Services & Approvals",
+    "subtitle": "Smooth processing of transport authority approvals and vehicle procedures.",
+    "leadText": "For businesses requiring commercial vehicles, delivery fleets, or transport-related approvals, dealing with the Roads and Transport Authority (RTA) is essential. We facilitate all RTA-related corporate transactions and NOCs.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "RTA-related company transactions",
+      "Vehicle-related government procedures",
+      "Commercial transport approvals",
+      "Fast application follow-up"
+    ]
+  },
+
+  "SiraServices": {
+    "eyebrow": "Corporate Service",
+    "title": "SIRA Services & Approvals",
+    "subtitle": "Securing necessary safety and security approvals for your business premises.",
+    "leadText": "The Security Industry Regulatory Agency (SIRA) regulates security compliance in Dubai. We assist businesses that require SIRA approvals, ensuring your commercial premises meet all CCTV licensing and security regulations.",
+    "benefitsTitle": "Key Benefits",
+    "benefits": [
+      "SIRA portal applications",
+      "Security and CCTV approvals",
+      "NOC procedures for specific business activities",
+      "Security-related licensing procedures",
+      "Application follow-up"
+    ]
+  },
+
+  "NotaryServices": {
+    "eyebrow": "Corporate Service",
+    "title": "Notary Public Services",
+    "subtitle": "Fast and reliable notarization, attestation, and legal document services in the UAE.",
+    "p1": "Professional notary and attestation services are essential for legalizing your business and personal documents in the UAE. We provide expert, fast, and reliable support for drafting, attesting, and notarizing all legal documents to ensure your business operations remain fully compliant with UAE government regulations and judicial standards.",
+    "servicesTitle": "Comprehensive Notary Services",
+    "services": [
+      "Power of Attorney (POA)",
+      "Company Agreements",
+      "MOA & Amendments",
+      "Declarations & Undertakings",
+      "Signature Attestation",
+      "Legal Documents Notarization",
+      "Civil & Commercial Agreements",
+      "Affidavits & Declarations",
+      "Translation & Notarization"
+    ]
+  },
+
+  "ServiceLayout": {
+    "eyebrow": "Corporate Service"
+  },
+
+  "LanguageSwitcher": {
+    "ariaSwitchLanguage": "Switch language"
+  },
+
+  "NotFound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for doesn't exist or has been moved. Please return to the home page.",
+    "backHome": "Back to Home"
+  }
+}

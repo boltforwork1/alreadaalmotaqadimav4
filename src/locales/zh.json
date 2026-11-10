@@ -1,0 +1,1664 @@
+{
+  "Navbar": {
+    "links": {
+      "home": "首页",
+      "businessSetup": "公司设立",
+      "services": "服务",
+      "about": "关于我们",
+      "contact": "联系我们"
+    },
+    "dropdowns": {
+      "businessSetup": {
+        "mainlandLicense": "本地营业执照",
+        "freeZoneLicense": "自贸区营业执照",
+        "freelanceLicenseAbuDhabi": "自由职业执照 – 阿布扎比",
+        "eTraderLicenseDubai": "电子商户执照 – 迪拜"
+      },
+      "services": {
+        "monthlyProContract": "月度政府事务代办合同",
+        "tradeLicense": "营业执照",
+        "mohreServices": "人力资源部服务",
+        "emiratesIdServices": "阿联酋身份证服务",
+        "uaeGoldenVisa": "阿联酋黄金签证",
+        "proServices": "政府事务代办服务",
+        "corporateBankAccount": "企业银行账户",
+        "immigrationRegistration": "移民与登记",
+        "companyLiquidation": "公司清算",
+        "gdrfaServices": "移民总局服务",
+        "rtaServices": "道路交通局服务",
+        "siraServices": "安全监管局服务",
+        "notaryPublicServices": "公证服务"
+      }
+    },
+    "viewAllServices": "查看全部服务",
+    "requestQuote": "请求报价",
+    "toggleMenu": "切换菜单",
+    "logoAlt": "Al Reyada Al Motaqadima",
+    "whatsappLabel": "WhatsApp"
+  },
+
+  "ConsultationForm": {
+    "title": "获取免费咨询",
+    "subtitle": "我们的专家将在一个工作日内与您联系。",
+    "placeholders": {
+      "fullName": "全名",
+      "phoneNumber": "电话号码",
+      "emailAddress": "电子邮箱"
+    },
+    "buttons": {
+      "requestCallback": "请求回拨",
+      "requestSent": "请求已发送！"
+    },
+    "successMessage": "感谢您！我们会尽快与您联系。",
+    "calculatorCtaText": "或立即计算您的费用",
+    "openCostCalculator": "打开费用计算器"
+  },
+
+  "Footer": {
+    "tagline": "Al Reyada Al Motaqadima 致力于让投资者、企业家和企业主不再因公司设立复杂流程而困扰。",
+    "quickLinks": "快速链接",
+    "links": {
+      "home": "首页",
+      "businessSetup": "公司设立",
+      "services": "服务",
+      "aboutUs": "关于我们",
+      "contact": "联系我们"
+    },
+    "contactInfo": "联系信息",
+    "address": {
+      "line1": "G83办公室，Elegant Star商务中心",
+      "line2": "迪拉区，迪拜，阿联酋"
+    },
+    "call": "+971 50 250 7774",
+    "whatsapp": "+971 50 422 9389",
+    "email": "info@alreyada-almotaqdima.ae",
+    "stayConnected": "保持联系",
+    "newsletter": "电子通讯",
+    "newsletterPlaceholder": "您的邮箱",
+    "subscribed": "感谢订阅！",
+    "rights": "版权所有。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+
+  "FloatingChatbot": {
+    "header": {
+      "title": "Central Hub 智能助手",
+      "online": "在线"
+    },
+    "aria": {
+      "newChat": "开始新对话",
+      "newChatTitle": "新对话",
+      "closeChat": "关闭对话",
+      "openAssistant": "打开助手",
+      "closeAssistant": "关闭助手",
+      "sendMessage": "发送消息"
+    },
+    "welcome": "欢迎来到 Central Hub。我们如何帮助您在阿联酋设立公司？",
+    "placeholder": "输入问题...",
+    "suggestions": "建议",
+    "quickOptions": {
+      "cost": "公司设立费用是多少？",
+      "legal": "法律条件是什么？",
+      "compare": "本地 vs 自贸区？",
+      "sponsor": "需要本地担保人吗？",
+      "time": "需要多长时间？",
+      "consultant": "与商务顾问交谈"
+    },
+    "replies": {
+      "costFreeZone": "自贸区公司设立起价约为4,888迪拉姆，可享有100%外资所有权、零企业税（多数自贸区）以及3-5天的快速办理。使用我们的费用计算器，根据您的业务活动和签证数量获取精确报价。",
+      "costFreeZone_actions": {
+        "openCostCalculator": "打开费用计算器",
+        "freeZoneBenefits": "自贸区优势"
+      },
+      "costMainland": "本地公司设立起价约为12,000迪拉姆。自2021年起，大多数商业活动允许100%外资所有权，无需本地担保人。使用我们的费用计算器获取精确数字。",
+      "costMainland_actions": {
+        "openCostCalculator": "打开费用计算器",
+        "exploreMainlandSetup": "了解本地公司设立"
+      },
+      "costGeneral": "阿联酋公司设立费用：自贸区套餐起价4,888迪拉姆，本地公司起价12,000迪拉姆。您可以使用我们的即时费用计算器获取准确报价！",
+      "costGeneral_actions": {
+        "openCostCalculator": "打开费用计算器",
+        "talkOnWhatsApp": "通过WhatsApp交谈"
+      },
+      "legal": "外国投资者在自贸区和本地（根据商业公司法）均可享有100%外资所有权，个人所得税为零。",
+      "legal_actions": {
+        "exploreMainlandSetup": "了解本地公司设立",
+        "freeZoneBenefits": "自贸区优势"
+      },
+      "compare": "本地公司可在阿联酋任何地方交易并竞标政府合同。自贸区提供100%资金汇回和区内零关税。",
+      "compare_actions": {
+        "mainlandSetup": "本地公司设立",
+        "freeZoneSetup": "自贸区设立"
+      },
+      "sponsor": "好消息！自2021年法律更新以来，外国投资者在本地公司中大多数商业活动可拥有100%所有权，无需本地担保人！",
+      "sponsor_actions": {
+        "exploreMainlandSetup": "了解本地公司设立",
+        "talkOnWhatsApp": "通过WhatsApp交谈"
+      },
+      "timeline": "自贸区设立仅需3-5天！本地公司设立通常需要1-2周，具体取决于审批和业务类型。",
+      "timeline_actions": {
+        "freeZoneSetup": "自贸区设立",
+        "mainlandSetup": "本地公司设立"
+      },
+      "goldenVisa": "阿联酋黄金签证授予10年居留权！需要200万迪拉姆的房地产投资或特定的创业/人才条件。我们处理全部申请流程。",
+      "goldenVisa_actions": {
+        "goldenVisaDetails": "黄金签证详情",
+        "talkOnWhatsApp": "通过WhatsApp交谈"
+      },
+      "visa": "我们处理工作签证、家属签证、签证取消以及投资者10年阿联酋黄金签证。我们的团队全程管理整个流程。",
+      "visa_actions": {
+        "goldenVisaDetails": "黄金签证详情",
+        "immigrationServices": "移民服务"
+      },
+      "bank": "我们与阿联酋主要银行合作，快速开设企业银行账户。该流程通常需要10-30天，具体取决于所有者国籍和合规要求。",
+      "bank_actions": {
+        "bankAccountService": "银行账户服务"
+      },
+      "liquidation": "公司清算大约需要50-60天。我们处理审计、签证取消、机构卡关闭和最终执照取消的全部合规事宜。",
+      "liquidation_actions": {
+        "liquidationService": "清算服务"
+      },
+      "license": "我们处理新营业执照的签发、续期和活动变更。大多数申请在5-7个工作日内完成。",
+      "license_actions": {
+        "tradeLicenseService": "营业执照服务"
+      },
+      "consultant": "我们的顾问现在就可以通过WhatsApp为您提供逐步指导！",
+      "consultant_actions": {
+        "connectViaWhatsApp": "通过WhatsApp联系"
+      },
+      "fallback": "我很乐意帮助您！如需量身定制的答复，请通过WhatsApp与我们的顾问联系，他们将逐步指导您。",
+      "fallback_actions": {
+        "connectViaWhatsApp": "通过WhatsApp联系"
+      }
+    },
+    "suggestionLabels": {
+      "howMuchFreeZone": "自贸区费用是多少？",
+      "howMuchMainland": "本地营业执照费用是多少？",
+      "costOfVisa": "签证费用？",
+      "whatIsGoldenVisa": "什么是黄金签证？",
+      "needLocalSponsor": "需要本地担保人吗？",
+      "howLongSetupTake": "设立需要多长时间？",
+      "mainlandVsFreeZone": "本地 vs 自贸区？",
+      "howToOpenBankAccount": "如何开设银行账户？",
+      "legalConditions": "法律条件是什么？",
+      "howToGetTradeLicense": "如何获取营业执照？",
+      "howToCloseCompany": "如何关闭公司？",
+      "speakWithConsultant": "与顾问交谈"
+    }
+  },
+
+  "StatsBar": {
+    "defaults": {
+      "clientsServed": "服务客户",
+      "yearsOfExperience": "从业年限",
+      "freeZonePartners": "自贸区合作伙伴",
+      "complianceRate": "合规率"
+    }
+  },
+
+  "Home": {
+    "hero": {
+      "badge": "您值得信赖的迪拜公司设立伙伴",
+      "title": "在迪拜设立公司及",
+      "titleHighlight": "阿联酋公司注册与政府事务服务",
+      "description": "在阿联酋专业地创办、管理和拓展您的业务。无论您需要本地公司或自贸区公司、营业执照、签证服务、政府事务服务还是政府审批，我们的团队都能让流程简单明了。",
+      "getStartedToday": "立即开始",
+      "whatsappNumber": "+971 50 422 9389",
+      "heroImageAlt": "俯瞰迪拜天际线的豪华商务办公室",
+      "highlights": {
+        "trusted": "值得信赖",
+        "trustedDesc": "专业支持",
+        "uaeExpertise": "阿联酋专长",
+        "uaeExpertiseDesc": "本地知识",
+        "endToEndService": "一站式服务",
+        "endToEndServiceDesc": "从设立到发展"
+      }
+    },
+    "jurisdictions": {
+      "eyebrow": "阿联酋公司注册",
+      "title": "选择最适合您的设立方式",
+      "subtitle": "探索适合您公司的最佳设立方案。每个选项都提供针对不同业务需求的独特优势。",
+      "items": {
+        "mainland": {
+          "name": "本地营业执照",
+          "description": "适用于希望在阿联酋本地市场直接运营的企业。",
+          "features": [
+            "需要实体办公室",
+            "广泛的商业活动范围",
+            "在阿联酋本地市场运营",
+            "投资者和员工签证选项"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "迪拜天际线与现代商务大楼"
+        },
+        "freeZone": {
+          "name": "自贸区营业执照",
+          "description": "在我们的可用套餐下，无需实体办公室即可灵活设立公司。",
+          "features": [
+            "无需实体办公室",
+            "根据自贸区和所选套餐最多可获10个投资者签证",
+            "进出口活动",
+            "在线销售产品 / 电子商务"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "迪拜自贸区商务中心"
+        },
+        "freelanceAbuDhabi": {
+          "name": "自由职业执照 – 阿布扎比",
+          "description": "在阿布扎比以符合条件的自由职业活动独立工作。",
+          "features": [
+            "无需实体办公室",
+            "执照持有人可获得一个居留签证",
+            "符合条件可申请家庭担保",
+            "适合顾问、设计师和开发者"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "在现代家庭办公室工作的自由职业者"
+        },
+        "eTrader": {
+          "name": "电子商户执照 - 迪拜",
+          "description": "以更低成本启动您的在线业务。",
+          "features": [
+            "无需实体办公室",
+            "不含居留签证",
+            "低成本方案",
+            "可通过符合条件的在线平台（如Amazon和Noon）销售，需符合平台和活动要求。"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "在线卖家为电子商务业务打包产品"
+        }
+      }
+    },
+    "formation": {
+      "eyebrow": "在迪拜设立公司",
+      "title": "在迪拜及阿联酋设立公司",
+      "description": "Al Reyada Al Motaqadima 商人服务有限公司提供阿联酋专业的公司设立和企业注册服务。我们帮助企业选择合适的设立方式，处理营业执照程序，准备所需文件，并从头到尾管理必要的政府审批。",
+      "benefits": [
+        "本地公司注册",
+        "自贸区公司注册",
+        "电子商务营业执照",
+        "自由职业执照 – 阿布扎比",
+        "政府审批与文件处理",
+        "持续政府事务支持",
+        "营业执照签发与续期",
+        "业务活动与执照变更"
+      ]
+    },
+    "services": {
+      "eyebrow": "迪拜公司设立服务",
+      "title": "我们在迪拜阿联酋为您提供的公司设立服务",
+      "viewAllServices": "查看全部服务",
+      "items": {
+        "companyFormation": {
+          "title": "迪拜公司注册",
+          "description": "在迪拜创办公司涉及大量文件工作。让我们各司其职，您可以专注于您的业务。"
+        },
+        "companyLiquidation": {
+          "title": "公司清算",
+          "description": "专业的公司清算建议和方案，迪拜最佳清算方式。"
+        },
+        "businessLicense": {
+          "title": "营业执照",
+          "description": "我们是阿联酋领先的公司设立与企业注册公司。"
+        },
+        "proVisaServices": {
+          "title": "政府事务与签证服务",
+          "description": "商业执照、员工签证、认证、翻译和移民服务。"
+        },
+        "corporateSponsor": {
+          "title": "企业担保人与代名人",
+          "description": "以迪拜领先的企业代名人服务建立您的公司。"
+        },
+        "bankLiaison": {
+          "title": "银行联络与协助",
+          "description": "我们可以帮您建立这种结构，日后可转为子公司或分公司。"
+        },
+        "governmentServices": {
+          "title": "政府服务",
+          "description": "凭借与政府部门和机构的直接联系，我们能非常及时地为您完成工作。"
+        },
+        "immigrationLabour": {
+          "title": "移民与劳工",
+          "description": "我们在迪拜、阿联酋为个人和公司办理各类劳工与移民登记。"
+        }
+      }
+    },
+    "stats": {
+      "clientsHelped": "服务客户",
+      "yearsExperience": "从业年限",
+      "expertConsultants": "专家顾问",
+      "clientSatisfaction": "客户满意度"
+    },
+    "faq": {
+      "eyebrow": "常见问题",
+      "title": "常见问题解答",
+      "subtitle": "关于在迪拜设立公司您需要了解的一切。",
+      "items": [
+        {
+          "q": "为什么要在阿联酋设立本地公司？",
+          "a": "阿联酋是一个提供众多商业机会的首选目的地。目标市场和商业活动的位置应指导在迪拜和阿布扎比之间的选择。"
+        },
+        {
+          "q": "外国人如何在迪拜创业？",
+          "a": "商业公司法允许100%外资所有权。步骤：确定实体类型、选择公司名称、申请营业执照、获得预批准、注册您的公司并获取执照。"
+        },
+        {
+          "q": "在迪拜哪个自贸区最适合开设公司？",
+          "a": "关键因素包括位置、所选商业活动和办公室需求。联系我们的专家以找到最佳选择。"
+        },
+        {
+          "q": "我应该选择哪种营业执照？",
+          "a": "这取决于您的商业活动、办公室需求、签证需求和预算。联系我们，我们将帮您确定合适的选项。"
+        },
+        {
+          "q": "本地公司需要办公室吗？",
+          "a": "通常需要实体办公室或营业场所，具体取决于活动和适用法规。"
+        },
+        {
+          "q": "自贸区公司需要办公室吗？",
+          "a": "我们的可用自贸区套餐无需实体办公室即可设立。要求因自贸区和套餐而异。"
+        },
+        {
+          "q": "可以不办居留签证获得自贸区执照吗？",
+          "a": "是的，部分套餐可不包含居留签证签发。"
+        },
+        {
+          "q": "自贸区公司可以获得多少投资者签证？",
+          "a": "签证容量取决于自贸区和所选套餐，适用套餐中最多可达10个投资者签证。"
+        },
+        {
+          "q": "可以以自由职业者身份开设公司吗？",
+          "a": "符合条件的专业人士可以根据其活动和资格获得自由职业执照。"
+        },
+        {
+          "q": "公司设立后你们可以帮我办理签证吗？",
+          "a": "是的。我们提供签证和移民相关服务作为业务支持的一部分。"
+        },
+        {
+          "q": "你们提供执照续期服务吗？",
+          "a": "是的。我们协助执照续期和各种执照变更。"
+        },
+        {
+          "q": "你们提供商标注册服务吗？",
+          "a": "是的。我们提供阿联酋商标注册程序的支持。"
+        },
+        {
+          "q": "你们提供市政服务吗？",
+          "a": "是的。我们协助办理符合条件的商业活动和场所所需的市政许可和审批。"
+        }
+      ],
+      "stillHaveQuestions": "还有其他问题？",
+      "ctaButton": "立即联系我们获取免费咨询"
+    },
+    "quote": {
+      "eyebrow": "立即开始",
+      "title": "请求免费报价",
+      "subtitle": "告诉我们一些关于您的业务目标的信息，我们的顾问将很快与您联系。",
+      "fullNameLabel": "全名",
+      "fullNamePlaceholder": "输入您的全名",
+      "contactLabel": "邮箱 / 电话",
+      "contactPlaceholder": "邮箱或电话号码",
+      "button": "请求免费报价",
+      "buttonSent": "已发送！",
+      "successMessage": "感谢您！我们的顾问将很快与您联系。"
+    }
+  },
+
+  "About": {
+    "hero": {
+      "title": "Al Reyada Al Motaqadima",
+      "subtitle": "您在阿联酋公司设立和政府服务方面值得信赖的合作伙伴。",
+      "imageAlt": "迪拜天际线和日落时的现代商务办公室",
+      "logoAlt": "Al Reyada Al Motaqadima 标志"
+    },
+    "who": {
+      "eyebrow": "关于 Al Reyada Al Motaqadima",
+      "title": "您公司设立与发展的可靠伙伴",
+      "p1": "我们帮助企业家和企业在阿联酋以专业的公司设立、政府事务和政府服务来创办、管理和发展公司。",
+      "p2": "从公司注册和营业执照到签证、政府事务服务和政府审批，我们的团队在整个商业旅程中为您提供实用支持。我们的目标很简单：让阿联酋公司设立和政府流程对客户来说更简单、更快捷、更直接。",
+      "imageAlt": "Central Hub 商业领袖在迪拜现代办公室"
+    },
+    "features": {
+      "localIndependent": {
+        "title": "本地与独立",
+        "points": [
+          "100%阿联酋人拥有",
+          "直接担保本地公司",
+          "不受限制的本地市场准入",
+          "日常运营由外国所有者掌控"
+        ]
+      },
+      "reachNetwork": {
+        "title": "影响力与网络",
+        "points": [
+          "迪拜知名家族成员",
+          "接触投资者和高级政府官员",
+          "与关键行业的密切工作关系",
+          "在相关企业集团内运营"
+        ]
+      }
+    },
+    "approach": {
+      "eyebrow": "我们的方法",
+      "title": "助力您商业成功的方法",
+      "pillars": {
+        "successParamount": {
+          "title": "您的成功至上",
+          "text": "从头到尾配备专属客户经理。"
+        },
+        "transparent": {
+          "title": "透明公开",
+          "text": "所有费用清晰列出，无隐藏成本。"
+        },
+        "efficientInvisible": {
+          "title": "高效且无形",
+          "text": "主动的后台工作，集中化文件管理。"
+        },
+        "globallyInclusive": {
+          "title": "全球包容",
+          "text": "多文化、多语言团队，服务所有国籍。"
+        },
+        "fullService": {
+          "title": "全面服务",
+          "text": "从首次接触起的一站式端到端服务。"
+        },
+        "accessible": {
+          "title": "随时可联系",
+          "text": "整个合作过程中均可联系，乐于接受更新。"
+        }
+      }
+    },
+    "cta": {
+      "title": "想了解阿联酋营业执照价格？立即计算费用。只需不到30秒。",
+      "button": "费用计算器"
+    }
+  },
+
+  "BusinessSetup": {
+    "hero": {
+      "eyebrow": "您值得信赖的",
+      "title": "公司设立",
+      "titleLine2": "伙伴",
+      "titleHighlight": "在迪拜",
+      "description": "为阿联酋的投资者、企业家和公司提供全面的公司设立和政府服务。",
+      "imageAlt": "从现代商务办公室看到的迪拜天际线",
+      "getStarted": "立即开始",
+      "contactUs": "联系我们",
+      "highlights": [
+        "可靠与专业",
+        "一站式支持",
+        "透明流程",
+        "专属顾问"
+      ]
+    },
+    "jurisdictions": {
+      "eyebrow": "阿联酋公司注册",
+      "title": "探索您的",
+      "titleHighlight": "公司设立",
+      "titleSuffix": "选项",
+      "subtitle": "为您的业务目标选择合适的设立方式。比较各选项，在专家支持下开始。",
+      "items": {
+        "mainland": {
+          "name": "本地营业执照",
+          "description": "适用于希望在阿联酋本地市场直接运营的企业。",
+          "features": [
+            "需要实体办公室",
+            "广泛的商业活动范围",
+            "在阿联酋本地市场运营",
+            "投资者和员工签证选项"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "迪拜天际线与现代商务大楼"
+        },
+        "freeZone": {
+          "name": "自贸区营业执照",
+          "description": "在我们的可用套餐下，无需实体办公室即可灵活设立公司。",
+          "features": [
+            "无需实体办公室",
+            "根据自贸区和所选套餐最多可获10个投资者签证",
+            "进出口活动",
+            "在线销售产品 / 电子商务"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "迪拜自贸区商务中心"
+        },
+        "freelanceAbuDhabi": {
+          "name": "自由职业执照 – 阿布扎比",
+          "description": "在阿布扎比以符合条件的自由职业活动独立工作。",
+          "features": [
+            "无需实体办公室",
+            "执照持有人可获得一个居留签证",
+            "符合条件可申请家庭担保",
+            "适合顾问、设计师和开发者"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "在现代家庭办公室工作的自由职业者"
+        },
+        "eTrader": {
+          "name": "电子商户执照 - 迪拜",
+          "description": "以更低成本启动您的在线业务。",
+          "features": [
+            "无需实体办公室",
+            "不含居留签证",
+            "低成本方案",
+            "可通过符合条件的在线平台（如Amazon和Noon）销售，需符合平台和活动要求。"
+          ],
+          "buttonText": "了解更多",
+          "imageAlt": "在线卖家为电子商务业务打包产品"
+        }
+      }
+    },
+    "process": {
+      "title": "简单的",
+      "titleHighlight": "流程",
+      "subtitle": "我们让阿联酋公司设立变得简单无忧。",
+      "steps": {
+        "step1": {
+          "title": "选择您的设立方式",
+          "description": "为您的业务选择最佳选项。"
+        },
+        "step2": {
+          "title": "准备文件",
+          "description": "我们指导您准备所需文件。"
+        },
+        "step3": {
+          "title": "提交与审批",
+          "description": "我们处理所有政府提交和跟进。"
+        },
+        "step4": {
+          "title": "获得您的营业执照",
+          "description": "自信地开始您的业务。"
+        }
+      }
+    },
+    "cta": {
+      "title": "不确定哪种设立方式适合您的业务？",
+      "button": "立即比较费用"
+    }
+  },
+
+  "Services": {
+    "hero": {
+      "title": "商业与",
+      "titleHighlight": "政府服务",
+      "description": "为您的公司设立和持续的阿联酋政府事务提供专业支持。",
+      "imageAlt": "日落时的迪拜天际线",
+      "heroItems": {
+        "tradeLicense": { "label": "营业执照", "detail": "服务" },
+        "employee": { "label": "员工", "detail": "手续" },
+        "mohre": { "label": "人力资源部", "detail": "事务" },
+        "immigration": { "label": "移民", "detail": "与居留" },
+        "municipality": { "label": "市政", "detail": "与土地服务" },
+        "rta": { "label": "道路交通局", "detail": "事务" },
+        "corporate": { "label": "企业", "detail": "银行账户" },
+        "ongoing": { "label": "持续", "detail": "政府事务支持" }
+      }
+    },
+    "corporateServices": {
+      "title": "我们的企业服务",
+      "featured": {
+        "tag": "推荐",
+        "name": "月度政府事务代办合同",
+        "description": "全面的持续政府支持和事务管理。",
+        "features": [
+          "专属政府事务支持",
+          "居留与签证支持",
+          "营业执照与人力资源部支持",
+          "截止日期和到期提醒"
+        ],
+        "button": "了解更多"
+      },
+      "items": {
+        "tradeLicense": {
+          "name": "营业执照",
+          "description": "端到端处理新执照签发、续期和活动变更。",
+          "imageAlt": "在办公桌前签署商业文件的人",
+          "features": [
+            "新执照签发",
+            "年度执照续期",
+            "商业活动变更",
+            "合伙人与经理更新"
+          ]
+        },
+        "notaryPublic": {
+          "name": "公证服务",
+          "description": "在阿联酋提供快速可靠的公证、认证和法律文件服务。",
+          "imageAlt": "迪拜法院大楼代表公证和法律文件服务",
+          "features": [
+            "授权委托书",
+            "公司章程及修正案",
+            "签名认证",
+            "法律文件公证"
+          ]
+        },
+        "mohre": {
+          "name": "人力资源部服务",
+          "description": "全面管理人力资源与劳工事务部档案。",
+          "imageAlt": "专业人士在现代办公室会议中讨论业务",
+          "features": [
+            "工作许可签发",
+            "雇佣合同",
+            "公司劳工档案服务",
+            "员工政府手续"
+          ]
+        },
+        "gdrfa": {
+          "name": "移民总局服务",
+          "description": "专业处理所有移民、签证和居留事务。",
+          "imageAlt": "护照和旅行文件象征移民和签证服务",
+          "features": [
+            "居留与入境许可",
+            "签证服务与盖章",
+            "居留续期",
+            "签证取消"
+          ]
+        },
+        "sira": {
+          "name": "安全监管局服务",
+          "description": "为您的商业场所获取必要的安全和安保审批。",
+          "imageAlt": "安装在建筑外部的现代监控摄像头",
+          "features": [
+            "安全监管局申请",
+            "监控与安保审批",
+            "无异议证明手续",
+            "安保许可手续"
+          ]
+        },
+        "rta": {
+          "name": "道路交通局服务",
+          "description": "顺畅处理交通管理局审批和车辆手续。",
+          "imageAlt": "道路和交通管理局标志",
+          "features": [
+            "道路交通局相关事务",
+            "车辆政府手续",
+            "商业运输审批",
+            "申请跟进"
+          ]
+        },
+        "proServices": {
+          "name": "政府事务代办服务",
+          "description": "我们从头到尾处理您公司和政府的事务。",
+          "imageAlt": "专业顾问在现代办公室审阅法律文件",
+          "features": [
+            "政府申请与审批",
+            "文件处理与清关",
+            "政府机关协调",
+            "快速申请跟进"
+          ]
+        },
+        "goldenVisa": {
+          "name": "阿联酋黄金签证",
+          "description": "为投资者、企业家和人才提供10年长期居留。",
+          "imageAlt": "黄金签证文件及迪拜天际线背景",
+          "features": [
+            "10年长期居留",
+            "面向投资者、人才和企业家",
+            "无需本地担保人",
+            "家庭和家政人员担保"
+          ]
+        },
+        "emiratesId": {
+          "name": "阿联酋身份证服务",
+          "description": "全面支持您的所有阿联酋身份证需求。",
+          "imageAlt": "展示的阿联酋身份证及迪拜天际线",
+          "features": [
+            "新阿联酋身份证申请",
+            "身份证续期手续",
+            "遗失补办",
+            "快速申请跟进"
+          ]
+        },
+        "bankAccount": {
+          "name": "企业银行账户",
+          "description": "与阿联酋主要银行合作快速开设企业银行账户。",
+          "imageAlt": "钱包和信用卡代表企业银行服务",
+          "features": [
+            "与阿联酋顶级银行合作",
+            "快速审批流程",
+            "多币种账户选项",
+            "专属银行协助"
+          ]
+        },
+        "immigration": {
+          "name": "移民与登记",
+          "description": "为您和您的员工办理签证、阿联酋身份证和体检。",
+          "imageAlt": "在繁忙机场航站楼手持护照的人",
+          "features": [
+            "投资者与员工签证处理",
+            "阿联酋身份证申请与续期",
+            "体检协调",
+            "家庭担保支持"
+          ]
+        },
+        "liquidation": {
+          "name": "公司清算",
+          "description": "以完全合规的方式专业关闭和注销您的公司。",
+          "imageAlt": "关闭标志象征公司清算和注销",
+          "features": [
+            "正式公司注销",
+            "签证和机构卡关闭",
+            "审计报告与清算函",
+            "完全遵守阿联酋法律"
+          ]
+        }
+      },
+      "learnMore": "了解更多"
+    },
+    "governmentPartners": {
+      "eyebrow": "值得信赖的政府联络",
+      "title": "我们支持的政府机构",
+      "items": {
+        "gdrfa": "移民与外国人事务总局",
+        "mohre": "人力资源与阿联酋化部",
+        "rta": "道路和交通管理局",
+        "dubai": "迪拜经济和旅游部",
+        "municipality": "迪拜市政府",
+        "sira": "安全行业监管局"
+      }
+    },
+    "cta": {
+      "title": "准备好在迪拜开始您的业务了吗？",
+      "button": "立即计算您的费用"
+    }
+  },
+
+  "Contact": {
+    "hero": {
+      "title": "联系我们",
+      "subtitle": "让我们的业务继续前进。立即与我们的专家取得联系。"
+    },
+    "info": {
+      "eyebrow": "联系信息",
+      "title": "与我们联系",
+      "description": "无论您是在设立新企业还是扩展现有企业，我们的团队都准备好指导您完成每一步。联系我们，我们将在一个工作日内回复。",
+      "addressLabel": "地址",
+      "addressValue": "G83办公室，Elegant Star商务中心，迪拉区，迪拜，阿联酋",
+      "callLabel": "电话",
+      "callValue": "+971 50 250 7774",
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "+971 50 422 9389",
+      "emailLabel": "邮箱",
+      "emailValue": "info@alreyada-almotaqdima.ae",
+      "openInMaps": "在地图中打开",
+      "mapTitle": "Elegant Star商务中心，迪拉区，迪拜 — 地图"
+    },
+    "form": {
+      "fullName": "全名",
+      "fullNamePlaceholder": "张三",
+      "email": "电子邮箱",
+      "emailOptional": "电子邮箱（可选）",
+      "emailPlaceholder": "zhang@example.com",
+      "phone": "电话号码",
+      "phonePlaceholder": "+971 4 000 0000",
+      "subject": "主题",
+      "subjectOptional": "主题（可选）",
+      "subjectPlaceholder": "我们能帮您什么？",
+      "message": "留言",
+      "messagePlaceholder": "告诉我们您的业务需求...",
+      "button": "发送WhatsApp消息",
+      "whatsappHeader": "来自网站的新的咨询：",
+      "successTitle": "正在打开WhatsApp",
+      "successBody": "您的消息已在WhatsApp中准备好。只需在那里点击发送即可直接联系我们的团队。",
+      "sendAnother": "再发一条消息"
+    }
+  },
+
+  "CostCalculator": {
+    "currency": "迪拉姆",
+    "eyebrow": "即时估算",
+    "title": "公司设立费用计算器",
+    "subtitle": "不到30秒即可获得阿联酋公司注册的即时估算。",
+    "steps": ["设立方式", "签证"],
+    "step1": {
+      "title": "选择您的设立方式",
+      "subtitle": "选择适合您业务需求的阿联酋公司注册类型。",
+      "options": {
+        "freeZone": {
+          "label": "自贸区",
+          "desc": "100%外资所有权，适合国际贸易"
+        },
+        "dubaiMainland": {
+          "label": "迪拜本地",
+          "desc": "在阿联酋本地市场任意交易"
+        },
+        "dubaiETrader": {
+          "label": "迪拜电子商户",
+          "desc": "低成本在线业务。在数字平台销售"
+        },
+        "abuDhabiFreelance": {
+          "label": "阿布扎比自由职业",
+          "desc": "面向专业人士和创意人士。可担保家庭"
+        }
+      }
+    },
+    "step2": {
+      "title": "所需签证数量",
+      "subtitle": "您的团队需要多少居留签证？",
+      "visaOptions": {
+        "0": "0个签证",
+        "1": "1个签证",
+        "2": "2个签证",
+        "3": "3个签证",
+        "4": "4个签证",
+        "noVisa": "仅执照 - 无签证"
+      },
+      "back": "返回"
+    },
+    "result": {
+      "title": "您的预估费用",
+      "subtitle": "根据您的选择，以下是您的预估设立费用：",
+      "estimatedRange": "预估范围",
+      "disclaimer": "最终价格取决于活动类型和额外政府费用。",
+      "setupType": "设立类型",
+      "visas": "签证",
+      "talkToExpert": "咨询专家",
+      "startOver": "重新开始"
+    }
+  },
+
+  "Mainland": {
+    "eyebrow": "公司设立管辖区",
+    "title": "本地公司设立",
+    "subtitle": "在迪拜和阿联酋的本地公司设立快捷无忧，大多数活动可享有100%所有权。",
+    "p1": "阿联酋被公认为寻求在中东建立业务的外国投资者的首选目的地。本地公司注册允许您直接与阿联酋本地市场交易、竞标政府招标，并在无地理限制的情况下运营——同时根据近期法规改革，大多数商业活动可享有100%外资所有权。",
+    "p2": "无论您是创办商业、工业还是专业企业，本地执照都赋予您在所有七个酋长国和国际上运营的灵活性，使其成为有雄心企业最灵活的管辖区。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      {
+        "title": "100%外资所有权",
+        "description": "大多数活动无需本地担保人即可保留企业完全所有权。"
+      },
+      {
+        "title": "无企业/个人所得税",
+        "description": "享受阿联酋对个人和企业收入免税的环境。"
+      },
+      {
+        "title": "在阿联酋任意地区自由交易",
+        "description": "在所有酋长国运营，不受限制地进入整个本地消费市场。"
+      },
+      {
+        "title": "无员工人数限制",
+        "description": "根据业务需要雇佣任意数量的员工，无签证配额限制。"
+      },
+      {
+        "title": "可竞标政府合同",
+        "description": "参与利润丰厚的联邦和市政府合同及项目竞标。"
+      },
+      {
+        "title": "不限办公室空间选择",
+        "description": "在迪拜各地租赁任意大小的办公室以扩大运营。"
+      }
+    ],
+    "limitationsTitle": "潜在限制",
+    "limitations": [
+      {
+        "title": "可能需要本地担保人",
+        "description": "对于某些受限活动，可能仍需持有51%股份的阿联酋本地担保人。"
+      },
+      {
+        "title": "设立成本较高",
+        "description": "本地设立通常比自贸区方案涉及更高的初始成本。"
+      },
+      {
+        "title": "更多监管合规",
+        "description": "须遵守经济发展局法规、市政审批和额外合规要求。"
+      }
+    ]
+  },
+
+  "FreeZone": {
+    "eyebrow": "公司设立管辖区",
+    "title": "自贸区公司设立",
+    "subtitle": "在50多个专业自贸区内享有100%外资所有权、免税和快速执照办理。",
+    "p1": "阿联酋拥有超过五十个自贸区，每个自贸区针对特定行业和商业活动，自贸区公司注册提供100%外资所有权、资金和利润全额汇回以及完全免税。自贸区适合不需要直接进入阿联酋本地市场的贸易、服务、科技、媒体、物流和控股公司。",
+    "p2": "每个自贸区都有自己的监管机构、执照框架和费用结构。选择合适的自贸区取决于您的商业活动、办公室需求和签证需求——我们的团队帮助您比较并选择最佳管辖区。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      {
+        "title": "100%资金和利润汇回",
+        "description": "完全所有权，可不受限制地汇回所有资金和利润。"
+      },
+      {
+        "title": "0%企业和个人所得税",
+        "description": "享受企业收入和个人收入的完全免税。"
+      },
+      {
+        "title": "无货币限制",
+        "description": "自由使用迪拉姆、美元、欧元等货币运营，无资本管制。"
+      },
+      {
+        "title": "快速执照办理",
+        "description": "简化设立流程，执照通常在数日内签发。"
+      },
+      {
+        "title": "世界一流的基础设施",
+        "description": "配备最先进设施和连接性的专用商业园区。"
+      },
+      {
+        "title": "基于办公室空间的签证配额",
+        "description": "与租赁办公面积成比例的灵活签证分配。"
+      }
+    ],
+    "limitationsTitle": "潜在限制",
+    "limitations": [
+      {
+        "title": "不能直接在本地市场交易",
+        "description": "自贸区公司无本地经销商或代理不能直接与阿联酋本地市场交易。"
+      },
+      {
+        "title": "限于自贸区场所",
+        "description": "运营必须位于指定自贸区边界内的物理场所。"
+      }
+    ],
+    "jurisdictionsTitle": "热门自贸区管辖区",
+    "jurisdictions": {
+      "dmcc": {
+        "description": "DMCC是位于迪拜JLT区中心的专用全球中心，拥有超过18,000家企业。DMCC连续多年被评为世界领先自贸区，为商品贸易、加密货币、金融和专业服务提供世界一流的生态系统。",
+        "features": [
+          "18,000+注册企业",
+          "灵活的办公室和共享办公选项",
+          "可提供多活动执照"
+        ]
+      },
+      "dso": {
+        "description": "DSO是全球认可的自贸区和位于迪拜硅谷绿洲的综合科技园区。它为科技、工程和创新驱动企业提供全面的生态系统，将住宅、商业和工业区整合在一个社区中。",
+        "features": [
+          "以科技为中心的基础设施",
+          "经济实惠的执照和签证套餐",
+          "智慧城市设施和研发设施"
+        ]
+      }
+    }
+  },
+
+  "Offshore": {
+    "eyebrow": "公司设立管辖区",
+    "title": "离岸公司设立",
+    "subtitle": "离岸公司注册并开立阿联酋银行账户。我们保持最高的隐私标准。",
+    "p1": "离岸公司提供合法的财富管理、资产保护和国际控股结构方案。在阿联酋或其他司法管辖区注册的离岸公司可以拥有资产、持有知识产权，并作为国际运营的母公司——同时受益于税收效率、保密性和阿联酋银行账户。",
+    "p2": "我们协助离岸公司注册的全生命周期，从管辖区选择和注册到持续合规和银行账户开立。我们最高优先级是在整个过程中保持隐私和保密标准。",
+    "privacyNote": "隐私与合规：我们在完全遵守国际法规的同时，保持最高标准的客户保密性。",
+    "jurisdictionsTitle": "可用的离岸管辖区",
+    "jurisdictions": {
+      "ajman": {
+        "tabLabel": "阿治曼离岸",
+        "description": "阿治曼离岸成立于1988年，是阿联酋最早的自贸区之一，提供经济高效的阿联酋离岸公司注册选项。广泛用于控股结构、资产保护和国际贸易。",
+        "features": [
+          "阿联酋离岸管辖区",
+          "可开立阿联酋企业银行账户",
+          "经济高效的设立和续期",
+          "无需实体办公室"
+        ]
+      },
+      "bvi": {
+        "tabLabel": "英属维尔京群岛",
+        "description": "英属维尔京群岛（BVI）是全球领先和最受欢迎的离岸中心，拥有超过400,000家注册公司。BVI商业公司广泛用于国际控股、贸易和投资结构，提供灵活性、税收中性和完善的法律框架。",
+        "features": [
+          "全球最受欢迎的离岸管辖区",
+          "400,000+注册公司",
+          "灵活的股权结构，无最低资本要求",
+          "强大的资产保护框架"
+        ]
+      },
+      "seychelles": {
+        "tabLabel": "塞舌尔",
+        "description": "凭借其有利的税收政策，塞舌尔日益成为国际企业家青睐的商业目的地。塞舌尔国际商业公司（IBC）提供境外收入免税、最低报告要求和快速注册流程。",
+        "features": [
+          "境外来源收入零税",
+          "快速注册（1-2天）",
+          "最低年度报告要求",
+          "高保密性"
+        ]
+      }
+    }
+  },
+
+  "FinancialCentre": {
+    "eyebrow": "公司设立管辖区",
+    "title": "金融中心设立",
+    "subtitle": "为银行、金融科技、投资公司和专业服务提供世界一流金融管辖区。",
+    "p1": "阿联酋有两个专注于金融领域的特别自贸区：迪拜国际金融中心（DIFC）和阿布扎比全球市场（ADGM）。两者均作为独立管辖区运营，拥有基于普通法的各自法律体系、独立法院和专门的监管机构——是本地区金融机构、金融科技公司、投资公司和专业服务的首选目的地。",
+    "p2": "这些金融中心提供国际认可的监管框架、普通法法律体系以及深厚的金融人才储备——是银行、资产管理公司、保险公司和金融科技创新者的理想选择。",
+    "jurisdictionsTitle": "金融管辖区",
+    "difc": {
+      "description": "中东、非洲和南亚（MEASA）地区的领先金融中心。DIFC拥有25,000多名专业人士和2,400多家活跃实体，提供独立的普通法法律体系、世界一流的监管框架以及金融、金融科技和专业服务的繁荣生态系统。",
+      "features": [
+        "2,400+活跃注册实体",
+        "25,000+在中心工作的专业人士",
+        "独立普通法法院和仲裁",
+        "与全球标准接轨的DFSA监管框架"
+      ]
+    },
+    "adgm": {
+      "description": "为金融公司提供有序且有利的环境。ADGM位于阿布扎比，以英国普通法运营，通过FSRA提供稳健的监管框架，是银行、资产管理公司、金融科技公司和控股公司的有吸引力管辖区。",
+      "features": [
+        "英国普通法法律体系",
+        "FSRA — 国际认可的监管机构",
+        "直接适用英国法律",
+        "金融科技沙盒和创新执照"
+      ]
+    }
+  },
+
+  "FreelanceLicenseAbuDhabi": {
+    "eyebrow": "公司设立管辖区",
+    "title": "自由职业执照 – 阿布扎比",
+    "subtitle": "在阿布扎比酋长国独立从事您的专业。获得自由职业执照，在批准的活动范围内独立开展专业活动，符合最高商业标准和要求。此执照是技术、数字、营销、创意和咨询领域专业人才和高经验专业人士的最佳选择。",
+    "eligibilityAlertTitle": "您是否符合自由职业执照条件？",
+    "eligibilityAlertText": "请注意，自由职业执照并非适用于所有个人或所有商业活动的通用选项。是否符合条件主要取决于所从事活动的性质，以及学历资格、专业经验记录和所需的支持文件。在Al Reyada Al Motaqadima，我们在启动任何程序之前对您的活动、资格和文件进行全面审查，以确保完全确认您的适合性并符合执照签发要求。",
+    "eligibilityAlertButton": "立即检查您的资格",
+    "whatIsItTitle": "什么是阿布扎比自由职业执照？",
+    "whatIsItText": "自由职业执照是一种法律认可的执照，专门面向希望在阿布扎比酋长国批准活动列表内独立从事专业活动的专业人才和技能人士。此执照授予您向公司和个人提供服务的完全法律权限，自由管理您的业务，并根据酋长国适用的法律框架和要求广泛拓展客户群。",
+    "activitiesTitle": "批准的活动",
+    "activities": [
+      {
+        "title": "技术与数字服务",
+        "description": "网站设计、软件和系统设计与开发、IT咨询、IT网络管理服务、人工智能应用和软件开发。"
+      },
+      {
+        "title": "营销与数字媒体",
+        "description": "高级营销咨询和研究、活动和运营管理、在线广告服务、媒体咨询和研究、专业公共关系咨询。"
+      },
+      {
+        "title": "电子商务",
+        "description": "通过网站在线交易、通过社交媒体平台交易、商业信息服务、数据录入服务、高级数据分类和分析。"
+      },
+      {
+        "title": "设计与创意",
+        "description": "平面和创意设计服务、时装和服装设计、珠宝和贵重饰品设计、专业摄影服务、个人视频制作和拍摄。"
+      },
+      {
+        "title": "咨询",
+        "description": "管理咨询和研究、项目开发和管理咨询、经济咨询和可行性研究、人力资源发展咨询、专业物流咨询。"
+      }
+    ],
+    "activitiesNote": "重要提示：以上仅为自由职业执照活动列表中的突出示例，并非所有可用活动的完整列表。资格标准和要求因所选活动类型和申请人背景而有显著差异。",
+    "requirementsTitle": "关键要求",
+    "requirements": [
+      {
+        "title": "学历资格",
+        "description": "可能需要与活动性质相关的学历资格（大学或同等学历）。"
+      },
+      {
+        "title": "专业经验",
+        "description": "通常需要认证的经验证书或证明您实践经验的官方文件。"
+      },
+      {
+        "title": "专业认证",
+        "description": "可能需要来自认可机构的专业认证或资格认证。"
+      },
+      {
+        "title": "数字身份（UAE Pass）",
+        "description": "需要拥有UAE Pass数字身份应用的有效且已验证的账户。"
+      },
+      {
+        "title": "财务文件",
+        "description": "可能需要银行对账单或收入证明以展示您的财务能力。"
+      },
+      {
+        "title": "额外文件与审批",
+        "description": "某些活动可能需要相关政府机构的预先审批或额外文件。"
+      }
+    ],
+    "warningTitle": "申请前的重要提醒",
+    "warningText": "必须理解，自由职业执照与一般商业执照完全不同。您选择的活动必须仅属于此类执照批准活动列表之内。资格、经验和文件要求因活动而异。此外，仅持有学历资格或专业经验并不能自动保证执照签发获批。因此，在Al Reyada Al Motaqadima，我们承诺在采取任何步骤之前全面审查您的背景、活动和文件，以节省您的时间和精力。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      "无需实体办公室或营业场所（需视活动要求而定）。",
+      "在独立从事活动和为客户提供服务方面具有最大灵活性。",
+      "在执照的法律结构下享有100%独立所有权。",
+      "可申请阿联酋居留签证（需符合资格和要求）。",
+      "拥有与多个客户和实体同时签约和工作的法律权限。"
+    ],
+    "targetAudienceTitle": "目标人群",
+    "targetAudience": [
+      "各领域的设计师和创意人士。",
+      "顾问和专家（管理、经济、人力资源）。",
+      "数字营销和广告专家。",
+      "电子商务和数据管理领域的专业人士。",
+      "网页开发者、程序员和IT专家。",
+      "摄影师和视觉内容创作者。"
+    ],
+    "ourServicesTitle": "我们的服务",
+    "ourServices": [
+      "全面评估和审查最适合您专业背景的活动。",
+      "在支付任何政府费用之前进行初步资格审查。",
+      "验证学历资格和经验证书。",
+      "收集、准备和起草所有所需文件。",
+      "与相关机构实时跟踪执照签发程序。",
+      "在符合资格时提供居留手续的专业协助。",
+      "依法全面支持家庭担保和居留手续。",
+      "从头到尾全程跟进事务直至成功完成。"
+    ]
+  },
+
+  "ETraderLicense": {
+    "eyebrow": "公司设立管辖区",
+    "title": "电子商户执照 - 迪拜",
+    "subtitle": "以更低成本启动您的在线业务。",
+    "p1": "电子商户执照是一项专门旨在支持居家企业和数字企业家的计划。它允许个人在线开展业务，提供受监管的框架，通过社交媒体和数字平台销售服务或产品，无需实体店面。",
+    "p2": "此设立方案是初创企业、数字专业人士和在线服务提供商低成本进入阿联酋市场的完美起点。它通过为您的在线业务赋予合法的政府注册身份来确保消费者信心。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      {
+        "title": "低成本方案",
+        "description": "专为赋能独立创业者而设计的高性价比设立方案。"
+      },
+      {
+        "title": "无需实体办公室",
+        "description": "完全合法地在家运营，无需商业租赁要求。"
+      },
+      {
+        "title": "在线市场",
+        "description": "可通过符合条件的在线平台（如Amazon和Noon）销售，需符合平台和活动要求。"
+      },
+      {
+        "title": "数字与社交媒体服务",
+        "description": "适合提供咨询、数字营销和专业在线服务。"
+      },
+      {
+        "title": "快速设立",
+        "description": "简化审批流程，快速启动和运营您的业务。"
+      }
+    ],
+    "limitationsTitle": "潜在限制",
+    "limitations": [
+      {
+        "title": "不含居留签证",
+        "description": "此执照类型不提供居留签证资格。"
+      },
+      {
+        "title": "无实体店铺或员工",
+        "description": "不能开设实体店铺或雇佣员工。"
+      },
+      {
+        "title": "交易活动限制",
+        "description": "商业交易活动（销售实体商品）可能有特定的国籍限制，取决于签发机构。"
+      }
+    ]
+  },
+
+  "BankAccount": {
+    "eyebrow": "企业服务",
+    "title": "企业银行账户",
+    "subtitle": "与阿联酋主要银行合作快速开设企业银行账户。",
+    "leadText": "该流程通常不超过10-30天，具体取决于所有者国籍和银行的合规要求。",
+    "p1": "与阿联酋主要银行合作快速开设企业银行账户。我们指导您完成所需合规和文件，让您的企业银行业务无延误地启动和运行。",
+    "mainlandTitle": "本地公司",
+    "mainlandRequirements": [
+      "有效营业执照副本",
+      "公司章程（MOA）",
+      "股东/董事护照副本",
+      "股东签证页和阿联酋身份证",
+      "营业地址证明（Ejari）",
+      "管理层简历 / 业务简介"
+    ],
+    "freeZoneTitle": "自贸区公司",
+    "freeZoneRequirements": [
+      "有效自贸区执照副本",
+      "公司注册证书",
+      "股东/董事护照副本",
+      "自贸区租赁协议",
+      "公司章程（MOA）",
+      "业务活动描述"
+    ],
+    "importantNotes": "重要说明",
+    "footnotes": [
+      { "mark": "*", "text": "部分银行要求最低平均余额。" },
+      { "mark": "**", "text": "最终账户激活可能需要亲自到访。" },
+      { "mark": "***", "text": "合规审批取决于申请人国籍和业务活动。" },
+      { "mark": "****", "text": "可能根据具体情况要求提供额外文件。" }
+    ]
+  },
+
+  "Immigration": {
+    "eyebrow": "企业服务",
+    "title": "移民与登记",
+    "subtitle": "为您和您的员工办理签证、阿联酋身份证和体检。",
+    "leadText": "让我们帮助您处理阿联酋移民和登记事务。我们可以处理所有类型的签证、居留许可和公民登记。",
+    "p1": "商业执照、员工签证、认证、翻译和移民服务。我们在迪拜、阿联酋为个人和公司办理各类劳工与移民登记。",
+    "servicesTitle": "我们的移民服务",
+    "services": [
+      {
+        "title": "员工签证",
+        "description": "为您的员工办理新工作签证，从入境许可到盖章。",
+        "timeframe": "15-20天"
+      },
+      {
+        "title": "家属签证",
+        "description": "为配偶、子女和其他受抚养人办理居留签证。",
+        "timeframe": "5-7天"
+      },
+      {
+        "title": "签证取消",
+        "description": "以完全合规的方式顺利取消现有签证。",
+        "timeframe": "2-3天"
+      },
+      {
+        "title": "罚款缴纳",
+        "description": "代表您结清移民和劳工罚款。",
+        "timeframe": "1-2天"
+      },
+      {
+        "title": "文件清关",
+        "description": "通过相关机构办理官方文件清关。",
+        "timeframe": "3-5天"
+      },
+      {
+        "title": "认证与合法化",
+        "description": "外交部认证、大使馆合法化和文件翻译。",
+        "timeframe": "5-10天"
+      }
+    ]
+  },
+
+  "Liquidation": {
+    "eyebrow": "企业服务",
+    "title": "公司清算",
+    "subtitle": "以完全遵守阿联酋法规的方式专业关闭和注销您的公司。",
+    "leadText": "清算一家私营公司（注册在本地或自贸区）平均所需时间约为50-60天。",
+    "p1": "由经验丰富的迪拜清算师提供专业的公司清算建议和最佳清算方案。以完全遵守阿联酋法规的方式专业关闭和注销您的公司。",
+    "stagesTitle": "清算的强制阶段",
+    "stages": [
+      {
+        "title": "审计程序",
+        "description": "注册审计师审查公司账目并出具正式清算函，确认公司无债务且可注销。"
+      },
+      {
+        "title": "移民程序",
+        "description": "在公司注销前，取消所有员工签证、交回阿联酋身份证并关闭机构卡。"
+      },
+      {
+        "title": "公司程序",
+        "description": "包括机构卡关闭、招牌决议以及在公报上发布正式清算公告。"
+      }
+    ],
+    "timelineTitle": "清算流程时间表",
+    "tableHeaders": ["流程", "所需文件", "附加条件", "时间框架"],
+    "tableRows": [
+      {
+        "process": "审计清算函",
+        "documents": "执照副本、公司章程",
+        "conditions": "审计师须经批准",
+        "timeframe": "15-20个工作日"
+      },
+      {
+        "process": "员工签证取消",
+        "documents": "护照、签证、身份证副本",
+        "conditions": "担保人身份证",
+        "timeframe": "1-2个工作日"
+      },
+      {
+        "process": "机构卡关闭",
+        "documents": "机构卡、执照副本",
+        "conditions": "所有签证须先取消",
+        "timeframe": "3-5个工作日"
+      },
+      {
+        "process": "招牌决议与清算公告",
+        "documents": "清算证书、董事会决议",
+        "conditions": "在当地公报发布",
+        "timeframe": "10-15个工作日"
+      },
+      {
+        "process": "最终执照取消",
+        "documents": "清算函、清关函",
+        "conditions": "所有费用结清",
+        "timeframe": "5-7个工作日"
+      }
+    ],
+    "footerNote": "时间框架仅供参考，可能因执照类型、签证数量和相关机构的处理时间而异。"
+  },
+
+  "GoldenVisa": {
+    "eyebrow": "企业服务",
+    "title": "阿联酋黄金签证",
+    "subtitle": "为投资者、企业家和人才提供10年长期居留。",
+    "leadText": "阿联酋黄金签证为投资者、企业家和专业人才提供长期居留。",
+    "p1": "保障您的未来并享受阿联酋的无与伦比的优势，包括无需国家担保人即可生活、工作和学习，并完全拥有您的企业。",
+    "eligibilityTitle": "资格条件",
+    "eligibilityText": "房地产投资：申请人须在阿联酋拥有价值至少2,000,000迪拉姆的房产（直接拥有或通过经批准的按揭计划）。",
+    "stagesTitle": "主要阶段",
+    "stages": [
+      {
+        "title": "土地局审批",
+        "description": "迪拜土地局核实房地产投资满足200万迪拉姆门槛并签发资格函。"
+      },
+      {
+        "title": "体检",
+        "description": "在经批准的体检中心进行标准血液检测和X光检查。"
+      },
+      {
+        "title": "生物特征采集",
+        "description": "完成指纹和生物特征采集以签发新的阿联酋身份证。"
+      }
+    ],
+    "timelineTitle": "黄金签证流程时间表",
+    "tableHeaders": ["流程", "所需文件", "附加条件", "时间框架"],
+    "tableRows": [
+      {
+        "process": "向土地局提交申请",
+        "documents": "买卖协议、产权证、护照副本、高清照片、医疗保险",
+        "conditions": "房产价值≥200万迪拉姆",
+        "timeframe": "2-3个工作日"
+      },
+      {
+        "process": "体检",
+        "documents": "护照原件",
+        "conditions": "血型、X光",
+        "timeframe": "1小时"
+      },
+      {
+        "process": "生物特征与阿联酋身份证",
+        "documents": "护照原件、现有身份证",
+        "conditions": "申请人须亲自到场",
+        "timeframe": "30分钟"
+      },
+      {
+        "process": "签证盖章",
+        "documents": "护照、体检结果、身份证",
+        "conditions": "所有先前步骤已完成",
+        "timeframe": "5-7个工作日"
+      }
+    ],
+    "noticeTitle": "重要通知",
+    "noticeText": "申请人在办理期间不能离开该国。请相应安排您的旅行计划，以避免延误或申请被取消。"
+  },
+
+  "TradeLicense": {
+    "eyebrow": "企业服务",
+    "title": "营业执照",
+    "subtitle": "端到端处理新执照签发、续期和活动变更。",
+    "leadText": "作为迪拜最佳的公司设立顾问之一，我们专注于让您的营业执照办理流程顺畅无忧。",
+    "p1": "端到端处理新执照签发、续期和活动变更。我们是阿联酋领先的公司设立与企业注册公司，确保您的营业执照无障碍地获取、维护和更新。",
+    "servicesTitle": "我们处理的事项",
+    "services": [
+      {
+        "title": "新执照签发",
+        "description": "为您的商业活动获取全新的营业执照，无论本地还是自贸区。"
+      },
+      {
+        "title": "执照续期",
+        "description": "及时续期您现有的营业执照，以避免罚款和业务中断。"
+      },
+      {
+        "title": "活动变更",
+        "description": "在您现有的执照上添加、删除或修改商业活动。"
+      }
+    ],
+    "processingTimeTitle": "典型处理时间",
+    "processingTimeText": "大多数营业执照申请在提交所有所需文件后5-7个工作日内完成。"
+  },
+
+  "ProServices": {
+    "eyebrow": "企业服务",
+    "title": "专业政府事务代办服务",
+    "subtitle": "我们从头到尾处理您公司的所有政府事务，确保完全合规并消除行政延误。",
+    "leadText": "在阿联酋 navigating 政府法规需要专业知识。我们的政府事务代办服务从头到尾处理您公司的所有政府事务，确保完全合规并消除行政延误。我们充当您的专属政府联络人。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      {
+        "title": "端到端处理",
+        "description": "我们管理政府申请、文件打字和处理。"
+      },
+      {
+        "title": "机关协调",
+        "description": "与经济发展局、人力资源部、移民总局和其他市政机构无缝对接。"
+      },
+      {
+        "title": "时间与成本效率",
+        "description": "避免罚款、打字错误和文件延误。"
+      },
+      {
+        "title": "公司事务",
+        "description": "专业处理公司相关事务、审批和无异议证明。"
+      },
+      {
+        "title": "持续跟进",
+        "description": "我们跟踪您的申请直至最终批准。"
+      }
+    ]
+  },
+
+  "MonthlyContract": {
+    "hero": {
+      "eyebrow": "企业服务",
+      "title": "月度企业政府事务合同",
+      "subtitle": "让我们的专家团队以月度顾问方式管理您的全部政府需求，确保您的业务运营永不被中断。",
+      "benefits": {
+        "dedicatedPro": {
+          "title": "专属政府事务",
+          "description": "满足您持续需求的专门团队"
+        },
+        "visaManagement": {
+          "title": "签证管理",
+          "description": "投资者、员工和家庭签证全权处理"
+        },
+        "govApprovals": {
+          "title": "政府审批",
+          "description": "与所有相关机构协调"
+        },
+        "expiryReminders": {
+          "title": "到期提醒",
+          "description": "主动提醒以避免罚款"
+        }
+      }
+    },
+    "intro": "与其单独处理每笔事务，不如选择持续的政府事务支持合同。让我们的专家团队以月度顾问方式管理您的全部政府需求，确保您的业务运营永不被过期文件或错过截止日期所中断。",
+    "packages": {
+      "eyebrow": "定价方案",
+      "title": "月度政府事务套餐",
+      "subtitle": "专为支持各种规模企业而设计的灵活套餐。",
+      "items": {
+        "basic": {
+          "name": "基础套餐",
+          "subtitle": "小型企业",
+          "priceSuffix": "/月",
+          "currency": "迪拉姆",
+          "features": [
+            "每月最多8笔政府事务",
+            "基本政府事务服务",
+            "居留与签证支持",
+            "营业执照服务",
+            "持续支持与咨询"
+          ],
+          "button": "请求报价"
+        },
+        "standard": {
+          "name": "标准套餐",
+          "subtitle": "成长型企业",
+          "priceSuffix": "/月",
+          "currency": "迪拉姆",
+          "popular": "最受欢迎",
+          "features": [
+            "每月最多20笔政府事务",
+            "包含基础套餐全部服务",
+            "人力资源与劳工服务",
+            "政府审批",
+            "专属政府事务专员",
+            "月度报告与跟进"
+          ],
+          "button": "请求报价"
+        },
+        "premium": {
+          "name": "高级套餐",
+          "subtitle": "大型企业",
+          "priceSuffix": "/月",
+          "currency": "迪拉姆",
+          "features": [
+            "不限政府事务数量",
+            "包含标准套餐全部服务",
+            "专属政府事务客户经理",
+            "优先和加急支持",
+            "无异议证明、认证和法律文件支持",
+            "月度报告和定制方案"
+          ],
+          "button": "请求报价"
+        }
+      }
+    },
+    "keyBenefits": {
+      "eyebrow": "您将获得",
+      "title": "主要优势",
+      "subtitle": "涵盖您政府事务各个方面的全面政府事务支持。",
+      "items": [
+        {
+          "title": "专属政府事务支持",
+          "description": "满足您持续需求的专门团队。"
+        },
+        {
+          "title": "居留与签证管理",
+          "description": "投资者、员工和家庭签证的续期和取消。"
+        },
+        {
+          "title": "营业执照支持",
+          "description": "续期、变更和公司更新。"
+        },
+        {
+          "title": "人力资源部与劳工服务",
+          "description": "工作许可、合同和劳工档案。"
+        },
+        {
+          "title": "政府审批",
+          "description": "与相关机构协调。"
+        },
+        {
+          "title": "特殊审批",
+          "description": "支持道路交通局、安全监管局、市政等。"
+        },
+        {
+          "title": "认证与法律文件",
+          "description": "外交部、大使馆和法律文件。"
+        },
+        {
+          "title": "截止日期和到期提醒",
+          "description": "主动提醒以避免罚款。"
+        },
+        {
+          "title": "日常跟进与支持",
+          "description": "持续跟进已提交的申请。"
+        }
+      ]
+    },
+    "governmentPartners": {
+      "eyebrow": "值得信赖的政府联络",
+      "title": "我们支持的政府机构",
+      "items": {
+        "gdrfa": "移民与外国人事务总局",
+        "mohre": "人力资源与阿联酋化部",
+        "rta": "道路和交通管理局",
+        "dubai": "迪拜经济和旅游部",
+        "municipality": "迪拜市政府",
+        "sira": "安全行业监管局"
+      }
+    }
+  },
+
+  "EmiratesId": {
+    "eyebrow": "企业服务",
+    "title": "阿联酋身份证服务",
+    "subtitle": "全面支持您的所有阿联酋身份证需求。",
+    "leadText": "阿联酋身份证是所有阿联酋居民的强制性身份证。我们为新申请、续期和补办提供无缝协助，确保您的身份证快速准确地办理，无打字错误或延误。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      "新阿联酋身份证申请",
+      "现有身份证续期",
+      "遗失或损坏补办",
+      "快速申请跟进"
+    ]
+  },
+
+  "MohreServices": {
+    "eyebrow": "企业服务",
+    "title": "人力资源部服务",
+    "subtitle": "全面管理人力资源与劳工事务部档案。",
+    "leadText": "管理劳工关系和人力资源部合规对任何有员工的企业都至关重要。我们高效处理您公司的劳工档案、工作许可和雇佣合同，确保您的业务完全符合阿联酋劳工法。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      "处理工作许可",
+      "起草和认证雇佣合同",
+      "劳工相关事务",
+      "公司劳工档案设立和服务",
+      "员工相关政府手续"
+    ]
+  },
+
+  "GdrfaServices": {
+    "eyebrow": "企业服务",
+    "title": "移民总局与移民服务",
+    "subtitle": "专业处理所有移民、签证和居留事务。",
+    "leadText": "navigating 移民与外国人事务总局（GDRFA）系统可能很复杂。我们提供全面的移民服务，为您的投资者、员工及其受抚养人办理签证和居留许可。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      "居留申请",
+      "入境许可签发",
+      "签证服务和处理",
+      "居留续期",
+      "签证取消",
+      "一般移民事务"
+    ]
+  },
+
+  "RtaServices": {
+    "eyebrow": "企业服务",
+    "title": "道路交通局服务与审批",
+    "subtitle": "顺畅处理交通管理局审批和车辆手续。",
+    "leadText": "对于需要商业车辆、配送车队或运输相关审批的企业，与道路和交通管理局（RTA）打交道至关重要。我们办理所有道路交通局相关的企业事务和无异议证明。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      "道路交通局相关公司事务",
+      "车辆相关政府手续",
+      "商业运输审批",
+      "快速申请跟进"
+    ]
+  },
+
+  "SiraServices": {
+    "eyebrow": "企业服务",
+    "title": "安全监管局服务与审批",
+    "subtitle": "为您的商业场所获取必要的安全和安保审批。",
+    "leadText": "安全行业监管局（SIRA）负责监管迪拜的安全合规。我们协助需要安全监管局审批的企业，确保您的商业场所符合所有监控许可和安全法规。",
+    "benefitsTitle": "主要优势",
+    "benefits": [
+      "安全监管局门户网站申请",
+      "安保和监控审批",
+      "特定商业活动的无异议证明手续",
+      "安保相关许可手续",
+      "申请跟进"
+    ]
+  },
+
+  "NotaryServices": {
+    "eyebrow": "企业服务",
+    "title": "公证服务",
+    "subtitle": "在阿联酋提供快速可靠的公证、认证和法律文件服务。",
+    "p1": "专业的公证和认证服务对于在阿联酋合法化您的商业和个人文件至关重要。我们提供专业、快速和可靠的支持，以起草、认证和公证所有法律文件，确保您的业务运营完全符合阿联酋政府法规和司法标准。",
+    "servicesTitle": "全面的公证服务",
+    "services": [
+      "授权委托书",
+      "公司协议",
+      "公司章程及修正案",
+      "声明与承诺书",
+      "签名认证",
+      "法律文件公证",
+      "民事与商业协议",
+      "宣誓书与声明",
+      "翻译与公证"
+    ]
+  },
+
+  "ServiceLayout": {
+    "eyebrow": "企业服务"
+  },
+
+  "LanguageSwitcher": {
+    "ariaSwitchLanguage": "切换语言"
+  },
+
+  "NotFound": {
+    "title": "页面未找到",
+    "message": "您要找的页面不存在或已被移动。请返回首页。",
+    "backHome": "返回首页"
+  }
+}
