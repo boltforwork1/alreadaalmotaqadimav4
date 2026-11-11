@@ -132,7 +132,7 @@ export default function Home() {
               className="mt-5 font-display text-4xl font-bold leading-[1.5] tracking-tight text-white sm:text-5xl lg:text-5xl"
             >
               {t('Home.hero.title')}{' '}
-              <span className="bg-gradient-to-r from-teal-300 to-teal-100 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-[#dca84c] via-[#f7d88c] to-[#dca84c] bg-clip-text text-transparent">
                 {t('Home.hero.titleHighlight')}
               </span>
             </motion.h1>
